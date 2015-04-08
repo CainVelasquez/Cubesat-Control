@@ -1,11 +1,12 @@
-# Cubesat Mecânica
+# Cubesat Controle
 
 ## Descrição
-Desenvolvimento das partes mecânicas do cubesat NSEE, incluindo estrutura, analises térmicas, vibração ...
+Desenvolvimento do sistema de controle de atitude
 
 ## Envolvidos
 - Felipe
-- Bruna
+- Augusto
+- William
 
 ## Organização das pastas
 
