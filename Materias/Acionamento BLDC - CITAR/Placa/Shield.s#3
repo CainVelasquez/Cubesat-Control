@@ -8973,6 +8973,7 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="55.88" y1="134.62" x2="60.96" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="B" pin="OUT"/>
 <junction x="50.8" y="134.62"/>
+<junction x="50.8" y="124.46"/>
 </segment>
 <segment>
 <wire x1="93.98" y1="-10.16" x2="91.44" y2="-10.16" width="0.1524" layer="91"/>
@@ -9149,6 +9150,7 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <junction x="33.02" y="124.46"/>
 <pinref part="IC1" gate="B" pin="-IN"/>
 <junction x="35.56" y="132.08"/>
+<junction x="40.64" y="124.46"/>
 </segment>
 </net>
 <net name="N$5" class="0">

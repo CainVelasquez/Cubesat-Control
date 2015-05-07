@@ -8440,7 +8440,7 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="R6" library="adafruit" deviceset="R-US_" device="R1206" value="0.230K"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C1206" value="1nF"/>
 <part name="R7" library="adafruit" deviceset="R-US_" device="R1206" value="22.1K"/>
-<part name="R10" library="adafruit" deviceset="R-US_" device="R1206" value="0.232K"/>
+<part name="R10" library="adafruit" deviceset="R-US_" device="R1206" value="0.690K"/>
 <part name="R9" library="adafruit" deviceset="R-US_" device="R2512" value="1"/>
 <part name="GND4" library="supply1" deviceset="GND" device="" value="GND_POWER"/>
 <part name="R11" library="adafruit" deviceset="R-US_" device="R1206" value="15K"/>
@@ -8448,7 +8448,7 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="R12" library="adafruit" deviceset="R-US_" device="R1206" value="0.230K"/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C1206" value="1nF"/>
 <part name="R13" library="adafruit" deviceset="R-US_" device="R1206" value="22.1K"/>
-<part name="R14" library="adafruit" deviceset="R-US_" device="R1206" value="0.232K"/>
+<part name="R14" library="adafruit" deviceset="R-US_" device="R1206" value="0.690k"/>
 <part name="R15" library="adafruit" deviceset="R-US_" device="R2512" value="1"/>
 <part name="GND5" library="supply1" deviceset="GND" device="" value="GND_POWER"/>
 <part name="R16" library="adafruit" deviceset="R-US_" device="R1206" value="15K"/>
@@ -8456,7 +8456,7 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="R17" library="adafruit" deviceset="R-US_" device="R1206" value="0.230K"/>
 <part name="C11" library="rcl" deviceset="C-EU" device="C1206" value="1nF"/>
 <part name="R18" library="adafruit" deviceset="R-US_" device="R1206" value="22.1K"/>
-<part name="R19" library="adafruit" deviceset="R-US_" device="R1206" value="0.232K"/>
+<part name="R19" library="adafruit" deviceset="R-US_" device="R1206" value="0.690K"/>
 <part name="IC1" library="lmc6484" deviceset="LMC6484" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="VCC1" library="supply1" deviceset="VCC" device="" value="VDD"/>

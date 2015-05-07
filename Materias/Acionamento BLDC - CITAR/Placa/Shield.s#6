@@ -8464,11 +8464,6 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <sheets>
 <sheet>
 <plain>
-<text x="213.36" y="63.5" size="1.778" layer="91">Gain = 1+R2/R1,
-i_n = 0.3 A, i_max = 0.5A
-V_max ADC = 3.3V
-Gain = 3.3/0.5 = 6.6
-R2 = 5K, R1 = 1K</text>
 <text x="96.52" y="33.02" size="1.778" layer="91">uncopling</text>
 <wire x1="182.88" y1="162.56" x2="2.54" y2="162.56" width="0.1524" layer="94"/>
 <wire x1="66.04" y1="50.8" x2="121.92" y2="50.8" width="0.1524" layer="94"/>
@@ -9227,10 +9222,4 @@ R2 = 5K, R1 = 1K</text>
 </errors>
 </schematic>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
