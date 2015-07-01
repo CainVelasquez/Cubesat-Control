@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* Global Settings */
+body {	margin: 0px; width:100%; font-family:Arial,Helvetica,sans-serif;}
+h1 {font-size:24px;}
+h2 {font-size:18px;}
+h3 {font-size:16px;}
+h4 {font-size:14px;}
+h5, h6 {font-size:12px;}
+#content {margin:0px; padding:20px;}
+
+th.rd-datasheet img, td.rd-datasheet a img {
+    width: 18px;
+    height: 20px;
+}
+
+/* change layout of jquery dialog boxes for RTL pages */
+.rtl .ui-dialog .ui-dialog-titlebar {
+    padding: 0.5em 65px 0.3em 1em;
+    background: url("//www.digikey.com/web%20export/mkt/general/smlogo.png") no-repeat scroll right center #000;
+}
+
+.rtl .ui-dialog .ui-dialog-titlebar-close {
+    left:0.3em;
+    right:auto;
+}
+
+.rtl .ui-dialog .ui-dialog-title {
+    direction: rtl;
+    float: right;
+    margin: 0.1em 0 0.2em 16px;
+}

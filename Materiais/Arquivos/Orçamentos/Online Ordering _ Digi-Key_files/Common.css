@@ -1,0 +1,525 @@
+﻿/* CSS Document */
+
+#content {
+    margin: 0;
+    padding: 20px;
+}
+
+/* added to get the alignment back for the language toggle */
+.language-panel {
+    margin: 0px !important;
+}
+
+/* really dont know what this is for */
+.HeaderFooter {
+    width: 100%;
+    float: left;
+    clear: both;
+    position: relative;
+}
+
+
+/* ==================== Main Content Digi-Key Master ====================
+#mainContentDigiKey {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ */
+
+/* ==================== Main Content ==================== */
+
+/* This is overriden in Print.css because the current main context
+   causes IE7 and IE8 to print the footer on the third page of AddPart.aspx for example*/
+#mainContent, #topContent {
+    /*width: 100%;*/
+    height: 100%;
+    clear: both;
+    position: relative;
+}
+
+#mainContent table, #topContent table {
+    border-collapse: collapse;
+}
+
+    #mainContent .categoryTitle, #topContent .categoryTitle {
+        font-size: 18px;
+    }
+
+    #mainContent .categoryHeading, #topContent .categoryHeading {
+        font-weight: bold;
+    }
+
+    #mainContent .approvedVendorList, #topContent .approvedVendorList {
+        max-height: 80px;
+        max-width: 280px;
+    }
+
+    #mainContent .error, #topContent .error {
+        color: #FF0000;
+    }
+
+    #mainContent .Header, #topContent .Header {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+/* Special blue gradient table */
+#mainContent .beablock, #topContent .beablock {
+    border: solid #999 1px;
+	margin-bottom: 10px;
+    margin-top: 20px;
+    max-width: 1100px;
+
+}
+
+#mainContent .beablocktitle, #topContent .beablocktitle {       
+    background-color:#E0E0E0; 
+	padding:5px; 
+    font-weight:bold;
+	border-bottom:solid 1px black;   
+}
+
+#mainContent .beablock-title, #topContent .beablock-title { 
+   font-weight:bold;   
+}
+
+#mainContent .beablock table td, #topContent .beablock table td {
+    border: solid #999 1px;
+    padding:5px;        
+}
+
+#mainContent .product-details-alternate-packaging { 
+    width:100%; 
+}
+
+#mainContent .product-details-alternate-packaging td {
+    padding:5px; 
+}
+
+#mainContent .product-details-alternate-packaging th {
+    background-color:#E0E0E0; 
+	color:black; 
+	border: solid #999 1px;
+    padding:5px;  
+} 
+
+#mainContent .product-details-alternate-packaging tr:nth-child(odd) {
+    background-color:#eee;
+}
+
+#mainContent .product-details-alternate-packaging tr:nth-child(even) {
+    background-color:white;
+}
+
+#mainContent .product-details-alternate-packaging a img {
+    vertical-align: middle;
+}
+
+#mainContent .beablock p, #topContent .beablock p {
+     padding:5px;
+     margin:5px 0;
+}
+#mainContent .qtynote {
+     color: red;
+}
+   
+#mainContent .qtynote:visited {
+     color: red;
+}
+
+#basicContent {
+    width: 1350px;
+    float: left;
+    clear: both;
+}
+
+#basicContentLeft {
+    float: left;
+    width: 350px;
+    clear: left;
+}
+
+#basicContentRight {
+    float: left;
+    width: 1000px;
+    clear: right;
+}
+
+/* ==================== Tables ==================== */
+
+table.tblborder {
+    border: solid 1px #999 !important;
+    padding: 1px;
+    margin:5px 0px 5px 0px;
+}
+
+th.tblborder {
+  border-color:#999;
+}
+
+td.tblborder {
+  border-color:#ccc;
+}
+
+
+tr.oddrow {
+    background: white;
+    border: solid 1px #C0C0C0;
+}
+
+tr.evenrow {
+    background: #F0F0F0;
+    border: solid 1px #C0C0C0;
+}
+
+tr.tblhead {
+    border: solid 1px #C0C0C0;
+    background: #E0E0E0;
+    font-weight: bold;
+}
+
+tr.tblhead span {
+        font-size:12px !important;
+}
+
+tr.tblfoot {
+    background: #E0E0E0;
+    border: solid 1px #C0C0C0;
+}
+
+td.center {
+    text-align: center;
+}
+
+td.tblhead {
+    border: solid 1px #C0C0C0;
+    background: #E0E0E0;
+}
+
+td.tblheadbackgroundonly {
+    background: #E0E0E0;
+}
+
+td.bottomPadding {
+    padding-bottom: 7px;
+}
+
+/* ==================== CHECKOUT PROCESS TITLES ==================== */
+/*--Using the !important because the a:hover above alwayws seems to take precendent--*/
+
+.tblCheckoutProcess {
+    /*margin-left:10px;*/
+}
+
+    .tblCheckoutProcess td {
+        padding: 5px 5px 5px 5px;
+    }
+
+        .tblCheckoutProcess td.highlighted {
+            background-color: #C0C0C0;
+        }
+
+a.complete {
+    color: Black;
+    font-weight: normal !important;
+}
+
+a.current, a.current:hover {
+    color: Black !important;
+    font-weight: bolder !important;
+}
+
+a.notVisited, a.notVisited:hover {
+    color: #C0C0C0 !important;
+    font-weight: normal !important;
+}
+
+a.submitted, a.submitted:hover {
+    color: #C0C0C0 !important;
+}
+
+a.submittedCurrent, a.submittedCurrent:hover {
+    color: #C0C0C0 !important;
+    font-weight: bold !important;
+}
+
+
+/* ==================== Controls (Buttons, Textboxes, etc) ==================== */
+
+/* This makes a normal button look like a link button */
+.linkButton {
+    text-decoration: underline; /* Does not work in firefox*/
+    background: none;
+    border: none;
+    color: Blue;
+    cursor: pointer;
+    width: 100%;
+    /*	height: 15px; */
+    text-align: left;
+    display: table-cell;
+}
+/* Header for the content area */
+.HeaderText {
+    font-weight: bold;
+    font-size: 16px;
+    /*font-family:times new roman, times, serif;*/
+}
+
+.MenuItems {
+    text-decoration: none;
+}
+
+/* Used in InventoryFileLinks.aspx */
+.HyperLink:link {
+    color: Black;
+}
+
+/* Used for Pre-submit terms and condtions */
+div.agreement {
+    width: 520px;
+    height: 170px;
+    border: 2px inset #ccc;
+    padding: 6px;
+    overflow: auto;
+}
+
+table.indent {
+    padding-left: 10px;
+}
+
+.CartNameErrorMessage {
+    color: red;
+    padding: 0px 0px 0px 10px;
+}
+
+.cartNameTextBoxDisabled[readonly] {
+    background: #CCC;
+    color: #333;
+    border: 1px solid #666;
+}
+
+/* Used by the price break panel */
+#pnlPriceBreaks {
+    padding: 5px;
+}
+
+    #pnlPriceBreaks tr:nth-child(2n+1) {
+        background: white;
+        border: solid 1px black;
+    }
+
+    #pnlPriceBreaks tr:nth-child(even) {
+        background: #F5F5F5;
+        border: solid 1px black;
+    }
+
+    #pnlPriceBreaks .tblhead {
+        background-color: #d3d3d3 !important;
+    }
+
+.dropshadow {
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.sodisplay .detail:nth-child(even) {
+    background: #F0F0F0;
+    border: solid 1.5px #C0C0C0;
+}
+
+.sodisplay img {
+    border:solid 1px #ccc;
+}
+
+tr[data-rowtype="OuterRow"] {
+    border:solid 1px #fff !important;
+}
+
+td.border_top_save {
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+
+td.border_bottom_save {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+div.pad10, a.pad10 {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div.pad5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+span.consigneeFieldLabel {
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+input.ultConsTextbox, textarea.addInfoTextbox {
+    width: 570px;
+}
+
+textarea.addInfoTextbox {
+    width: 570px;
+    height: 100px;
+}
+
+table.ExportAddressRbl tbody tr td label span {
+    display: inline-block;
+}
+
+table.ExportAddressRbl tbody tr td input {
+    vertical-align: top;
+    margin-top: 0px;
+}
+
+input.ExportCanadaButton {
+    margin: 10px;
+}
+
+span.ExportSidePadding {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.ExportIntroParagraph {
+    width: 850px;
+}
+
+
+/* Path to purchase styles */
+
+.encourage-reg-hint td {
+    padding:20px 0px 5px 0px;
+}
+.not-required-hint td {
+    padding:5px 0px 5px 0px;
+
+}
+
+.username-label, .password-label {
+    text-align: left;
+}
+
+.login-header-label {
+    font-weight: bold; 
+    font-size: 14px;
+    padding-bottom:10px;
+}
+
+.forgot-links td{
+    padding-top: 10px;
+}
+
+.order-credits {
+    margin-top: 10px;
+}
+
+#trCCinPOwarning td {
+    padding-top: 10px;
+}
+font {
+    color:#666;
+}
+
+div.CartToolsAddPart {
+    padding-top:20px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-bottom:25px;
+}
+div.CartToolsSubmit {
+    padding-top:250px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-bottom:25px;
+}
+table.CartTools {
+    border: 1px solid #999;
+    width: 250px;
+    padding:0px;
+    margin:0px;
+    border-collapse: collapse;
+}
+table.CartTools br {
+    display: none;
+}
+
+table.CartTools .button {
+    margin:15px 0px;
+}
+
+table.CartTools td {
+    padding:0 8px;
+}
+table.CartTools th.CartToolsHeader {
+    background-color: #e6e6e6;
+    font-size: 18px; 
+    padding:5px;
+    color:#555;
+    border-bottom:solid 1px #999;
+}
+table.CartTools td.CartToolsCategory {
+    font-size: 16px;
+    color: #666;
+    font-weight:bold;
+    padding-top:10px;
+    padding-bottom:5px;
+}
+table.CartTools td.CartToolsTool {
+    color: #666;
+    padding:0px 5px 5px 20px;
+}
+.CartToolsTool a {
+    text-decoration: none;
+}
+.CartToolsTool a:hover {
+    text-decoration: underline;
+}
+
+table#tblInformation, table#tblQuestions {
+    border-collapse: collapse;
+}
+
+table#tblInformation tr, table#tblQuestions tr {
+    vertical-align: bottom
+}
+
+table#tblInformation td:first-child font, table#tblQuestions td:first-child font {
+    color:#000 !important;
+    font-size:16px;
+    padding-right:5px;
+}
+span[id*="_lblRegisterBenefits"] ul {
+    margin:0px;
+    padding:5px 15px
+}
+
+
+/* Global style overrides. Most of the styles for these buttons are in http://www.digikey.com/~/media/Designer/Global/CSS/Site.css, but I overrode a few to add images to the buttons */
+.button.primary.lock, .button.secondary.chain {
+padding: 5px 10px 5px 30px;
+    font-size:13px;
+}
+.button.primary.lock {
+    background: url(//www.digikey.com/~/media/images/global/icons/white-lock.png) no-repeat 5px,url("//www.digikey.com/~/media/images/global/buttons/red-button-background.jpg") repeat 0 0;
+}
+.button.primary.lock:hover {
+    background: url(//www.digikey.com/~/media/images/global/icons/white-lock.png) no-repeat 5px,url("//www.digikey.com/~/media/images/global/buttons/red-button-background-hover.jpg") repeat 0 0;
+}
+
+.button.secondary.chain {
+    width:auto !important;
+    background:url(//www.digikey.com/~/media/images/global/icons/chain-link.png) no-repeat 5px, url("//www.digikey.com/~/media/images/global/buttons/yellow-button-background.jpg") repeat 0 0;
+}
+
+.button.secondary.chain:hover {
+    background: url(//www.digikey.com/~/media/images/global/icons/chain-link_w.png) no-repeat 5px, url("//www.digikey.com/~/media/images/global/buttons/yellow-button-background-hover.jpg") repeat 0 0;
+}
