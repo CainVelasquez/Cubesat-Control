@@ -302,7 +302,7 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 \begin{epigrafe}
     \vspace*{\fill}
 	\begin{flushright}
-		\textit{O maior bem do homem é uma mente inquieta.\\(Isaac Asimov)}
+		\textit{Tudo aquilo que o homem ignora não existe para ele. Por isso o universo de cada um se resume ao tamanho de seu saber.\\(Albert Einstein)}
 	\end{flushright}
 \end{epigrafe}
 % ---
@@ -707,6 +707,36 @@ V = i \times R + V_{emf}
 \label{eq:Tens}
 \end{equation}
 
+A relação entre a corrente no motor e o torque T$_{m}$ é descrita na equação \ref{eq:Torq}, com a constante de torque k$_{T}$ (Nm/A).
+
+\begin{equation}
+T_{m} = k_{T} \times i
+\label{eq:Torq}
+\end{equation}
+
+A queda de tensão no motor resulta em uma perda de potência. Essa perda, P$_{T}$, costuma ser pequena caso o motor esteja em boas condições e sem nenhum defeito. A equação \ref{eq:PowerLoss} mostra como obter esse valor, onde $\eta$ é a eficiência do motor e $\omega_{w}$ é a velocidade angular.
+
+\begin{equation}
+P_{T} = V_{emf} \times i = \eta \times T_{m} \times \omega_{w} \approx T_{m} \times \omega_{w} = k_{T} \times i \times \omega_{w}
+\label{eq:PowerLoss}
+\end{equation}
+
+O V$_{emf}$ pode ser descrito como na equação \ref{eq:Vemf}, onde k$_{T}$ e k$_{E}$ (Vs/rad) são o mesmo para um motor com 100\% de eficiência.
+
+\begin{equation}
+V_{emf} = k_{T} \times \omega_{w} \equiv k_{E} \times \omega_{w}
+\label{eq:Vemf}
+\end{equation}
+
+Aproveitando a equação de dinâmica da roda de reação, a \ref{eq:Tm}, onde I$_{w}$ é o total de inércia do motor junto da roda de reação, B é o atrito viscoso e $\dot{\omega}_{w}$ é a aceleração angular.
+
+\begin{equation}
+T_{m} = I_{w} \times \dot{\omega}_{w} + B \times \omega_{w}
+\label{eq:Tm}
+\end{equation}
+
+
+
 % ----------------------------------------------------------
 % PROTÓTIPO 
 % ----------------------------------------------------------
@@ -716,11 +746,46 @@ V = i \times R + V_{emf}
 
 \section{Rodas de reação}
 
+Os protótipos das rodas de reação foram feitos em um torno CNC (, )pela empresa Rudloff, através de uma parceria entre a Mauá e a empresa. O modelo ficou com  kg. A seguir, na Figura , uma imagem de como ficaram.
 
+%\begin{figure}[th]
+%	\caption{Modelo das rodas de reação}
+%	\centering
+%	\includegraphics[width=0.7\linewidth]{./figs/}
+%	
+%	\begin{small}
+%		FONTE: Arquivo dos autores
+%	\end{small}
+%	\label{fig:ProtoRW}
+%\end{figure}
 
 \section{Suporte do motor}
 
+Para uma pré validação do projeto do suporte do motor, foi feito um modelo impresso em uma impressora 3D (, ), como mostrado a seguir na Figura . Esse modelo foi usado para garantir o batimento dos furos do suporte com os do motor.
 
+%\begin{figure}[th]
+%	\caption{Protótipo em resina do suporte do motor}
+%	\centering
+%	\includegraphics[width=0.7\linewidth]{./figs/}
+%	
+%	\begin{small}
+%		FONTE: Arquivo dos autores
+%	\end{small}
+%	\label{fig:ProtoMSP}
+%\end{figure}
+
+Uma vez validado, foi mandado fazer um modelo em metal, através do corte por máquina de corte laser (, ) e dobra, através de uma dobradeira (, ). Esse modelo é mostrado a seguir, na Figura .
+
+%\begin{figure}[th]
+%	\caption{Modelo em metal do suporte do motor}
+%	\centering
+%	\includegraphics[width=0.7\linewidth]{./figs/}
+%	
+%	\begin{small}
+%		FONTE: Arquivo dos autores
+%	\end{small}
+%	\label{fig:ProtoMS}
+%\end{figure}
 
 \section{Estrutura mecânica}
 
@@ -750,7 +815,18 @@ Com duas chapas de fechamento removidas a seguir, na Figura 13.
 	\label{fig:Protoone}
 \end{figure}
 
-Posteriormente, foram feitos ajustes no desenho em CAD e uma nova versão foi feita. As partes de chapas foram feitas em máquinas de corte laser e posteriormente dobradas, caso necessário.
+Posteriormente, foram feitos ajustes nos desenhos em CAD e uma nova versão foi feita. As partes de chapas foram feitas em máquinas de corte laser e dobradas, caso necessário, por uma empresa especializada. As outras partes foram feitas em um centro de usinagem (, ) no laboratório de usinagem da Mauá. O modelo finalizado sem as chapas de fechamento a seguir, na Figura .
+
+%\begin{figure}[th]
+%	\caption{Modelo em metal do suporte do motor}
+%	\centering
+%	\includegraphics[width=0.7\linewidth]{./figs/}
+%	
+%	\begin{small}
+%		FONTE: Arquivo dos autores
+%	\end{small}
+%	\label{fig:ProtoTwo}
+%\end{figure}
 
 % ----------------------------------------------------------
 % RESULTADOS E DISCUSSÕES

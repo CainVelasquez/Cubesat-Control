@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.30)  6 JUL 2015 20:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.30)  7 JUL 2015 21:23
 entering extended mode
 **TCC_Sist_Controle_Atitude.tex
 (TCC_Sist_Controle_Atitude.tex
@@ -1239,27 +1239,27 @@ File: ./figs/Frame.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./figs/Frame.jpg used on input line 683.
 (pdftex.def)             Requested size: 318.49861pt x 332.38452pt.
  [34 <./figs/Motor_Sup.jpg>] [35 <./figs/Frame.jpg>]
-<./figs/PrototypeOne_Full.jpg, id=388, 1284.8pt x 959.585pt>
+[36] <./figs/PrototypeOne_Full.jpg, id=400, 1284.8pt x 959.585pt>
 File: ./figs/PrototypeOne_Full.jpg Graphic file (type jpg)
 
 <use ./figs/PrototypeOne_Full.jpg>
-Package pdftex.def Info: ./figs/PrototypeOne_Full.jpg used on input line 732.
+Package pdftex.def Info: ./figs/PrototypeOne_Full.jpg used on input line 797.
 (pdftex.def)             Requested size: 318.49861pt x 237.87505pt.
 
-<./figs/PrototypeOne.jpg, id=389, 1284.8pt x 959.585pt>
+<./figs/PrototypeOne.jpg, id=401, 1284.8pt x 959.585pt>
 File: ./figs/PrototypeOne.jpg Graphic file (type jpg)
 
 <use ./figs/PrototypeOne.jpg>
-Package pdftex.def Info: ./figs/PrototypeOne.jpg used on input line 745.
+Package pdftex.def Info: ./figs/PrototypeOne.jpg used on input line 810.
 (pdftex.def)             Requested size: 318.49861pt x 237.87505pt.
- [36
+ [37
 
- <./figs/PrototypeOne_Full.jpg>] [37 <./figs/PrototypeOne.jpg>] [38
+] [38 <./figs/PrototypeOne_Full.jpg> <./figs/PrototypeOne.jpg>] [39
 
 ] (TCC_Sist_Controle_Atitude.bbl
 (TCC_Sist_Controle_Atitude.brf)
 \tf@brf=\write5
- [39
+ [40
 
 ]
 
@@ -1267,16 +1267,15 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 bibitemlist
-[40
+[41
 
-]) [41] [42
-
-]
+]) [42]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 779.
+(hyperref)                removing `\uppercase' on input line 855.
 
 [43
+
 
 ] [44
 
@@ -1287,39 +1286,39 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 798.
+(hyperref)                removing `\uppercase' on input line 874.
 
 [47
 
-] <./pdfs/351100.pdf, id=527, 625.95839pt x 845.04489pt>
+] <./pdfs/351100.pdf, id=535, 625.95839pt x 845.04489pt>
 File: ./pdfs/351100.pdf Graphic file (type pdf)
 
 <use ./pdfs/351100.pdf>
-Package pdftex.def Info: ./pdfs/351100.pdf used on input line 800.
+Package pdftex.def Info: ./pdfs/351100.pdf used on input line 876.
 (pdftex.def)             Requested size: 625.95686pt x 845.04283pt.
 File: ./pdfs/351100.pdf Graphic file (type pdf)
  <use ./pdfs/351100.pdf>
-Package pdftex.def Info: ./pdfs/351100.pdf used on input line 800.
+Package pdftex.def Info: ./pdfs/351100.pdf used on input line 876.
 (pdftex.def)             Requested size: 625.95686pt x 845.04283pt.
 
-<./pdfs/351100.pdf, id=530, page=1, 625.95839pt x 845.04489pt>
+<./pdfs/351100.pdf, id=538, page=1, 625.95839pt x 845.04489pt>
 File: ./pdfs/351100.pdf Graphic file (type pdf)
 
 <use ./pdfs/351100.pdf, page 1>
-Package pdftex.def Info: ./pdfs/351100.pdf, page1 used on input line 800.
+Package pdftex.def Info: ./pdfs/351100.pdf, page1 used on input line 876.
 (pdftex.def)             Requested size: 625.95686pt x 845.04283pt.
 File: ./pdfs/351100.pdf Graphic file (type pdf)
  <use ./pdfs/351100.pdf, page 1>
-Package pdftex.def Info: ./pdfs/351100.pdf, page1 used on input line 800.
+Package pdftex.def Info: ./pdfs/351100.pdf, page1 used on input line 876.
 (pdftex.def)             Requested size: 598.42033pt x 807.86847pt.
 File: ./pdfs/351100.pdf Graphic file (type pdf)
 
 <use ./pdfs/351100.pdf, page 1>
-Package pdftex.def Info: ./pdfs/351100.pdf, page1 used on input line 800.
+Package pdftex.def Info: ./pdfs/351100.pdf, page1 used on input line 876.
 (pdftex.def)             Requested size: 598.42033pt x 807.86847pt.
 File: ./pdfs/351100.pdf Graphic file (type pdf)
  <use ./pdfs/351100.pdf, page 1>
-Package pdftex.def Info: ./pdfs/351100.pdf, page1 used on input line 800.
+Package pdftex.def Info: ./pdfs/351100.pdf, page1 used on input line 876.
 (pdftex.def)             Requested size: 598.42033pt x 807.86847pt.
  [48
 
@@ -1327,7 +1326,7 @@ Package pdftex.def Info: ./pdfs/351100.pdf, page1 used on input line 800.
 File: ./pdfs/351100.pdf Graphic file (type pdf)
 
 <use ./pdfs/351100.pdf, page 1>
-Package pdftex.def Info: ./pdfs/351100.pdf, page1 used on input line 800.
+Package pdftex.def Info: ./pdfs/351100.pdf, page1 used on input line 876.
 (pdftex.def)             Requested size: 598.42033pt x 807.86847pt.
  [49 <./pdfs/351100.pdf>]
 
@@ -1335,11 +1334,11 @@ AED: lastpage setting LastPage
 \tf@lof=\write6
 \tf@lot=\write7
 \tf@toc=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 804.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 804.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 880.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 880.
 (TCC_Sist_Controle_Atitude.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 804.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 804.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 880.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 880.
 Package rerunfilecheck Info: File `TCC_Sist_Controle_Atitude.brf' has not chang
 ed.
 (rerunfilecheck)             Checksum: 1E026E46E08AE9DBA9D7C9817A115358;2023.
@@ -1347,13 +1346,13 @@ ed.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 804.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 880.
  ) 
 Here is how much of TeX's memory you used:
- 14908 strings out of 493671
- 220636 string characters out of 3143856
- 484852 words of memory out of 3000000
- 17701 multiletter control sequences out of 15000+200000
+ 14916 strings out of 493671
+ 220731 string characters out of 3143856
+ 485156 words of memory out of 3000000
+ 17705 multiletter control sequences out of 15000+200000
  86477 words of font info for 131 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  40i,18n,40p,931b,654s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1373,9 +1372,9 @@ fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on TCC_Sist_Controle_Atitude.pdf (51 pages, 4081245 bytes).
+Output written on TCC_Sist_Controle_Atitude.pdf (51 pages, 4088883 bytes).
 PDF statistics:
- 792 PDF objects out of 1000 (max. 8388607)
- 170 named destinations out of 1000 (max. 500000)
+ 800 PDF objects out of 1000 (max. 8388607)
+ 174 named destinations out of 1000 (max. 500000)
  30646 words of extra memory for PDF output out of 35830 (max. 10000000)
 
