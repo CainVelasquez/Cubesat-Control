@@ -102,7 +102,7 @@
 \autor{Augusto Bonangelo Costa\\
 Felipe Ramos de Faria\\
 William Mazi}
-\local{SÃO CAETANO DO SUL}
+\local{São Caetano do Sul}
 \data{2015}
 \orientador{Prof. Dr. Rodrigo Alvite Romano}
 %\coorientador{Professor}
@@ -205,7 +205,7 @@ William Mazi}
 	\hspace{0.5cm} \imprimirtitulo  / Augusto Bonangelo Costa, Felipe Ramos de Faria, William Mazi. --
 	\imprimirlocal, CEUN-IMT, \imprimirdata
 	
-	\hspace{0.5cm} \pageref{LastPage} p. : il. \\
+	\hspace{0.5cm} \pageref{LastPage} p.\\
 	
 	\hspace{0.5cm}
 	\parbox[t]{\textwidth}{\imprimirtipotrabalho~--~\imprimirinstituicao,
@@ -608,7 +608,42 @@ Para integração do motor adotado com a roda de ação, foi criado um conjunto 
 
 Para escolha do motor, foi levado em considerado principalmente três fatores: tipo, tamanho e potência \cite{Ericksson}.
 
-Costumeiramente, CubeSats utilizam motores de corrente contínua sem escovas (brushless direct current motor – BLDC). Motores desse tipo costumam ter uma vida útil mais longa, uma vez que a falta de escovas evita o desgaste interno do motor e lhes dá um aproveitamento melhor da potência. Uma vez que quando o CubeSat é lançado, é impossível ser recolhido para manutenção, portanto uma vida útil longa é crucial \cite{Martins}.
+Costumeiramente, CubeSats utilizam motores de corrente contínua sem escovas (\textit{brushless direct current motor} – BLDC). A NASA recomenda o uso de motores desse tipo para aplicações aero-espaciais \cite{NASABLDC}. A tabela \ref{tab:VnteDesv} a seguir mostra um comparativo das principais vantagens do uso de um motor \textit{Brushless} na área aeroespacial.
+
+\begin{table}[h]
+	\caption{Vantagens e desvantagens de um motor \textit{Brushless}}
+		\centering
+	\begin{tabular}{|c|c|}
+		\hline 
+		\textbf{Vantagens} & \textbf{Desvantagens} \\ 
+		\hline 
+		Alta velocidade (até 100000 RPM) & Circuitos mais caros \\ 
+		\hline 
+		Alto torque a altas velocidades & Maior complexidade do driver do motor \\ 
+		\hline 
+		Aproximadamente o dobro de torque & \\
+		 de saída quando comparado a motores & \\
+		  com escova do mesmo tamanho &  \\ 
+		\hline 
+		Enrolamentos no estator ao invés & \\
+		 do rotor melhoram a dissipação & \\
+		  de calor & \\ 
+		\hline 
+		Sem escovas, então os motores & \\
+		 duram enquanto durarem os & \\
+		  rolamentos & \\ 
+		\hline 
+		Alta eficiência & \\ 
+		\hline 
+		Bom desempenho no vácuo & \\ 
+		\hline
+	\end{tabular}
+	
+	\begin{small}
+	FONTE: \cite{Ericksson}
+	\end{small}
+	\label{tab:VnteDesv}
+\end{table}
 
 O tamanho do motor também é um fator limitante pois o espaço dentro de um CubeSat é extremamente limitado. Quanto menor o tamanho dos motores, mais fácil de acomodá-los e mais espaço sobra para utilizar com outros fatores, como a bateria no caso de um CubeSat de 1 U ou para acomodar outras pesquisas que o CubeSat possa estar levando \cite{Martins}.
 
@@ -654,7 +689,7 @@ I_{total} = \sum\nolimits I_{1} + I_{2} + I_{3}
 \label{eq:Inetot}
 \end{equation}
 
-As rodas foram usinadas em em aço 1020, em um torno CNC.
+As rodas foram usinadas em em aço 1020, em um torno CNC. O peso delas ficou igual a  kg. A Inércia, portante, ficou igual a  kgm$^2$.
 
 \subsubsection{Suporte do motor}
 
@@ -671,7 +706,7 @@ Para suportar o motor, foi desenvolvido um protótipo genérico obedecendo as fu
 	\label{fig:MS}
 \end{figure}
 
-Os suportes foram fabricados com chapas de alumínio de 1 mm de espessura através de uma máquina de corte a laser e então dobrados.
+Os suportes foram fabricados com chapas de alumínio de 1 mm de espessura através de uma máquina de corte a laser e então dobrados. O peso ficou igual a  kg.
 
 \subsection{Estrutura mecânica}
 
@@ -728,12 +763,51 @@ V_{emf} = k_{T} \times \omega_{w} \equiv k_{E} \times \omega_{w}
 \label{eq:Vemf}
 \end{equation}
 
-Aproveitando a equação de dinâmica da roda de reação, a \ref{eq:Tm}, onde I$_{w}$ é o total de inércia do motor junto da roda de reação, B é o atrito viscoso e $\dot{\omega}_{w}$ é a aceleração angular.
+Aproveitando a equação de dinâmica da roda de reação, temos a equação \ref{eq:Tm}, onde I$_{w}$ é o total de inércia do motor junto da roda de reação, B é o atrito viscoso e $\dot{\omega}_{w}$ é a aceleração angular.
 
 \begin{equation}
 T_{m} = I_{w} \times \dot{\omega}_{w} + B \times \omega_{w}
 \label{eq:Tm}
 \end{equation}
+
+A equação \ref{eq:Tens} é reescrita como,
+
+\begin{equation}
+i = \frac{V - V_{emf}}{R}
+\label{eq:I}
+\end{equation}
+
+Ao substituir i na equação \ref{eq:Torq}, com a equação \ref{eq:I} e substituindo o V$_{emf}$ pela equação \ref{eq:Vemf}, obtemos uma expressão igual à equação \ref{eq:Tm}, mostrado a seguir.
+
+\begin{equation}
+T_{m} = k_{T} \times i = k_{T} \times \frac{V - V_{emf}}{R} = k_{T} \times \frac{ V - k_{E} \times \omega_{w} }{R} = I_{w} \times \dot{\omega}_{w} + B \times \omega_{w}
+\label{eq:Subst}
+\end{equation}
+
+A expressão \ref{eq:Subst} é reescrita como,
+
+\begin{equation}
+\frac{k_{T}}{R} \times V = I_{w} \times \dot{\omega}_{w} + \frac{(R \times B + k_{E} \times k_{T}) \times \omega_{w} }{R}
+\label{eq:ReWrite}
+\end{equation}
+
+Isola-se então o $\omega_{w}$ da equação \ref{eq:ReWrite}, obtendo.
+
+\begin{equation}
+\left( \frac{k_{T}}{R \times B + k_{E} \times k_{T}} \right) \times V = \left( \frac{R \times I_{w}}{R \times B + k_{E} \times k_{T}} \right) \times \dot{\omega}_{w} + \omega_{w}
+\label{eq:ReW}
+\end{equation}
+
+Da equação \ref{eq:ReW}, é possível observar que os valores em parênteses são constantes. Portanto, a equação pode ser reescrita da seguinte forma,
+
+\begin{equation}
+C \times V = \tau \times \dot{\omega}_{w} + \omega_{w}
+\label{eq:RWDM}
+\end{equation}
+
+Onde C e $\tau$ são constantes. Portanto, a equação \ref{eq:RWDM} é o modelo dinâmico do conjunto roda de reação e motor \cite{Ericksson}.
+
+\subsection{Controle}
 
 
 
@@ -746,7 +820,7 @@ T_{m} = I_{w} \times \dot{\omega}_{w} + B \times \omega_{w}
 
 \section{Rodas de reação}
 
-Os protótipos das rodas de reação foram feitos em um torno CNC (, )pela empresa Rudloff, através de uma parceria entre a Mauá e a empresa. O modelo ficou com  kg. A seguir, na Figura , uma imagem de como ficaram.
+Os protótipos das rodas de reação foram feitos em um torno CNC (, )pela empresa Rudloff, através de uma parceria entre a Mauá e a empresa. A seguir, na Figura , uma imagem de como ficaram.
 
 %\begin{figure}[th]
 %	\caption{Modelo das rodas de reação}
@@ -761,7 +835,7 @@ Os protótipos das rodas de reação foram feitos em um torno CNC (, )pela empre
 
 \section{Suporte do motor}
 
-Para uma pré validação do projeto do suporte do motor, foi feito um modelo impresso em uma impressora 3D (, ), como mostrado a seguir na Figura . Esse modelo foi usado para garantir o batimento dos furos do suporte com os do motor.
+Para uma pré validação do projeto do suporte do motor, foi feito um modelo impresso em uma impressora 3D (Cliever, Porto Alegre, RS), como mostrado a seguir na Figura . Esse modelo foi usado para garantir o batimento dos furos do suporte com os do motor.
 
 %\begin{figure}[th]
 %	\caption{Protótipo em resina do suporte do motor}
@@ -789,9 +863,9 @@ Uma vez validado, foi mandado fazer um modelo em metal, através do corte por m�
 
 \section{Estrutura mecânica}
 
-Um primeiro protótipo da estrutura mecânica foi fabricado na oficina mecânica da Mauá para que pudessem ser feitos os primeiros testes de encaixe, tanto da própria estrutura quanto das placas de circuito eletrônico. A seguir, a estrutura montada na Figura 12.
+Um primeiro protótipo da estrutura mecânica foi fabricado na oficina mecânica da Mauá para que pudessem ser feitos os primeiros testes de encaixe, tanto da própria estrutura quanto das placas de circuito eletrônico. A seguir, a estrutura montada na Figura \ref{fig:ProtooneF}.
 
-\begin{figure}[th]
+\begin{figure}[ht]
 	\caption{Primeiro protótipo do CubeSat fechado}
 	\centering
 	\includegraphics[width=0.7\linewidth]{./figs/PrototypeOne_Full}
@@ -802,9 +876,11 @@ Um primeiro protótipo da estrutura mecânica foi fabricado na oficina mecânica
 	\label{fig:ProtooneF}
 \end{figure}
 
-Com duas chapas de fechamento removidas a seguir, na Figura 13.
+\newpage
 
-\begin{figure}[th]
+Com duas chapas de fechamento removidas a seguir, na Figura \ref{fig:Protoone}.
+
+\begin{figure}[ht]
 	\caption{Primeiro protótipo do CubeSat com duas chapas de fechamento removidas}
 	\centering
 	\includegraphics[width=0.7\linewidth]{./figs/PrototypeOne}
