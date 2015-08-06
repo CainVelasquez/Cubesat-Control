@@ -1,14 +1,19 @@
 \select@language {brazil}
 \contentsline {figure}{\numberline {1}{\ignorespaces IMU utilizada}}{27}{figure.3.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Alinhamento por campo magn\IeC {\'e}tico}}{28}{figure.3.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Controle atrav\IeC {\'e}s de propuls\IeC {\~a}o}}{29}{figure.3.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Conjunto motor e roda de rea\IeC {\c c}\IeC {\~a}o}}{30}{figure.3.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Modelo com quatro conjuntos motor-roda de rea\IeC {\c c}\IeC {\~a}o e duas hastes magn\IeC {\'e}ticas}}{30}{figure.3.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Modelo com tr\IeC {\^e}s conjuntos motor-roda de rea\IeC {\c c}\IeC {\~a}o}}{31}{figure.3.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Conjunto para acoplamento do motor ao CubeSat}}{31}{figure.3.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Motor Maxon 351100, a moeda serve para refer\IeC {\^e}ncia quanto \IeC {\`a}s dimens\IeC {\~o}es}}{33}{figure.3.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Roda de rea\IeC {\c c}\IeC {\~a}o}}{33}{figure.3.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Suporte do motor}}{34}{figure.3.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Estrutura do CubeSat}}{35}{figure.3.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces Primeiro prot\IeC {\'o}tipo do CubeSat fechado}}{39}{figure.4.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces Primeiro prot\IeC {\'o}tipo do CubeSat com duas chapas de fechamento removidas}}{39}{figure.4.13}
+\contentsline {figure}{\numberline {2}{\ignorespaces Driver DRV8313}}{29}{figure.3.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Medidor de corrente}}{30}{figure.3.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Alinhamento por campo magn\IeC {\'e}tico}}{31}{figure.3.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Controle atrav\IeC {\'e}s de propuls\IeC {\~a}o}}{32}{figure.3.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Conjunto motor e roda de rea\IeC {\c c}\IeC {\~a}o}}{32}{figure.3.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Modelo com quatro conjuntos motor-roda de rea\IeC {\c c}\IeC {\~a}o e duas hastes magn\IeC {\'e}ticas}}{33}{figure.3.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Modelo com tr\IeC {\^e}s conjuntos motor-roda de rea\IeC {\c c}\IeC {\~a}o}}{34}{figure.3.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Conjunto para acoplamento do motor ao CubeSat}}{34}{figure.3.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Motor Maxon 351100, a moeda serve para refer\IeC {\^e}ncia quanto \IeC {\`a}s dimens\IeC {\~o}es}}{36}{figure.3.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Roda de rea\IeC {\c c}\IeC {\~a}o}}{37}{figure.3.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Suporte do motor}}{38}{figure.3.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Estrutura do CubeSat}}{39}{figure.3.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces CubeSat montado}}{40}{figure.3.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Base de teste}}{41}{figure.3.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Prot\IeC {\'o}tipo em resina do suporte do motor}}{46}{figure.4.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Primeiro prot\IeC {\'o}tipo do CubeSat fechado}}{47}{figure.4.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Primeiro prot\IeC {\'o}tipo do CubeSat com tr\IeC {\^e}s chapas de fechamento removidas}}{48}{figure.4.18}

@@ -350,20 +350,24 @@ E aos nossos pais, amigos e namoradas que apesar de todas as dificuldades sempre
 \begin{siglas}
 
   \item[AEB] {Agência Espacial Brasileira}
+  \item[ADC] {Conversor Analógico-Digita}
   \item[BLDC] \textit{Brushless Direct Current Motor}
   \item[Cal Poly] \textit{California Polytechnic State University}
   \item[CubeSat] \textit{Cube-Satellite}
+  \item[DSP] \textit{Digital Signal Processing}
   \item[ESA] \textit{European Space Agency}
   \item[I$^{2}$C] \textit{Inter-Integrated Circuit}
   \item[IMT] {Instituto Mauá de Tecnologia}
   \item[IMU] \textit{Inercial Measurement Unit}
   \item[INPE] {Instituto Nacional de Pesquisas Espaciais}
   \item[ISS] \textit{International Space Station}
-  \item[NASA] \textit{National Aeronautics and Space Administration}
+  \item[MIPS] {Milhões de Instruções Por Segundo}
+  \item[NSA] \textit{National Aeronautics and Space Administration}
   \item[NSEE] {Núcleo de Sistemas Eletrônicos Embarcados}
   \item[U] \textit{Unit}
   \item[PIC] \textit{Programmable Interface Controller}
-  
+  \item[PWM] \textit{Pulse-Width Modulation}
+    
 \end{siglas}
 
 % ---
@@ -445,7 +449,9 @@ c)	aprendizagem sobre softwares de projeto de placas de circuitos micro eletrôn
 
 d)	aprendizagem sobre protocolo de comunicação I$^{2}$C;
 
-e)	testes e validações do sistema de controle em um e mais graus de liberdade.
+e)	testes e validações do sistema de controle em um e mais graus de liberdade;
+
+f) validação do motor \textit{brushless}.
 
 % ----------------------------------------------------------
 % Questão central da pesquisa
@@ -457,9 +463,10 @@ Este estudo servirá de base para o desenvolvimento de futuros CubeSats com melh
 % ----------------------------------------------------------
 % Revisão literária
 % ----------------------------------------------------------
+
 \chapter[Revisão literária]{Revisão literária}
 
-
+Como um guia para o trabalho, foi feito uma pesquisa literária sobre a qual o trabalho se baseou. Esta etapa da pesquisa tornou possível observar quem são os países que desenvolvem CubeSat's, como é utilizado ao redor do mundo e como o Brasil está em relação ao restante.
 
 \section[Origem]{Origem}
 
@@ -467,7 +474,11 @@ A concepção do CubeSat teve início no ano de 1999 através de um esforço em 
 
 \section[CubeSat no mundo]{CubeSat no mundo} 
 
-A maioria dos CubeSats lançados até hoje foram projetados, desenvolvidos e construídos nas universidades norte-americanas, como o XSAS, desenvolvido pela \textit{University of Michigan} \cite{MCKAY}, o \textit{Vermont Lunar CubeSat}, desenvolvido pela \textit{Vermont Technical College} \cite{Vermont}, além de outros desenvolvidos pelas veteranas \textit{Stanford University} \cite{TWIGGS} e \textit{California Polytechnic State University} \cite{PolySat}. Porém, algumas empresas privadas já desenvolveram seus próprios CubeSats, como é o caso da Boeing \cite{Boeing}. Eles desenvolveram um CubeSat com o objetivo de desenvolver sistemas de controle de atitude que seriam usados para refinar os sistemas usados nos aviões produzidos pela empresa. Isso mostra o quão abrangente são as possibilidades de uso dos CubeSats.
+A maioria dos CubeSats lançados até hoje foram projetados, desenvolvidos e construídos nas universidades norte-americanas, como o XSAS, desenvolvido pela \textit{University of Michigan} \cite{MCKAY}, o \textit{Vermont Lunar CubeSat}, desenvolvido pela \textit{Vermont Technical College} \cite{Vermont}, além de outros desenvolvidos pelas veteranas \textit{Stanford University} \cite{TWIGGS} e \textit{California Polytechnic State University} \cite{PolySat}.
+
+Algumas empresas privadas já desenvolveram seus próprios CubeSats, como é o caso da Boeing \cite{Boeing}. Eles desenvolveram um CubeSat com o objetivo de desenvolver sistemas de controle de atitude que seriam usados para refinar os sistemas usados nos aviões produzidos pela empresa.
+
+Há ainda o caso da Planet Labs \cite{PlanetLabs}, empresa que desenvolveu e fabricou 28 CubeSats (de nome Dove) dotados de uma câmera fotográfica de alta resolução. Todos foram lançados ao espaço formando um conjunto chamado de Dove. Esse conjunto está espalhado pelo mundo. A Planet Labs vende o serviço fotográfico desses satélites. Sempre que alguém contrata esse serviço, eles tiram fotos do local especificado pela pessoa por um período. Esse serviço pode ser usado empresas de mineração, exploração de recursos naturais, monitoramento agrícola, monitoramento de desmatamento, etc. Isso mostra o quão abrangente são as possibilidades de uso dos CubeSats.
 
 Diversos outros países já fizeram e lançaram ao menos um protótipo, como a Dinamarca, com o AAUSAT4, desenvolvido pela \textit{Aalborg University} \cite{AAUSAT}, o Canada, com o CANX-2, desenvolvido pela \textit{University of Toronto} \cite{CANX} e o Japão, com o CUTE 1, desenvolvido pela \textit{Tokyo Institute of Technology} \cite{CUTE}. Alguns países com pouco investimento em pesquisa espacial também possuem CubeSats, incluindo a Romênia, Hungria e Polônia \cite{ESA}, além de outros como a Lituânia e o Peru \cite{SpaceNews}. Isso os ajudou a serem inseridos no campo de pesquisa espacial.
 
@@ -475,12 +486,15 @@ Diversos outros países já fizeram e lançaram ao menos um protótipo, como a D
 
 Destaca-se o projeto do CubeSat desenvolvido em uma parceria entre o Instituto Nacional de Pesquisas Espaciais (INPE) e o Instituto Tecnológico de Aeronáutica (ITA) \cite{AIT}, o qual foi projetado no Brasil. Ele foi lançado da ISS (\textit{International Space Station}, ou Estação Espacial Internacional) dia 5 de fevereiro de 2015 \cite{AEB}. Porém, uma antena de comunicação que deveria ser acionada trinta minutos após seu lançamento não foi acionada. Sendo assim, foi considerado inoperante \cite{ITA}.
 
+
 % ----------------------------------------------------------
 % Materiais e Métodos
 % ----------------------------------------------------------
 \chapter[Materiais e Métodos]{Materiais e métodos}
 
-
+Para facilitar a compreensão das partes que envolvem o projeto, os itens foram divididos em duas categorias:
+Materiais, focada em explicar quais os materiais utilizados para a construção do CubeSat e porquê.
+Métodos, focada em explicar como foi feita a integração dos materiais, programações necessárias, cálculos de equações de modelagem e controle, etc.
 
 % ----------------------------------------------------------
 % Materiais
@@ -499,7 +513,7 @@ Os magnetômetros são sensores simples e leves que medem o campo magnético do 
 
 Giroscópios são o tipo de sensor mais barato, mas não fornecem a direção dos eixos diretamente como fazem os outros sensores. Eles detectam a rotação em torno de cada um dos eixos e necessita ser usado em conjunto com outro sensor, uma vez que a direção dos eixos é desconhecida \cite{FrancLav}.
 
-O sensor estrelar é um dispositivo óptico que mede o posicionamento das estrelas utilizando fotocélulas. Ele compara as medições com um banco de dados para determinar a atitude e seu posicionamento no espaço. Este sensor possui a precisão de $0,1^{\circ}$, sendo assim um dos mais precisos que existe. Porém, possui o inconveniente de ser muito maior e mais pesado em comparação aos outros, além de possuir um custo extremamente elevado, requerer um processamento muito alto e uma banda de resposta reduzida \cite{FrancLav}.
+O sensor estrelar é um dispositivo óptico que mede o posicionamento das estrelas utilizando fotocélulas. Ele compara as medições com um banco de dados para determinar a atitude e seu posicionamento no espaço. Este sensor possui a precisão de $0,1^{\circ}$, sendo assim um dos mais precisos que existe, porém possui o inconveniente de ser muito maior e mais pesado em comparação aos outros, além de possuir um custo extremamente elevado, requerer um processamento muito alto e uma banda de resposta reduzida \cite{FrancLav}.
 
 Como a determinação de atitude não é objeto de estudo deste trabalho, não será abordado um método para escolha do melhor sensor. Adotamos uma \textit{Inertial Measurement Unit} (IMU) HMC6343 (Honeywell, EUA)), mostrado a seguir na Figura \ref{fig:IMU}, que é a combinação de três magnetômetros e três acelerômetros, cada um disposto em um eixo, de forma a compor as informações de rotação dos três eixos. Sua precisão é de cerca de $1^{\circ}$ em para \textit{Roll} e \textit{Pitch} e $2^{\circ}$ para \textit{Yaw}, uma precisão ótima para a nossa aplicação, além de ter um tamanho extremamente compacto (9 x 9 mm). Essa IMU fornece os dados já tratados através de uma porta de comunicação I$^{2}$C.
 
@@ -515,6 +529,67 @@ Como a determinação de atitude não é objeto de estudo deste trabalho, não s
 \end{figure}
 
 \subsection{Circuitos eletrônicos}
+
+O objetivo do conjunto de circuitos eletrônicos é possibilitar o controle de velocidade independente dos três motores, cada um com um microcontrolador, um driver e um sensor de corrente. Para comandar o conjunto é necessário um microcontrolador principal, responsável por enviar \textit{set points} de velocidades de acordo com a leitura do sensor de posicionamento conforme definido pela sua malha de controle. A comunicação entre esses quatro dispositivos é realizada por duas redes I$^{2}$C: uma para leitura do sensor e uma para comunicação entre microcontroladores.
+
+As soluções de hardware que satisfazem os requisitos de desempenho para um Cubesat são abundantes no mercado internacional \cite{STATEOFART}. Desta forma os critérios de escolha muitas vezes são o custo, o risco e a disponibilidade dos itens no fabricante.
+
+
+\subsubsection{Microcontrolador}
+
+A capacidade de processamento que um satélite precisa, já está disponível no mercado. A velocidade típica de um processador para um Cubesat é de aproximadamente 30 MIPS. Além do tamanho dos componentes, sempre é necessário um cuidado especial com o consumo de energia.\cite{STATEOFART}.
+
+Os microprocessadores selecionados foram da família dsPIC33EP (Microchip, EUA). Eles possuem capacidade de processamento de 60 MIPS operando de -40 $^{\circ}$C até +125 $^{\circ}$C. Possuem modo de gerenciamento de baixo consumo de energia, módulo DSP, que consiste em um multiplicador de alta velocidade capaz de realizar multiplicações com 17 bits e somas ou subtrações com 40 bits. Seu diferencial para controle de motores BLDC aparece em seus três módulos independentes de PWM de alta velocidade, que podem gerar disparos ao modulo ADC. Outra ferramenta que será utilizada no controle do motor é o \textit{Input Capture}, que é utilizado em aplicações que requerem medidas de períodos e frequências. \cite{dsPIC33EP}
+Todas essas ferramentas serão compiladas no ambiente MPLAB X IDE utilizando o compilador XC16, ambos do fabricante.
+
+\subsubsection{\textit{Driver} de acionamento do motor}
+
+Para o acionamento do motor foi selecionado o cicuito integrado DRV8313 da \textit{Texas Instruments}. O DRV8313 possui três meias pontes H que suportam 2.5 A de corrente de pico e podem alimentar o motor com tensões de 8 a 60 volts além de possuir circuítos de proteção contra sobre-corrente, curto circuíto e subtenção.\cite{DRV8313}. O driver destina-se a aplicações de acinamento de motores BLDC de três fases, mas pode ser utilizado também para acionamento de solenoides. Possui a funcionalidade de \textit{sleep mode}, que pode ser ativada quando não é preciso fazer controle de velocidade do motor e auxilia no consumo de energia e por fim pode reportar falhas em sua operação através do pino FAULT, conforme a Figura \ref{fig:Driver} a seguir.
+
+\begin{figure}[th]
+	\caption{Driver DRV8313}
+	\centering
+	\includegraphics[width=0.6\linewidth]{./figs/DRV8313-fig}
+	
+	\begin{small}
+		FONTE: \cite{DRV8313}
+	\end{small}
+	\label{fig:Driver}
+\end{figure}
+
+\newpage
+
+\subsubsection{Interfaces e Barramentos}
+
+Enquanto os famosos \textit{Universal Serial Bus} (USB) e o \textit{Controller Area Network} (CAN) são protocolos de comunicação usados esporadicamente, o protocolo I$^{2}$C aparece como o barramento mais utilizado para nano satélites, devido ao seu baixo consumo de energia, além de estar disponível na maioria dos microcontroladores. Outros tipos de interfaces para diferentes tipos de fluxo de dados são desejáveis. \cite{STATEOFART}
+
+Desta forma foi selecionado duas redes I$^{2}$C independetes no conjunto: uma para comunicação entre controlador principal e sensor IMU e outra rede para comunicação entre microprocessadores. Também estão disponíveis no conjunto uma interface CAN e uma USART – \textit{Universal Synchronous/Asynchronous Receiver/Transmitter}.
+
+\subsubsection{Placas de circuito eletrônico}
+
+\subsubsubsection{Medidor de corrente}
+
+Para o sistema de controle do BLDC é necessário conhecer a corrente que está passando pelo motor. A aquisição é feita através da medição de tensão sobre um resistor \textit{shunt} de 0,5 ohm colocado no após as suas bobinas do driver do motor. 
+O valor dessa tensão é muito pequeno, variando de 0 até 243mV quando o motor estiver com 100\% de PWM, sendo assim necessária a amplificação desse sinal. 
+Para isso foi utilizado um amplificador operacional LMV358 (Texas,EUA) configurado conforme a Figura \ref{fig:Medidor_corrente}.
+
+
+\begin{figure}[th]
+	\caption{Medidor de corrente}
+	\centering
+	\includegraphics[width=1\linewidth]{./figs/Medidor_corrente_motores}
+	
+	\begin{small}
+		FONTE: Arquivo dos autores
+	\end{small}
+	\label{fig:Medidor_corrente}
+\end{figure}
+
+
+Como pode ser observado na imagem, existe um filtro com constante de tempo de aproximadamente 3 ms com o objetivo de filtrar ruídos, pois estes também serão amplificados, prejudicando a medição da tensão.
+O amplificador está configurado para sua saída que é não inversora ter uma ganho de 11 vezes em relação a sua entrada, ou seja, a sua saída terá o valor máximo de aproximadamente 2,7 V.
+
+A saída do amplificador operacional é conectada em uma entrada do microcontrolador que possua o módulo de conversão analógica para que seja feita a conversão do sinal para valor digital.  
 
 \subsection{Atuadores}
 
@@ -550,7 +625,7 @@ O método da propulsão é muito pouco utilizado em CubeSats. Consiste em jatos 
 	\label{fig:Propulsion}
 \end{figure}
 
-O método da estabilização dos três eixos é o método mais comumente utilizado, já que é versátil e usa pouco espaço, além de ser o mais eficiente. Ele se baseia na terceira Lei de Newton, que diz: \textit{''Para toda ação, há sempre uma reação oposta e de igual intensidade''}. Isso significa que se há uma massa acelerando presa ao satélite, ela irá forçar o mesmo a girar na direção oposta. Quanto maior o valor dessa massa, mais influência ela terá sobre o sistema \cite{Ericksson}. As rodas de reação fazem o papel dessa massa ao serem fixadas ao eixo de motores (normalmente \textit{brushless}) e dispostos cada um em um eixo, possibilitando realizar manobras de rolagem (roll ou X), arfagem (pitch ou Y) e guinada (yaw ou Z).
+O método da estabilização dos três eixos é o método mais comumente utilizado, já que é versátil e usa pouco espaço, além de ser o mais eficiente. Ele se baseia na terceira Lei de Newton, que diz: \textit{''Para toda ação, há sempre uma reação oposta e de igual intensidade''}. Isso significa que se há uma massa acelerando presa ao satélite, ela irá forçar o mesmo a girar na direção oposta. Quanto maior o valor dessa massa, mais influência ela terá sobre o sistema \cite{Ericksson}. As rodas de reação fazem o papel dessa massa ao serem fixadas ao eixo de motores (normalmente \textit{brushless}) e dispostos cada um em um eixo, possibilitando realizar manobras de rolagem (\textit{roll} ou X), arfagem (\textit{pitch} ou Y) e guinada (\textit{yaw} ou Z). Um exemplo desse conjunto de motor e roda de reação é mostrado a seguir, na Figura \ref{fig:SRW}.
 
 \begin{figure}[th]
 	\caption{Conjunto motor e roda de reação}
@@ -563,9 +638,11 @@ O método da estabilização dos três eixos é o método mais comumente utiliza
 	\label{fig:SRW}
 \end{figure}
 
-\newpage 
+%\newpage 
 
 Há ainda dois tipos de controle através desse método, um com quatro e outro com três conjuntos motor-roda de reação. O modelo que utiliza quatro conjuntos possui controle mais complexo, uma vez que estes conjuntos são dispostos de forma que a somatória das rotações forma o torque desejado, como mostra a Figura \ref{fig:ERW} a seguir. Este método é amplamente utilizado pois caso um dos motores pare de funcionar, os outros três podem compensá-lo, aumentando a vida útil do satélite \cite{Ericksson}.
+
+%\newpage
 
 \begin{figure}[th]
 	\caption{Modelo com quatro conjuntos motor-roda de reação e duas hastes magnéticas}
@@ -591,6 +668,8 @@ Já o modelo de três conjuntos motor-roda de reação é mais simples, cada con
 	\label{fig:3RW}
 \end{figure}
 
+\newpage
+
 Para integração do motor adotado com a roda de ação, foi criado um conjunto padrão que consiste em um suporte para o motor, o motor e a roda de reação. Foi utilizado um desses conjuntos em cada um dos eixos correspondentes ao \textit{roll}, \textit{pitch} e \textit{yaw} como mostrado na Figura \ref{fig:MotSet} a seguir.
 
 \begin{figure}[th]
@@ -604,17 +683,19 @@ Para integração do motor adotado com a roda de ação, foi criado um conjunto 
 	\label{fig:MotSet}
 \end{figure}
 
+%\newpage
+
 \subsubsection{Motores}
 
-Para escolha do motor, foi levado em considerado principalmente três fatores: tipo, tamanho e potência \cite{Ericksson}.
+Para escolha do motor, foi levado em consideração principalmente dois fatores: tipo e tamanho \cite{Ericksson}.
 
-Costumeiramente, CubeSats utilizam motores de corrente contínua sem escovas (\textit{brushless direct current motor} – BLDC). A NASA recomenda o uso de motores desse tipo para aplicações aero-espaciais \cite{NASABLDC}. A tabela \ref{tab:VnteDesv} a seguir mostra um comparativo das principais vantagens do uso de um motor \textit{Brushless} na área aeroespacial.
+Costumeiramente, CubeSats utilizam motores de corrente contínua sem escovas (\textit{brushless direct current motor} – BLDC). A NASA recomenda o uso de motores desse tipo para aplicações aeroespaciais \cite{NASABLDC}. A Tabela \ref{tab:VnteDesv} a seguir mostra um comparativo das principais vantagens do uso de um motor \textit{brushless} na área aeroespacial.
 
 \begin{table}[h]
 	\caption{Vantagens e desvantagens de um motor \textit{Brushless}}
 		\centering
 	\begin{tabular}{|c|c|}
-		\hline 
+		\hline
 		\textbf{Vantagens} & \textbf{Desvantagens} \\ 
 		\hline 
 		Alta velocidade (até 100000 RPM) & Circuitos mais caros \\ 
@@ -640,12 +721,15 @@ Costumeiramente, CubeSats utilizam motores de corrente contínua sem escovas (\t
 	\end{tabular}
 	
 	\begin{small}
+	\vspace{3pt}	
 	FONTE: \cite{Ericksson}
 	\end{small}
 	\label{tab:VnteDesv}
 \end{table}
 
-O tamanho do motor também é um fator limitante pois o espaço dentro de um CubeSat é extremamente limitado. Quanto menor o tamanho dos motores, mais fácil de acomodá-los e mais espaço sobra para utilizar com outros fatores, como a bateria no caso de um CubeSat de 1 U ou para acomodar outras pesquisas que o CubeSat possa estar levando \cite{Martins}.
+%\newpage
+
+O tamanho do motor também é um fator limitante pois o espaço dentro de um CubeSat é extremamente limitado. Quanto menor o tamanho dos motores, mais fácil de acomodá-los e mais espaço sobra para utilizar com outros fatores, como a bateria no caso de um CubeSat de 1 U ou para acomodar outras pesquisas que o CubeSat possa estar levando \cite{Martins}. A seguir, na Figura \ref{fig:Maxon}, um exemplo de motor BLDC normalmente utilizado em CubeSats.
 
 \begin{figure}[th]
 	\caption{Motor Maxon 351100, a moeda serve para referência quanto às dimensões}
@@ -658,12 +742,18 @@ O tamanho do motor também é um fator limitante pois o espaço dentro de um Cub
 	\label{fig:Maxon}
 \end{figure}
 
+\newpage
+
+O motor que melhor atende a todos estes requisitos e portanto o utilizado neste trabalho é o motor \textit{brushless} modelo 351100, da Maxon. O catálogo com as especificações técnicas deste motor encontram-se no Anexo \ref{an:MM}.
+
+O motor já estava definido e disponível no início do projeto pelo NSEE (Núcleo de Sistemas Eletrônicos Embarcados) como um dos objetivos do estudo, validando o uso de um motor \textit{brushless} de 3 W.
+
 \subsubsection{Rodas de reação}
 
-A roda de reação é basicamente um disco rotativo com muita massa (em relação ao resto do sistema). Quanto maior a massa e a geometria dela, maior a inércia I (kgm$^2$), como demonstrado na equação \ref{eq:Inercia}, onde m (kg) é a massa e r (m) é o raio da roda. A inércia cresce proporcionalmente ao quadrado o raio da roda.
+A roda de reação é basicamente um disco rotativo com muita massa (em relação ao resto do sistema). Quanto maior a massa e a geometria dela, maior a inércia I (kgm$^2$), como demonstrado na Equação \ref{eq:Inercia}, onde m (kg) é a massa e r (m) é o raio da roda. A inércia cresce proporcionalmente ao quadrado o raio da roda.
 
 \begin{equation}
-I= \frac{m}{2} \times r^2
+I = \frac{m}{2} \times r^2
 \label{eq:Inercia}
 \end{equation}
 
@@ -680,20 +770,22 @@ A relação entre a massa da roda de reação com a massa do satélite influenci
 	\label{fig:RW}
 \end{figure}
 
-Por causa da forma como o motor é preso no suporte, foi necessário um pequeno rasgo na roda de reação com o objetivo de evitar que as cabeças dos parafusos interferissem na roda de reação.
+Por causa da forma como o motor é preso no suporte, foi necessário um pequeno rasgo na roda de reação com o objetivo de evitar que as cabeças dos parafusos interferissem na roda de reação, como mostrado nas folhas do projeto no Apêndice \ref{ap:RW}.
 
-Apesar da roda projetada ser cilíndrica, ela não possui a mesma seção para toda sua extensão, e a equação \ref{eq:Inercia} se aplica a corpos cilíndricos homogêneos. Para o cálculo correto da inercia, aplica-se a equação \ref{eq:Inercia} para cada seção e então se aplica a equação \ref{eq:Inetot}.
+Apesar da roda projetada ser cilíndrica, ela não possui a mesma seção para toda sua extensão, e a Equação \ref{eq:Inercia} se aplica a corpos cilíndricos homogêneos. Para o cálculo correto da inercia, aplica-se a Equação \ref{eq:Inercia} para cada seção e então se aplica a equação \ref{eq:Inetot}.
 
 \begin{equation}
 I_{total} = \sum\nolimits I_{1} + I_{2} + I_{3}
 \label{eq:Inetot}
 \end{equation}
 
-As rodas foram usinadas em em aço 1020, em um torno CNC. O peso delas ficou igual a  kg. A Inércia, portante, ficou igual a  kgm$^2$.
+Serão usadas três rodas de reação, uma para cada motor. Elas foram usinadas em aço 1020, em um torno CNC. O peso delas ficou igual a  kg. A Inércia, portante, ficou igual a  kgm$^2$.
 
 \subsubsection{Suporte do motor}
 
-Para suportar o motor, foi desenvolvido um protótipo genérico obedecendo as furações dos motores e o espaço para o eixo para a fixação dos mesmos ao suporte e dele à placa de circuito eletrônico do CubeSat. Esse suporte foi feito com altura de 10 mm da superfície inferior do motor até a placa de circuito eletrônico para que não atrapalhasse o posicionamento dos componentes, como mostrado na Figura \ref{fig:MS} a seguir. Para atender aos requisitos de peso, o suporte foi projetado em alumínio.
+Para suportar o motor, foi desenvolvido um protótipo genérico obedecendo as furações dos motores e o espaço para o eixo para a fixação dos mesmos ao suporte e dele à placa de circuito eletrônico do CubeSat, como mostrado nas folhas do projeto no Apêndice \ref{ap:MS}. Esse suporte foi feito com altura de 10 mm da superfície inferior do motor até a placa de circuito eletrônico para que não atrapalhasse o posicionamento dos componentes, como mostrado na Figura \ref{fig:MS} a seguir. Para atender aos requisitos de peso, o suporte foi projetado em alumínio.
+
+\newpage
 
 \begin{figure}[th]
 	\caption{Suporte do motor}
@@ -706,11 +798,13 @@ Para suportar o motor, foi desenvolvido um protótipo genérico obedecendo as fu
 	\label{fig:MS}
 \end{figure}
 
-Os suportes foram fabricados com chapas de alumínio de 1 mm de espessura através de uma máquina de corte a laser e então dobrados. O peso ficou igual a  kg.
+Serão usados três suportes, um para cada motor. Eles foram fabricados com chapas de alumínio de 1 mm de espessura através de uma máquina de corte a laser e então dobrados. O peso ficou igual a  kg.
+
+%\newpage
 
 \subsection{Estrutura mecânica}
 
-A estrutura mecânica do CubeSat foi projetada seguindo os padrões indicados pela Cal Poly \cite{CalPoly}. O projeto foi feito pelo Núcleo de Sistemas Eletrônicos Embarcados (NSEE) da Mauá, que é responsável pelo desenvolvimento do CubeSat Mauá, sendo de nossa responsabilidade apenas o sistema de controle de atitude do satélite. O modelo básico no qual o trabalho se desenvolverá é mostrado a seguir apenas com a estrutura mecânica em si a mostra na Figura \ref{fig:Frame}.
+A estrutura mecânica do CubeSat foi projetada seguindo os padrões indicados pela Cal Poly \cite{CalPoly}. O projeto foi feito pelo Núcleo de Sistemas Eletrônicos Embarcados (NSEE) da Mauá, que é responsável pelo desenvolvimento do CubeSat Mauá, sendo de nossa responsabilidade apenas o sistema de controle de atitude do satélite. O modelo básico no qual o trabalho se desenvolverá é mostrado a seguir apenas com a estrutura mecânica em si a mostra na Figura \ref{fig:Frame}. As folhas do projeto da estrutura mecânica se encontram no Anexo \ref{an:MS}.
 
 \begin{figure}[th]
 	\caption{Estrutura do CubeSat}
@@ -725,87 +819,238 @@ A estrutura mecânica do CubeSat foi projetada seguindo os padrões indicados pe
 
 \newpage
 
+A estrutura mecânica é composta por uma estrutura principal, responsável por dar a forma e a sustentação do CubeSat e uma estrutura interna, responsável pela fixação das placas eletrônicas, ambas mostradas na Figura \ref{fig:Frame}. Há também chapas de fechamento externas que fecham e protegem o CubeSat, como mostrado a seguir na Figura \ref{fig:FrameFull}.
+
+\begin{figure}[th]
+	\caption{CubeSat montado}
+	\centering
+	\includegraphics[width=0.7\linewidth]{./figs/Frame_Full}
+	
+	\begin{small}
+		FONTE: Arquivo dos autores
+	\end{small}
+	\label{fig:FrameFull}
+\end{figure}
+
+\newpage
+
+A Tabela \ref{tab:MatMec} a seguir mostra quais os materiais necessários para a construção da estrutura mecânica do CubeSat. As folhas de projeto delas estão no Anexo \ref{an:MS}. Os elementos de fixação utilizados (inclusive os usados para a fixação das placas eletrônicas e suportes dos motores) também estão descritos na Tabela \ref{tab:MatMec}.
+
+\begin{table}[h]
+	\caption{Materiais para construção da estrutura mecânica do CubeSat}
+		\centering
+	\begin{tabular}{|c|c|}
+		\hline
+		\textbf{Componentes} & \textbf{Quantidades} \\ 
+		\hline 
+		Estrutura Interna Lateral Principal & 2 \\ 
+		\hline 
+		Estrutura Interna Lateral de Ligação & 4 \\ 
+		\hline 
+		Estrutura Interna Superior & 2 \\
+		\hline 
+		Placa Interna Lateral & 8 \\
+		\hline 
+		Casca Externa Superior & 2 \\ 
+		\hline 
+		Casca Externa Lateral & 4 \\ 
+		\hline 
+		Parafuso Cabeça de Panela (Fenda) - M2 x 6 mm & 105 \\
+		\hline
+		Porca Sextavada - M2 & 41 \\
+		\hline
+	\end{tabular}
+	
+	\begin{small}
+	\vspace{3pt}	
+	FONTE: Dos autores
+	\end{small}
+	\label{tab:MatMec}
+\end{table}
+
 \section[Métodos]{Métodos}
+
+Nesta seção, é explicada a metodologia aplicada para atingir os objetivos propostos.
+
+\subsection{Base de teste}
+
+Para que seja possível testar o CubeSat e avaliar se seu funcionamento é o esperado, foi desenvolvida uma base que fosse capaz de medir sua posição através de um \textit{encoder}.
+
+\subsubsection{Estrutura}
+
+A estrutura da base foi desenvolvida em alumínio, visando não adicionar influenciar na inércia do sistema. Ela é composta por quatro partes usinadas, desenvolvidas de forma que pudessem ser fabricadas facilmente. A base de teste é mostrada na Figura \ref{fig:ProtoTB}, a seguir.
+
+\begin{figure}[th]
+	\caption{Base de teste}
+	\centering
+	\includegraphics[width=0.7\linewidth]{./figs/Test_Base}
+	
+	\begin{small}
+		FONTE: Arquivo dos autores
+	\end{small}
+	\label{fig:ProtoTB}
+\end{figure}
+
+A parte superior foi feita de forma que o CubeSat encaixe nela. Essa parte é acoplada em um eixo, apoiado sobre um rolamento axial de esferas 51100 (SKF, Cajamar, SP), e conectado na outra extremidade a um \textit{encoder}. O rolamento fica apoiado sobre o restante da estrutura que serve tanto para sustentar todo o sistema quanto dar apoio ao \textit{encoder} e à placa que adquire seus dados. As hastes de sustentação da estrutura são barras roscadas M6, que permitem um nivelamento da base sobre qualquer superfície, garantindo que a medição fique livre de interferências. A seguir, na Tabela \ref{tab:MatTB}, a lista de materiais necessários para fabricação e montagem da base de testes.
+
+\begin{table}[h]
+	\caption{Materiais para construção da estrutura mecânica da base de testes do CubeSat}
+		\centering
+	\begin{tabular}{|c|c|}
+		\hline
+		\textbf{Componentes} & \textbf{Quantidades} \\ 
+		\hline 
+		Suporte do CubeSat & 1 \\ 
+		\hline 
+		Eixo & 1 \\
+		\hline
+		Base Superior & 1 \\ 
+		\hline 
+		Base Inferior & 1 \\
+		\hline 
+		Barra Roscada - M6 x 120 mm & 4 \\
+		\hline 
+		Arruela - M6 & 8 \\ 
+		\hline 
+		Porca Sextavada - M6 & 8 \\ 
+		\hline 
+		Rolamento Axial - SKF 51100 & 1 \\
+		\hline
+	\end{tabular}
+	
+	\begin{small}
+	\vspace{3pt}	
+	FONTE: Dos autores
+	\end{small}
+	\label{tab:MatTB}
+\end{table}
+
+O rolamento foi dimensionado de forma que tivesse uma vida virtualmente infinita (muito grande), mas que não fosse muito grande para não influenciar na inércia do sistema. O rolamento mencionado anteriormente possui diâmetro interno de 10 mm, o menor disponível. Para verificar sua vida útil, foi usada a Equação \ref{eq:RolVida} a seguir.
+
+\begin{equation}
+Lh = \frac{ \left( \frac{C}{P} \right)^{p} \times 10^{6}}{\frac{\omega \times 60^{2}}{2 \times \pi}}
+\label{eq:RolVida}
+\end{equation}
+
+Onde Lh é a vida em horas, C (N) é a classificação de carga básica dinâmica do rolamento, P (N) é a força aplicada sobre ele, p é o coeficiente de ajuste de acordo com o tipo de rolamento e $\omega$ (rad/s) é a velocidade angular imposta sobre o rolamento.
+
+Considerando que o peso do CubeSat é de 0,631 kg, C é igual a 9950 N, p é igual a 3 e a velocidade de rotação média de um CubeSat é aproximadamente 4,8 rad/s, esses valores são substituídos e resultam na Equação \ref{eq:RolVidaRes} a seguir.
+
+\begin{equation}
+Lh = \frac{ \left( \frac{9950}{0,639 \times 9,807 } \right)^{3} \times 10^{6}}{\frac{4,8 \times 60^{2}}{2 \times \pi}} \Longrightarrow Lh = 1,512 \times 10^{12} h
+\label{eq:RolVidaRes}
+\end{equation}
+
+Este alto valor de horas mostra que a vida do rolamento é de fato infinita, principalmente quando se considera que o rolamento não trabalhará com rotações sempre. Na maioria das vezes, dará apenas frações de voltas.
+
+Para o dimensionamento das barras roscadas, foi-se adotado que seriam de tamanho M6 (6 mm de diâmetro), com o objetivo de prender o sistema de maneira firme, mas que pudesse ser ajustado no caso de superfícies desniveladas. Para garantir que elas suportariam, foi feito um teste de flambagem onde se usou a Equação \ref{eq:Flamb} a seguir.
+
+\begin{equation}
+dh = \sqrt[4]{ \frac{64 \times Cs \times \lambda^{2} \times Fp \times \varphi }{ \pi^{3} \times E } }
+\label{eq:Flamb}
+\end{equation}
+
+Onde Cs é o coeficiente de segurança (adotado como 5), $\lambda$ é o coeficiente de flambagem que, no caso, equivale ao dobro do comprimento da barra já que ela é engastada na base, Fp (N) é a Força de projeto, $\varphi$ é o fator de ajuste (adotado como 1,5) e E (MPa) é o módulo de elasticidade do material, no caso um aço inoxidável com módulo igual a 193 GPa. No caso da Força, como a base é simétrica vertical e horizontalmente, o centro de massa fica equidistante dos quatro apoios. A força aplicada então é dividida igualmente por quatro, como mostrado na Equação \ref{eq:Fp} a seguir.
+
+\begin{equation}
+Fp = \frac{1,310 \times 9,807}{4} = 3,212 N
+\label{eq:Fp}
+\end{equation}
+
+Substituindo os valores na Equação \ref{eq:Flamb}, obtemos a Equação \ref{eq:FlambRes} mostrada a seguir.
+
+\begin{equation}
+dh = \sqrt[4]{ \frac{64 \times 5 \times 240^{2} \times 3,212 \times 1,5 }{ \pi^{3} \times 210000 } } \Longrightarrow dh = 1,922 mm
+\label{eq:FlambRes}
+\end{equation}
+
+Como o eixo adotado possui diâmetro de 6 mm, ele é maior que o diâmetro mínimo necessário para suportar a carga e portanto não flambará.
+
+\subsubsection{Encoder}
 
 
 
 \subsection{Modelagem}
 
+A modelagem do CubeSat foi feita para que pudessem ser conhecidas as equações que regem o sistema como um todo. As equações se resumem nas equações de dinâmica da roda de reação junto do motor e na dinâmica do sistema (CubeSat). A equação dos três conjuntos formados pela roda de reação e motor são iguais entre si.
 
+\subsubsection{Roda de reação e motor}
 
-\subsubsection{Rodas de reação}
-
-Ao aplicar uma tensão V (V) em um motor elétrico, uma corrente i (A) passará pelos enrolamentos dele e será convertida em um torque mecânico T$_{m}$ (kgm$^{2}$/s$^{2}$). No motor, há uma resistência R ($\Omega$) devido aos enrolamentos das bobinas. É nessas bobinas que a corrente induz um campo magnético que força o eixo do motor a girar. A resistência interna do motor causa uma queda de tensão V$_{emf}$ (V), que é mostrada na equação \ref{eq:Tens}.
+Ao aplicar uma tensão V (V) em um motor elétrico, uma corrente i (A) passará pelos enrolamentos dele e será convertida em um torque mecânico T$_{m}$ (kgm$^{2}$/s$^{2}$). No motor, há uma resistência R ($\Omega$) devido aos enrolamentos das bobinas. É nessas bobinas que a corrente induz um campo magnético que força o eixo do motor a girar. A resistência interna do motor causa uma queda de tensão V$_{emf}$ (V), que é mostrada na Equação \ref{eq:Tens}.
 
 \begin{equation}
 V = i \times R + V_{emf}
 \label{eq:Tens}
 \end{equation}
 
-A relação entre a corrente no motor e o torque T$_{m}$ é descrita na equação \ref{eq:Torq}, com a constante de torque k$_{T}$ (Nm/A).
+A relação entre a corrente no motor e o torque T$_{m}$ é descrita na Equação \ref{eq:Torq}, com a constante de torque k$_{T}$ (Nm/A).
 
 \begin{equation}
 T_{m} = k_{T} \times i
 \label{eq:Torq}
 \end{equation}
 
-A queda de tensão no motor resulta em uma perda de potência. Essa perda, P$_{T}$, costuma ser pequena caso o motor esteja em boas condições e sem nenhum defeito. A equação \ref{eq:PowerLoss} mostra como obter esse valor, onde $\eta$ é a eficiência do motor e $\omega_{w}$ é a velocidade angular.
+A queda de tensão no motor resulta em uma perda de potência. Essa perda, P$_{T}$, costuma ser pequena caso o motor esteja em boas condições e sem nenhum defeito. A Equação \ref{eq:PowerLoss} mostra como obter esse valor, onde $\eta$ é a eficiência do motor e $\omega_{w}$ é a velocidade angular.
 
 \begin{equation}
 P_{T} = V_{emf} \times i = \eta \times T_{m} \times \omega_{w} \approx T_{m} \times \omega_{w} = k_{T} \times i \times \omega_{w}
 \label{eq:PowerLoss}
 \end{equation}
 
-O V$_{emf}$ pode ser descrito como na equação \ref{eq:Vemf}, onde k$_{T}$ e k$_{E}$ (Vs/rad) são o mesmo para um motor com 100\% de eficiência.
+O V$_{emf}$ pode ser descrito como na Equação \ref{eq:Vemf}, onde k$_{T}$ e k$_{E}$ (Vs/rad) são o mesmo para um motor com 100\% de eficiência.
 
 \begin{equation}
 V_{emf} = k_{T} \times \omega_{w} \equiv k_{E} \times \omega_{w}
 \label{eq:Vemf}
 \end{equation}
 
-Aproveitando a equação de dinâmica da roda de reação, temos a equação \ref{eq:Tm}, onde I$_{w}$ é o total de inércia do motor junto da roda de reação, B é o atrito viscoso e $\dot{\omega}_{w}$ é a aceleração angular.
+Aproveitando a equação de dinâmica da roda de reação, temos a Equação \ref{eq:Tm}, onde I$_{w}$ é o total de inércia do motor junto da roda de reação, B é o atrito viscoso e $\dot{\omega}_{w}$ é a aceleração angular.
 
 \begin{equation}
 T_{m} = I_{w} \times \dot{\omega}_{w} + B \times \omega_{w}
 \label{eq:Tm}
 \end{equation}
 
-A equação \ref{eq:Tens} é reescrita como,
+A Equação \ref{eq:Tens} é reescrita como,
 
 \begin{equation}
 i = \frac{V - V_{emf}}{R}
 \label{eq:I}
 \end{equation}
 
-Ao substituir i na equação \ref{eq:Torq}, com a equação \ref{eq:I} e substituindo o V$_{emf}$ pela equação \ref{eq:Vemf}, obtemos uma expressão igual à equação \ref{eq:Tm}, mostrado a seguir.
+Ao substituir i na Equação \ref{eq:Torq}, com a Equação \ref{eq:I} e substituindo o V$_{emf}$ pela equação \ref{eq:Vemf}, obtemos uma expressão igual à Equação \ref{eq:Tm}, mostrado a seguir.
 
 \begin{equation}
 T_{m} = k_{T} \times i = k_{T} \times \frac{V - V_{emf}}{R} = k_{T} \times \frac{ V - k_{E} \times \omega_{w} }{R} = I_{w} \times \dot{\omega}_{w} + B \times \omega_{w}
 \label{eq:Subst}
 \end{equation}
 
-A expressão \ref{eq:Subst} é reescrita como,
+A Equação \ref{eq:Subst} é reescrita como,
 
 \begin{equation}
 \frac{k_{T}}{R} \times V = I_{w} \times \dot{\omega}_{w} + \frac{(R \times B + k_{E} \times k_{T}) \times \omega_{w} }{R}
 \label{eq:ReWrite}
 \end{equation}
 
-Isola-se então o $\omega_{w}$ da equação \ref{eq:ReWrite}, obtendo.
+Isola-se então o $\omega_{w}$ da Equação \ref{eq:ReWrite}, obtendo.
 
 \begin{equation}
 \left( \frac{k_{T}}{R \times B + k_{E} \times k_{T}} \right) \times V = \left( \frac{R \times I_{w}}{R \times B + k_{E} \times k_{T}} \right) \times \dot{\omega}_{w} + \omega_{w}
 \label{eq:ReW}
 \end{equation}
 
-Da equação \ref{eq:ReW}, é possível observar que os valores em parênteses são constantes. Portanto, a equação pode ser reescrita da seguinte forma,
+Da Equação \ref{eq:ReW}, é possível observar que os valores em parênteses são constantes. Portanto, a equação pode ser reescrita da seguinte forma,
 
 \begin{equation}
 C \times V = \tau \times \dot{\omega}_{w} + \omega_{w}
 \label{eq:RWDM}
 \end{equation}
 
-Onde C e $\tau$ são constantes. Portanto, a equação \ref{eq:RWDM} é o modelo dinâmico do conjunto roda de reação e motor \cite{Ericksson}.
+Onde C e $\tau$ são constantes. Portanto, a Equação \ref{eq:RWDM} é o modelo dinâmico do conjunto roda de reação e motor \cite{Ericksson}.
+
+\subsubsection{Sistema}
+
+
 
 \subsection{Controle}
 
@@ -816,7 +1061,7 @@ Onde C e $\tau$ são constantes. Portanto, a equação \ref{eq:RWDM} é o modelo
 % ----------------------------------------------------------
 \chapter[Protótipo]{Protótipo}
 
-
+Nesta seção está a descrição de como foi feito o protótipo do CubeSat. Desde os elementos individuais, como as rodas de reação, suportes dos motores, estruturas mecânicas e placas eletrônicas, até o CubeSat como um todo.
 
 \section{Rodas de reação}
 
@@ -835,18 +1080,22 @@ Os protótipos das rodas de reação foram feitos em um torno CNC (, )pela empre
 
 \section{Suporte do motor}
 
-Para uma pré validação do projeto do suporte do motor, foi feito um modelo impresso em uma impressora 3D (Cliever, Porto Alegre, RS), como mostrado a seguir na Figura . Esse modelo foi usado para garantir o batimento dos furos do suporte com os do motor.
+Para uma pré validação do projeto do suporte do motor, foi feito um modelo impresso em uma impressora 3D (Cliever, Porto Alegre, RS), como mostrado a seguir na Figura \ref{fig:ProtoMSP}. Esse modelo foi usado para garantir o batimento dos furos do suporte com os do motor.
 
-%\begin{figure}[th]
-%	\caption{Protótipo em resina do suporte do motor}
-%	\centering
-%	\includegraphics[width=0.7\linewidth]{./figs/}
-%	
-%	\begin{small}
-%		FONTE: Arquivo dos autores
-%	\end{small}
-%	\label{fig:ProtoMSP}
-%\end{figure}
+%\newpage
+
+\begin{figure}[th]
+	\caption{Protótipo em resina do suporte do motor}
+	\centering
+	\includegraphics[width=0.5\linewidth]{./figs/Proto_3D}
+	
+	\begin{small}
+		FONTE: Arquivo dos autores
+	\end{small}
+	\label{fig:ProtoMSP}
+\end{figure}
+
+%\newpage
 
 Uma vez validado, foi mandado fazer um modelo em metal, através do corte por máquina de corte laser (, ) e dobra, através de uma dobradeira (, ). Esse modelo é mostrado a seguir, na Figura .
 
@@ -863,12 +1112,12 @@ Uma vez validado, foi mandado fazer um modelo em metal, através do corte por m�
 
 \section{Estrutura mecânica}
 
-Um primeiro protótipo da estrutura mecânica foi fabricado na oficina mecânica da Mauá para que pudessem ser feitos os primeiros testes de encaixe, tanto da própria estrutura quanto das placas de circuito eletrônico. A seguir, a estrutura montada na Figura \ref{fig:ProtooneF}.
+Um primeiro protótipo da estrutura mecânica foi fabricado na oficina mecânica da Mauá para que pudessem ser feitos os primeiros testes de encaixe, tanto da própria estrutura quanto das placas de circuito eletrônico. A seguir, na Figura \ref{fig:ProtooneF}, a estrutura montada.
 
 \begin{figure}[ht]
 	\caption{Primeiro protótipo do CubeSat fechado}
 	\centering
-	\includegraphics[width=0.7\linewidth]{./figs/PrototypeOne_Full}
+	\includegraphics[width=0.5\linewidth]{./figs/PrototypeOne_Full}
 	
 	\begin{small}
 		FONTE: Arquivo dos autores
@@ -878,18 +1127,22 @@ Um primeiro protótipo da estrutura mecânica foi fabricado na oficina mecânica
 
 \newpage
 
-Com duas chapas de fechamento removidas a seguir, na Figura \ref{fig:Protoone}.
+Com três chapas de fechamento removidas a seguir, na Figura \ref{fig:Protoone}.
+
+%\newpage
 
 \begin{figure}[ht]
-	\caption{Primeiro protótipo do CubeSat com duas chapas de fechamento removidas}
+	\caption{Primeiro protótipo do CubeSat com três chapas de fechamento removidas}
 	\centering
-	\includegraphics[width=0.7\linewidth]{./figs/PrototypeOne}
+	\includegraphics[width=0.5\linewidth]{./figs/PrototypeOne}
 	
 	\begin{small}
 		FONTE: Arquivo dos autores
 	\end{small}
 	\label{fig:Protoone}
 \end{figure}
+
+%\newpage
 
 Posteriormente, foram feitos ajustes nos desenhos em CAD e uma nova versão foi feita. As partes de chapas foram feitas em máquinas de corte laser e dobradas, caso necessário, por uma empresa especializada. As outras partes foram feitas em um centro de usinagem (, ) no laboratório de usinagem da Mauá. O modelo finalizado sem as chapas de fechamento a seguir, na Figura .
 
@@ -903,6 +1156,10 @@ Posteriormente, foram feitos ajustes nos desenhos em CAD e uma nova versão foi 
 %	\end{small}
 %	\label{fig:ProtoTwo}
 %\end{figure}
+
+\section{Placas eletrônicas}
+
+
 
 % ----------------------------------------------------------
 % RESULTADOS E DISCUSSÕES
@@ -928,13 +1185,24 @@ Posteriormente, foram feitos ajustes nos desenhos em CAD e uma nova versão foi 
 % Imprime uma página indicando o início dos apêndices
 \partapendices
 % ---
-\chapter{Desenho do suporte do motor}
-
-
 
 \chapter{Desenho da roda de reação}
 
+\includepdf[pages=-]{./pdfs/Cubesat-Reaction-Wheel}
 
+\label{ap:RW}
+
+\chapter{Desenho do suporte do motor}
+
+\includepdf[pages=-]{./pdfs/Cubesat-Struct-Int-Motor-Suport}
+
+\label{ap:MS}
+
+\chapter{Desenho da base de testes}
+
+%\includepdf[pages=-]{./pdfs/}
+
+\label{ap:TB}
 
 \end{apendicesenv}
 
@@ -947,9 +1215,22 @@ Posteriormente, foram feitos ajustes nos desenhos em CAD e uma nova versão foi 
 % Imprime uma página indicando o início dos anexos
 \partanexos
 % ---
-\chapter{Página do catálogo do motor brushless 351100 da Maxon}
+\chapter{Página do catálogo do motor \textit{brushless} 351100 da Maxon}
 
-\includepdf[pages=-]{./pdfs/351100.pdf}
+\includepdf[pages=-]{./pdfs/351100}
+
+\label{an:MM}
+
+\chapter{Desenho da estrutura mecânica do CubeSat}
+
+\label{an:MS}
+
+\includepdf[pages=-]{./pdfs/Cubesat-Struct-Ext-Shell-Side-1U}
+\includepdf[pages=-]{./pdfs/Cubesat-Struct-Ext-Shell-Top}
+\includepdf[pages=-]{./pdfs/Cubesat-Struct-Int-Frame-Side01}
+\includepdf[pages=-]{./pdfs/Cubesat-Struct-Int-Frame-Side02}
+\includepdf[pages=-]{./pdfs/Cubesat-Struct-Int-Frame-Top}
+\includepdf[pages=-]{./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf}
 
 \end{anexosenv}
 

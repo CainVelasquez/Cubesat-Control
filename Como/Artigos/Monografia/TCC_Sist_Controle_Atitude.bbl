@@ -72,6 +72,12 @@ Reston, 2008. 59~p.}
   On-Orbit Experience}.
 Huntington Beach, 2007. 9~p.}
 
+\bibitem{PlanetLabs}
+\abntrefinfo{Microchip Technology}{MICROCHIP TECHNOLOGY}{2015}
+{MICROCHIP TECHNOLOGY. \emph{Welcome to your planet - Planet Labs}.
+[S.l.], 2015. Dispon{\'\i}vel em: \url{https://www.planet.com/}. Acesso em: 06
+  de julho de 2015.}
+
 \bibitem{AAUSAT}
 \abntrefinfo{Aalborg University}{AALBORG UNIVERSITY}{2014}
 {AALBORG UNIVERSITY. \emph{AAUSAT4}.
@@ -140,6 +146,30 @@ São José dos Campos, 2014. 308~p.}
 {SPARKFUN. \emph{HMC6343}.
 [S.l.], 2015. Dispon{\'\i}vel em:
   \url{https://www.sparkfun.com/products/12916}. Acesso em: 16 de maio de
+  2015.}
+
+\bibitem{STATEOFART}
+\abntrefinfo{National Aeronautics and Space Administration (NASA)}{NATIONAL
+  AERONAUTICS AND SPACE ADMINISTRATION (NASA)}{2014}
+{NATIONAL AERONAUTICS AND SPACE ADMINISTRATION (NASA). \emph{Small Spacecraft
+  Technology State of the Art}.
+[S.l.], 2014. Dispon{\'\i}vel em:
+  \url{https://www.nasa.gov/sites/default/files/files/Small\_Spacecraft\_Technology\_State\_of\_the\_Art\_2014.pdf}.
+  Acesso em: 25 de julho de 2015.}
+
+\bibitem{dsPIC33EP}
+\abntrefinfo{Microchip Technology}{MICROCHIP TECHNOLOGY}{2015}
+{MICROCHIP TECHNOLOGY. \emph{dsPIC33EPXXXGP50X, dsPIC33EPXXXMC20X/50X and
+  PIC24EPXXXGP/MC20X}.
+[S.l.], 2015. Dispon{\'\i}vel em:
+  \url{http://ww1.microchip.com/downloads/en/DeviceDoc/70000657H.pdf}. Acesso
+  em: 27 de julho de 2015.}
+
+\bibitem{DRV8313}
+\abntrefinfo{Texas Instruments}{TEXAS INSTRUMENTS}{2015}
+{TEXAS INSTRUMENTS. \emph{LDRV8313 Triple Half-H-Bridge Driver IC}.
+[S.l.], 2015. Dispon{\'\i}vel em:
+  \url{http://www.ti.com/lit/ds/symlink/drv8313.pdf}. Acesso em: 22 de julho de
   2015.}
 
 \bibitem{Luka}
