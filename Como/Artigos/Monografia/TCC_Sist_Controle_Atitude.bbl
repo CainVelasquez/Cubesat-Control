@@ -5,6 +5,15 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.5 }
 
+\bibitem{NASA}
+\abntrefinfo{National Aeronautics and Space Administration (NASA)}{NATIONAL
+  AERONAUTICS AND SPACE ADMINISTRATION (NASA)}{2011}
+{NATIONAL AERONAUTICS AND SPACE ADMINISTRATION (NASA). \emph{CubeSat ELaNa III
+  Launch on NPP Mission}.
+[S.l.], 2011. Dispon{\'\i}vel em:
+  \url{http://www.nasa.gov/directorates/heo/home/CubeSats\_initiative.html\#.VQyA-\_nF-6w}.
+  Acesso em: 20 de março de 2015.}
+
 \bibitem{CalPoly}
 \abntrefinfo{California Polytechnic State University}{CALIFORNIA POLYTECHNIC
   STATE UNIVERSITY}{2014}
