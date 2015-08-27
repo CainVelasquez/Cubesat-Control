@@ -131,7 +131,7 @@ William Mazi}
 		pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico}, 
 		colorlinks=true,       		% false: boxed links; true: colored links
     	linkcolor=black,          	% color of internal links
-    	citecolor=black,        		% color of links to bibliography
+    	citecolor=black,        	% color of links to bibliography
     	filecolor=black,      		% color of file links
 		urlcolor=black,
 		bookmarksdepth=4 
@@ -467,7 +467,7 @@ Este estudo servirá de base para o desenvolvimento de futuros CubeSats com melh
 
 \chapter[Revisão literária]{Revisão literária}
 
-Como um guia para o trabalho, foi feito uma pesquisa literária sobre a qual o trabalho se baseou. Esta etapa da pesquisa tornou possível observar quem são os países que desenvolvem CubeSat's, como é utilizado ao redor do mundo e como o Brasil está em relação ao restante.
+Como um guia para o trabalho, foi feito uma pesquisa literária sobre a qual o trabalho se baseou. Esta etapa da pesquisa tornou possível observar quem são os países que desenvolvem CubeSats, como é utilizado ao redor do mundo e como o Brasil está em relação ao restante.
 
 \section[Origem]{Origem}
 
@@ -521,7 +521,7 @@ Como a determinação de atitude não é objeto de estudo deste trabalho, não s
 \begin{figure}[th]
 	\caption{IMU utilizada}
 	\centering
-	\includegraphics[width=0.6\linewidth]{./figs/IMU-HMC6343}
+	\includegraphics[width=0.5\linewidth]{./figs/IMU-HMC6343}
 	
 	\begin{small}
 		FONTE: \cite{IMU}
@@ -535,16 +535,45 @@ O objetivo do conjunto de circuitos eletrônicos é possibilitar o controle de v
 
 As soluções de hardware que satisfazem os requisitos de desempenho para um Cubesat são abundantes no mercado internacional \cite{STATEOFART}. Desta forma os critérios de escolha muitas vezes são o custo, o risco e a disponibilidade dos itens no fabricante.
 
-
 \subsubsection{Microcontrolador}
 
-A capacidade de processamento que um satélite precisa já está disponível no mercado. A velocidade típica de um processador para um Cubesat é de aproximadamente 30 MIPS. Além do tamanho dos componentes, sempre é necessário um cuidado especial com o consumo de energia \cite{STATEOFART}.
+A capacidade de processamento que um satélite precisa já está disponível no mercado. A velocidade recomendada de um processador para um CubeSat é de aproximadamente 30 MIPS. Além do tamanho dos componentes, sempre é necessário um cuidado especial com o consumo de energia \cite{STATEOFART}.
 
-Os microprocessadores selecionados foram da família dsPIC33EP (Microchip, EUA). Eles possuem capacidade de processamento de 60 MIPS operando de $-40^{\circ}$C até $+125^{\circ}$C. Possuem modo de gerenciamento de baixo consumo de energia, módulo DSP, que consiste em um multiplicador de alta velocidade capaz de realizar multiplicações com 17 bits e somas ou subtrações com 40 bits. Seu diferencial para controle de motores BLDC aparece em seus três módulos independentes de PWM de alta velocidade, que podem gerar disparos ao modulo ADC. Outra ferramenta que será utilizada no controle do motor é o \textit{Input Capture}, que é utilizado em aplicações que requerem medidas de períodos e frequências \cite{dsPIC33EP}. Todas essas ferramentas serão compiladas no ambiente MPLAB X IDE utilizando o compilador XC16, ambos do fabricante.
+Os microprocessadores selecionados foram da família dsPIC33EP. Eles possuem capacidade de processamento de 60 MIPS operando de $-40^{\circ}$C até $+125^{\circ}$C. Possuem modo de gerenciamento de baixo consumo de energia, módulo DSP, que consiste em um multiplicador de alta velocidade capaz de realizar multiplicações com 17 bits e somas ou subtrações com 40 bits. Seu diferencial para controle de motores BLDC aparece em seus três módulos independentes de PWM de alta velocidade, que podem gerar disparos ao modulo ADC. Outra ferramenta que será utilizada no controle do motor é o \textit{Input Capture}, que é utilizado em aplicações que requerem medidas de períodos e frequências \cite{dsPIC33EP}. Todas essas ferramentas serão compiladas no ambiente MPLAB X IDE utilizando o compilador XC16, ambos do fabricante Microchip.
+
+O microcontrolador utilizado na placa de controle é o dsPIC33EP32MC502 (Microchip, EUA) onde o seu circuito é apresentado na Figura \ref{fig:dsPIC502} a seguir. 
+
+\begin{figure}[th]
+	\caption{Microcontrolador dsPIC33EP32MC502}
+	\centering
+	\includegraphics[height=1.2\linewidth]{./figs/dsPIC_master}
+	
+	\begin{small}
+		FONTE: Arquivo dos autores
+	\end{small}
+	\label{fig:dsPIC502}
+\end{figure} 
+
+\newpage
+
+O microcontrolador utilizado na placa de acionamento do motor é o dsPIC33EP32MC202 (Microchip, EUA) onde o seu circuito é apresentado na Figura \ref{fig:dsPIC202} a seguir.
+
+\begin{figure}[th]
+	\caption{Microcontrolador dsPIC33EP32MC202}
+	\centering
+	\includegraphics[height=1.2\linewidth]{./figs/dsPIC_motores}
+	
+	\begin{small}
+		FONTE: Arquivo dos autores
+	\end{small}
+	\label{fig:dsPIC202}
+\end{figure} 
+
+\newpage
 
 \subsubsection{\textit{Driver} de acionamento do motor}
 
-Para o acionamento do motor foi selecionado o cicuito integrado DRV8313 (Texas Instruments, EUA). O DRV8313 possui três meias pontes H que suportam $2.5A$ de corrente de pico e podem alimentar o motor com tensões de $8$ a $60V$ além de possuir circuítos de proteção contra sobre-corrente, curto circuíto e subtenção.\cite{DRV8313}. O driver destina-se a aplicações de acinamento de motores BLDC de três fases, mas pode ser utilizado também para acionamento de solenoides. Possui a funcionalidade de \textit{sleep mode}, que pode ser ativada quando não é preciso fazer controle de velocidade do motor e auxilia no consumo de energia e por fim pode reportar falhas em sua operação através do pino FAULT, conforme a Figura \ref{fig:Driver} a seguir.
+Para o acionamento do motor foi selecionado o circuito integrado DRV8313 (Texas Instruments, EUA). O DRV8313 possui três meias pontes H que suportam $2.5A$ de corrente de pico e podem alimentar o motor com tensões de $8$ a $60V$ além de possuir circuitos de proteção contra sobre-corrente, curto circuito e subtenção.\cite{DRV8313}. O driver destina-se a aplicações de acionamento de motores BLDC de três fases, mas pode ser utilizado também para acionamento de solenoides. Possui a funcionalidade de \textit{sleep mode}, que pode ser ativada quando não é preciso fazer controle de velocidade do motor e auxilia no consumo de energia e por fim pode reportar falhas em sua operação através do pino \textit{FAULT}, conforme a Figura \ref{fig:Driver} a seguir.
 
 \begin{figure}[th]
 	\caption{Driver DRV8313}
@@ -557,13 +586,50 @@ Para o acionamento do motor foi selecionado o cicuito integrado DRV8313 (Texas I
 	\label{fig:Driver}
 \end{figure}
 
-\newpage
+%\newpage
 
 \subsubsection{Interfaces e Barramentos}
 
 Enquanto os famosos \textit{Universal Serial Bus} (USB) e o \textit{Controller Area Network} (CAN) são protocolos de comunicação usados esporadicamente, o protocolo I$^{2}$C aparece como o barramento mais utilizado para nano satélites, devido ao seu baixo consumo de energia, além de estar disponível na maioria dos microcontroladores. Outros tipos de interfaces para diferentes tipos de fluxo de dados são desejáveis. \cite{STATEOFART}
 
-Desta forma foi selecionado duas redes I$^{2}$C independetes no conjunto: uma para comunicação entre controlador principal e sensor IMU e outra rede para comunicação entre microprocessadores. Também estão disponíveis no conjunto uma interface CAN e uma USART – \textit{Universal Synchronous/Asynchronous Receiver/Transmitter}.
+O barramento de comunicação da placa de controle é composto por duas redes I$^{2}$C, uma para a comunicação com a IMU e outra para a comunicação com os outros microcontroladores. Também estão disponíveis no conjunto uma interface CAN e uma USART – \textit{Universal Synchronous/Asynchronous Receiver/Transmitter} além de interface ICSP – \textit{In-Circuit Serial Programming} para a programação do microcontrolador. O circuito do barramento de comunicação é apresentado na Figura \ref{fig:Barra_pino_master} a seguir.
+
+\begin{figure}[th]
+	\caption{Barramento de comunicação}
+	\centering
+	\includegraphics[width=0.8\linewidth]{./figs/Barra_pino_master}
+	
+	\begin{small}
+		FONTE: Arquivo dos autores
+	\end{small}
+	\label{fig:Barra_pino_master}
+\end{figure}
+
+A placa de controle é responsável também por receber a alimentação $12V$ da bateria e distribuir para as outras placas através de seu barramento de alimentação conforme apresentado na Figura\ref{fig:Barra_pino_alimentacao_master} a seguir.
+
+\begin{figure}[th]
+	\caption{Barramento de alimentação}
+	\centering
+	\includegraphics[width=0.8\linewidth]{./figs/Barra_pino_alimentacao_master}
+	
+	\begin{small}
+		FONTE: Arquivo dos autores
+	\end{small}
+	\label{fig:Barra_pino_alimentacao_master}
+\end{figure} 
+
+No barramento de comunicação da placa de acionamento do motor, existe interface para comunicação I$^{2}$C, alimentação e interface ICSP – \textit{In-Circuit Serial Programming} para programação do microcontrolador. A seguir na Figura\ref{fig:Barra_pino_motores} é apresentado o barramento.
+
+\begin{figure}[th]
+	\caption{Barramento da placa de motor}
+	\centering
+	\includegraphics[width=0.8\linewidth]{./figs/Barra_pino_motores}
+	
+	\begin{small}
+		FONTE: Arquivo dos autores
+	\end{small}
+	\label{fig:Barra_pino_motores}
+\end{figure} 
 
 \subsubsection{Medidor de corrente}
 
@@ -582,7 +648,7 @@ O valor dessa tensão é muito pequeno, variando de $0$ até $243mV$ quando o mo
 	\label{fig:Medidor_corrente}
 \end{figure}
 
-\newpage
+%\newpage
 
 Como pode ser observado na imagem, existe um filtro com frequência de corte de $482Hz$ com o objetivo de filtrar pequenos ruídos e a forma de onda do PWM, pois estes também serão amplificados se não filtrados, prejudicando a medição da tensão.
 
@@ -625,6 +691,83 @@ A placa de controle é responsável por receber os dados da IMU, processar esse 
 
 A placa de acionamento dos motores é responsável por receber o \textit{set point} da placa de controle, fazer o controle da ordem de acionamento das bobinas do motor através dos sensores de efeito Hall, medir a corrente que está passando pelo motor, processar a lei de controle e acionar o motor. A placa de acionamento possui um regulador de tensão, um divisor de tensão, um circuito medidor de corrente, barramento de comunicação e barramento de alimentação.  A placa de circuito eletrônico pode ser vista no Apêndice \ref{ap:PMotor}.
 
+\subsubsubsection{Lista de componentes}
+
+A seguir, na Tabela \ref{tab:CompElet}, a lista de componentes usados na confecção de ambas as placas. Nos locais onde há um asterisco indicado, o componente é compartilhado entre ambas as placas.
+
+\begin{table}[h]
+	\caption{Lista de componentes eletrônicos}
+		\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		\textbf{Descrição} & \textbf{Quantidade} & \textbf{Quantidade}\\
+		  & \textbf{placa motor} & \textbf{placa controle} \\
+		\hline 
+		Regulador de tensão REG1117 & 1 & 1 \\ 
+		\hline 
+		Conector  1-84953-1 & 1 & \\ 
+		\hline 
+		Resistor shunt $0,5\Omega$, $1W$, 1\% & 1 & \\
+		\hline 
+		Amplificador operacional LMV358 & 1 & \\
+		\hline 
+		Circuito integrado DRV8313 & 1 & \\
+		\hline 
+		Microcontrolador dsPIC33EP32MC502 & 1 & 1 \\
+		\hline 
+		Capacitor eletrolítico $47\mu F$ & 4 & 4 \\
+		\hline
+		Capacitor eletrolítico $10\mu F$ & 1 & \\
+		\hline
+		Capacitor cerêmico $0,1\mu F$ & 7 & 2 \\
+		\hline
+		Capacitor cerêmico $33pF$ & 5 & 2 \\
+		\hline
+		Capacitor de tântalo $10\mu F$ & 1 & 1 \\
+		\hline
+		Resistor $100\Omega$ & 2 & 1 \\
+		\hline
+		Resistor $1k\Omega$ & 1 & \\
+		\hline
+		Resistor $3k3\Omega$ & 1 & \\
+		\hline
+		Resistor $4k7\Omega$ & 3 & \\
+		\hline
+		Resistor $5k6\Omega$ & 1 & 1 \\
+		\hline
+		Resistor $10k\Omega$ & 1 & 4 \\
+		\hline
+		Resistor $62k\Omega$ & 3 & \\
+		\hline
+		Resistor $150k\Omega$ & 3 & \\
+		\hline
+		Led branco & 1 & 1 \\
+		\hline
+		Led verde & 1 & \\
+		\hline
+		Cristal $10MHz$ & 1 & 1 \\
+		\hline
+		Barra de pino 20x2 & 1 & 3 \\
+		\hline
+		Bateria $1300mAh$ & 1 & * \\
+		\hline
+		Conector XT60 fêmea & 1 & * \\
+		\hline
+		Módulo bluetooth HM-10 & 1 & * \\
+		\hline
+		Cabinho jumper & 60 & * \\
+		\hline
+	\end{tabular}
+	
+	\begin{small}
+	\vspace{3pt}	
+	FONTE: Dos autores
+	\end{small}
+	\label{tab:CompElet}
+\end{table}
+
+\newpage
+
 \subsection{Atuadores}
 
 O controle de atitude é feito através de atuadores que variam e muito de aplicação em aplicação. O controle é dividido em duas categorias, controle passivo e controle ativo. O controle passivo é todo aquele em que o posicionamento do satélite é feito através da tendência do mesmo em ficar em uma determinada posição. Isso significa que o satélite não pode mudar seu posicionamento, isso é definido na fase de projeto e não pode ser alterado. É usado apenas quando não há necessidade de controlar o posicionamento dele. Pode ser feito por gradiente de gravidade ou alinhamento das linhas de campo magnético. Já controle ativo é quando o posicionamento do satélite importa e precisa ser alterado. Pode ser feito através da estabilização por rotação, propulsão ou estabilização dos três eixos \cite{FrancLav}.
@@ -636,7 +779,7 @@ O método de alinhamento por campo magnético é um pouco mais sofisticado, nele
 \begin{figure}[th]
 	\caption{Alinhamento por campo magnético}
 	\centering
-	\includegraphics[width=0.8\linewidth]{./figs/Mag_Field}
+	\includegraphics[width=0.7\linewidth]{./figs/Mag_Field}
 	
 	\begin{small}
 		FONTE: \cite{FrancLav}
@@ -644,7 +787,7 @@ O método de alinhamento por campo magnético é um pouco mais sofisticado, nele
 	\label{fig:Mag_Field}
 \end{figure}
 
-\newpage
+%\newpage
 
 O método da estabilização por rotação é uma melhoria do método passivo por alinhamento. Nele, o satélite permanece apontado para uma posição fixa e rotaciona ao redor do eixo principal. Apesar do controle não permitir mudanças bruscas no apontamento do eixo principal, que assim como o método passivo, deve ser definido durante a fase de projeto, essa rotação cria uma inércia que o torna robusto a perturbações, aumentando a precisão do apontamento \cite{FrancLav}.
 
@@ -653,7 +796,7 @@ O método da propulsão é muito pouco utilizado em CubeSats. Consiste em jatos 
 \begin{figure}[th]
 	\caption{Controle através de propulsão}
 	\centering
-	\includegraphics[width=0.8\linewidth]{./figs/Propulsion}
+	\includegraphics[width=0.7\linewidth]{./figs/Propulsion}
 	
 	\begin{small}
 		FONTE: \cite{Prop}
@@ -661,7 +804,7 @@ O método da propulsão é muito pouco utilizado em CubeSats. Consiste em jatos 
 	\label{fig:Propulsion}
 \end{figure}
 
-\newpage
+%\newpage
 
 O método da estabilização dos três eixos é o método mais comumente utilizado, já que é versátil e usa pouco espaço, além de ser o mais eficiente. Ele se baseia na terceira Lei de Newton, que diz: \textit{''Para toda ação, há sempre uma reação oposta e de igual intensidade''}. Isso significa que se há uma massa acelerando presa ao satélite, ela irá forçar o mesmo a girar na direção oposta. Quanto maior o valor dessa massa, mais influência ela terá sobre o sistema \cite{Ericksson}. As rodas de reação fazem o papel dessa massa ao serem fixadas ao eixo de motores (normalmente \textit{brushless}) e dispostos cada um em um eixo, possibilitando realizar manobras de rolagem (\textit{roll} ou X), arfagem (\textit{pitch} ou Y) e guinada (\textit{yaw} ou Z). Um exemplo desse conjunto de motor e roda de reação é mostrado a seguir, na Figura \ref{fig:SRW}.
 
@@ -676,7 +819,7 @@ O método da estabilização dos três eixos é o método mais comumente utiliza
 	\label{fig:SRW}
 \end{figure}
 
-%\newpage 
+\newpage 
 
 Há ainda dois tipos de controle através desse método, um com quatro e outro com três conjuntos motor-roda de reação. O modelo que utiliza quatro conjuntos possui controle mais complexo, uma vez que estes conjuntos são dispostos de forma que o somatório das rotações forma o torque desejado, como mostra a Figura \ref{fig:ERW} a seguir. Este método é amplamente utilizado pois caso um dos motores pare de funcionar, os outros três podem compensa-lo, aumentando a vida útil do satélite \cite{Ericksson}.
 
@@ -691,12 +834,14 @@ Há ainda dois tipos de controle através desse método, um com quatro e outro c
 	\label{fig:ERW}
 \end{figure}
 
+\newpage
+
 Já o modelo de três conjuntos motor-roda de reação é mais simples, cada conjunto atua diretamente em um eixo, controlando-o diretamente, como mostrado a seguir pela Figura \ref{fig:3RW}. Sua maior desvantagem é que caso um dos motores pare de funcionar, o movimento do satélite no eixo correspondente também cessa. Esse é o método adotado e explorado nesse trabalho.
 
 \begin{figure}[th]
 	\caption{Modelo com três conjuntos motor-roda de reação}
 	\centering
-	\includegraphics[width=0.7\linewidth]{./figs/3RW}
+	\includegraphics[width=0.6\linewidth]{./figs/3RW}
 	
 	\begin{small}
 		FONTE: \cite{3RW}
@@ -704,14 +849,14 @@ Já o modelo de três conjuntos motor-roda de reação é mais simples, cada con
 	\label{fig:3RW}
 \end{figure}
 
-\newpage
+%\newpage
 
 Para integração do motor adotado com a roda de ação, foi criado um conjunto padrão que consiste em um suporte para o motor, o motor e a roda de reação. Foi utilizado um desses conjuntos em cada um dos eixos correspondentes ao \textit{roll}, \textit{pitch} e \textit{yaw} como mostrado na Figura \ref{fig:MotSet} a seguir.
 
 \begin{figure}[th]
 	\caption{Conjunto para acoplamento do motor ao CubeSat}
 	\centering
-	\includegraphics[width=0.69\linewidth]{./figs/Motor_Set}
+	\includegraphics[width=0.7\linewidth]{./figs/Motor_Set}
 	
 	\begin{small}
 		FONTE: Arquivo dos autores
@@ -770,7 +915,7 @@ O tamanho do motor também é um fator limitante pois o espaço dentro de um Cub
 \begin{figure}[th]
 	\caption{Motor Maxon 351100, a moeda serve para referência quanto às dimensões}
 	\centering
-	\includegraphics[width=0.8\linewidth]{./figs/Maxon_351100}
+	\includegraphics[width=0.6\linewidth]{./figs/Maxon_351100}
 	
 	\begin{small}
 		FONTE: Arquivo dos autores
@@ -780,7 +925,7 @@ O tamanho do motor também é um fator limitante pois o espaço dentro de um Cub
 
 \newpage
 
-O motor que melhor atende a todos estes requisitos e portanto o utilizado neste trabalho é o motor \textit{brushless} modelo 351100, da Maxon. O catálogo com as especificações técnicas deste motor encontram-se no Anexo \ref{an:MM}.
+O motor que melhor atende a todos estes requisitos e portanto o utilizado neste trabalho é o motor \textit{brushless} modelo 351100 (Maxon, Suíça). O catálogo com as especificações técnicas deste motor encontram-se no Anexo \ref{an:MM}.
 
 O motor já estava definido e disponível no início do projeto pelo NSEE (Núcleo de Sistemas Eletrônicos Embarcados) como um dos objetivos do estudo, validando o uso de um motor \textit{brushless} de $3W$.
 
@@ -824,7 +969,7 @@ Para suportar o motor, foi desenvolvido um protótipo genérico obedecendo as fu
 \begin{figure}[th]
 	\caption{Suporte do motor}
 	\centering
-	\includegraphics[width=0.5\linewidth]{./figs/Motor_Sup}
+	\includegraphics[width=0.45\linewidth]{./figs/Motor_Sup}
 	
 	\begin{small}
 		FONTE: Arquivo dos autores
@@ -832,9 +977,9 @@ Para suportar o motor, foi desenvolvido um protótipo genérico obedecendo as fu
 	\label{fig:MS}
 \end{figure}
 
-São usados três suportes, um para cada motor. Eles foram fabricados com chapas de alumínio de $1mm$ de espessura através de uma máquina de corte a laser e então dobrados. O peso ficou igual a $ kg$.
+\newpage
 
-%\newpage
+São usados três suportes, um para cada motor. Eles foram fabricados com chapas de alumínio de $1mm$ de espessura através de uma máquina de corte a laser e então dobrados. O peso ficou igual a $2,3g$.
 
 \subsection{Estrutura mecânica}
 
@@ -843,7 +988,7 @@ A estrutura mecânica do CubeSat foi projetada seguindo os padrões indicados pe
 \begin{figure}[th]
 	\caption{Estrutura do CubeSat}
 	\centering
-	\includegraphics[width=0.7\linewidth]{./figs/Frame}
+	\includegraphics[width=0.5\linewidth]{./figs/Frame}
 	
 	\begin{small}
 		FONTE: Arquivo dos autores
@@ -858,7 +1003,7 @@ A estrutura mecânica é composta por uma estrutura principal, responsável por 
 \begin{figure}[th]
 	\caption{CubeSat montado}
 	\centering
-	\includegraphics[width=0.7\linewidth]{./figs/Frame_Full}
+	\includegraphics[width=0.5\linewidth]{./figs/Frame_Full}
 	
 	\begin{small}
 		FONTE: Arquivo dos autores
@@ -917,13 +1062,15 @@ A estrutura da base foi desenvolvida em alumínio, visando não adicionar influe
 \begin{figure}[th]
 	\caption{Base de teste}
 	\centering
-	\includegraphics[width=0.7\linewidth]{./figs/Test_Base}
+	\includegraphics[width=0.6\linewidth]{./figs/Test_Base}
 	
 	\begin{small}
 		FONTE: Arquivo dos autores
 	\end{small}
 	\label{fig:ProtoTB}
 \end{figure}
+
+\newpage
 
 A parte superior foi feita de forma que o CubeSat encaixe nela. Essa parte é acoplada em um eixo, apoiado sobre um rolamento axial de esferas 51100 (SKF, Cajamar, SP), e conectado na outra extremidade a um \textit{encoder}. O rolamento fica apoiado sobre o restante da estrutura que serve tanto para sustentar todo o sistema quanto dar apoio ao \textit{encoder} e à placa que adquire seus dados. As hastes de sustentação da estrutura são barras roscadas $M6$, que permitem um nivelamento da base sobre qualquer superfície, garantindo que a medição fique livre de interferências. A seguir, na Tabela \ref{tab:MatTB}, a lista de materiais necessários para fabricação e montagem da base de testes.
 
@@ -1000,7 +1147,18 @@ dh = \sqrt[4]{ \frac{64 \cdot 5 \cdot 240^{2} \cdot 3,212 \cdot 1,5 }{ \pi^{3} \
 
 Como o eixo adotado possui diâmetro de $6mm$, ele é maior que o diâmetro mínimo necessário para suportar a carga e portanto não flambe.
 
-Os desenhos de projeto das partes da base estão no Apêndice \ref{ap:TB}.
+Os desenhos de projeto das partes da base estão no Apêndice \ref{ap:TB}. A Figura , a seguir, mostra como ficou a base de teste.
+
+\begin{figure}[th]
+	\caption{Base de teste pronta}
+	\centering
+%	\includegraphics[width=0.6\linewidth]{./figs/Test_Base_Proto}
+	
+	\begin{small}
+		FONTE: Arquivo dos autores
+	\end{small}
+	\label{fig:ProtoTB}
+\end{figure}
 
 \subsubsection{Encoder}
 
@@ -1066,11 +1224,11 @@ Aplicando então a transformada de Laplace na Equação \ref{eq:ReWrite} e isola
 Da Equação \ref{eq:Lap}, é possível observar que o valor do denominador e o que multiplica o $s$ são constantes. Portanto, a equação pode ser reescrita da seguinte forma,
 
 \begin{equation}
-\frac{\Omega_{w}(s)}{V(s)} = \frac{\bar{k}}{\tau \cdot s +1}
+\frac{\Omega_{w}(s)}{V(s)} = \frac{k_{w}}{\tau_{w} \cdot s +1}
 \label{eq:RWDM}
 \end{equation}
 
-Onde $\bar{k}$ e $\tau$ são constantes. Portanto, a Equação \ref{eq:RWDM} é o modelo dinâmico do conjunto roda de reação e motor escritos \cite{Ericksson}.
+Onde $k_{w}$ e $\tau_{w}$ são constantes. Portanto, a Equação \ref{eq:RWDM} é o modelo dinâmico do conjunto roda de reação e motor escritos \cite{Ericksson}.
 
 \subsubsection{Sistema}
 
@@ -1081,32 +1239,41 @@ M_{w} = M
 \label{eq:Newton}
 \end{equation}
 
-Onde $M_{w}$ é o momento torçor do conjunto e $M$ é o momento torçor do sistema. Pode-se considerar que a dinâmica do sistema é composta unicamente por uma inércia sujeita a um torque resistivo causado por um coeficiente de arraste. Ou seja, $M_{w}$ é causado pela inércia da roda de reação somada com a inércia do rotor do motor $I_{w}$ multiplicados pela aceleração angular $\dot{\omega}_{w}$, decrescido do coeficiente de arraste $C$ multiplicado pelo quadrado da velocidade angular $\omega_{w}^{2}$. Enquanto $M$ é a inércia do satélite $I$ multiplicado pela aceleração do sistema $\dot{\omega}$. Isso é demonstrado a seguir, na Equação \ref{eq:Moment}.
+Onde $M_{w}$ é o momento torçor do conjunto e $M$ é o momento torçor do sistema. Pode-se considerar que a dinâmica do sistema é composta unicamente por uma inércia sujeita a um torque resistivo causado por um coeficiente de atrito seco com o ar. Ou seja, $M_{w}$ é causado pela inércia da roda de reação somada com a inércia do rotor do motor $I_{w}$ multiplicados pela aceleração angular $\dot{\omega}_{w}$. Enquanto $M$ é a inércia do satélite $I$ multiplicado pela aceleração do sistema $\dot{\omega}$,  decrescido do coeficiente de atrito $C$ multiplicado pela velocidade angular $\omega$. Isso é demonstrado a seguir, na Equação \ref{eq:Moment}.
 
 \begin{equation}
-I_{w}\dot{\omega}_{w} - C\omega_{w}^{2} = I\dot{\omega}
+I_{w}\dot{\omega}_{w} = I\dot{\omega} - C\omega
 \label{eq:Moment}
 \end{equation}
 
+Reorganizando a equação, aplicando Laplace e isolando os termos de entrada (velocidade da roda de reação) sobre a saída (velocidade do satélite), obtemos a Equação \ref{eq:LapMom} mostrada a seguir.
+
 \begin{equation}
-G(s) = \frac{1}{Is + b}
+\frac{\Omega(s)}{\Omega(s)_{w}} = \frac{Iws}{Is - C}
+\label{eq:LapMom}
+\end{equation}
+
+Ao colocar um integrador na saída do sistema, obtemos a posição dele, que é a variável a ser controlada. Isso significa que a Equação \ref{eq:SDM} a seguir é o modelo dinâmico do sistema.
+
+\begin{equation}
+\frac{\Theta(s)}{\Omega(s)_{w}} = \frac{Iw}{Is - C}
 \label{eq:SDM}
 \end{equation}
 
 \subsection{Controle}
 
-Para fazer a equação de controle, foi feito o diagrama de blocos mostrado a seguir, na Figura .
+Para fazer a equação de controle, foi feito o diagrama de blocos mostrado a seguir, na Figura \ref{fig:Diagram}.
 
-%\begin{figure}[th]
-%	\caption{Diagrama de blocos do sistema}
-%	\centering
-%	\includegraphics[width=0.7\linewidth]{./figs/Proto_RW}
-%	
-%	\begin{small}
-%		FONTE: Arquivo dos autores
-%	\end{small}
-%	\label{fig:Diagram}
-%\end{figure}
+\begin{figure}[th]
+	\caption{Diagrama de blocos do sistema}
+	\centering
+%	\includegraphics[width=0.7\linewidth]{./figs/}
+	
+	\begin{small}
+		FONTE: Arquivo dos autores
+	\end{small}
+	\label{fig:Diagram}
+\end{figure}
 
 % ----------------------------------------------------------
 % PROTÓTIPO 
@@ -1117,7 +1284,7 @@ Nesta seção está a descrição de como foi feito o protótipo do CubeSat. Des
 
 \section{Rodas de reação}
 
-Os protótipos das rodas de reação foram feitos em um torno CNC (Baron-Max, Taiwan) pela empresa Rudloff. A seguir, na Figura \ref{fig:ProtoRW}, uma imagem de como ficaram.
+Os protótipos das rodas de reação foram feitos em aço 1020 em um torno CNC (Baron-Max, Taiwan) pela empresa Rudloff. A seguir, na Figura \ref{fig:ProtoRW}, uma imagem de como ficaram.
 
 \begin{figure}[th]
 	\caption{Modelo das rodas de reação}
@@ -1147,44 +1314,27 @@ Para uma pré validação do projeto do suporte do motor, foi feito um modelo im
 
 \newpage
 
-Uma vez validado, foi mandado fazer um modelo em metal, através do corte por máquina de corte laser (, ) e dobra, através de uma dobradeira (, ). Esse modelo é mostrado a seguir, na Figura .
+Uma vez validado, foi mandado fazer um modelo em alumínio, através do corte por máquina de corte laser (Bystronic, Suíça) e dobra, através de uma dobradeira (Bystronic, Suíça). Esse modelo é mostrado a seguir, na Figura \ref{fig:ProtoMS}.
 
-%\begin{figure}[th]
-%	\caption{Modelo em metal do suporte do motor}
-%	\centering
-%	\includegraphics[width=0.7\linewidth]{./figs/}
-%	
-%	\begin{small}
-%		FONTE: Arquivo dos autores
-%	\end{small}
-%	\label{fig:ProtoMS}
-%\end{figure}
-
-\section{Estrutura mecânica}
-
-Um primeiro protótipo da estrutura mecânica foi fabricado na oficina mecânica da Mauá para que pudessem ser feitos os primeiros testes de encaixe, tanto da própria estrutura quanto das placas de circuito eletrônico. A seguir, na Figura \ref{fig:ProtooneF}, a estrutura montada.
-
-\begin{figure}[ht]
-	\caption{Primeiro protótipo do CubeSat fechado}
+\begin{figure}[th]
+	\caption{Modelo em metal do suporte do motor}
 	\centering
-	\includegraphics[width=0.5\linewidth]{./figs/PrototypeOne_Full}
+	\includegraphics[width=0.5\linewidth]{./figs/Proto_MS}
 	
 	\begin{small}
 		FONTE: Arquivo dos autores
 	\end{small}
-	\label{fig:ProtooneF}
+	\label{fig:ProtoMS}
 \end{figure}
 
-\newpage
+\section{Estrutura mecânica}
 
-Com três chapas de fechamento removidas a seguir, na Figura \ref{fig:Protoone}.
-
-%\newpage
+Um primeiro protótipo da estrutura mecânica foi fabricado na oficina mecânica da Mauá para que pudessem ser feitos os primeiros testes de encaixe, tanto da própria estrutura quanto das placas de circuito eletrônico, inteira em alumínio. A seguir, na Figura \ref{fig:Protoone}, a estrutura montada. Foram deixadas três chapas de fechamento removidas para que fosse possível visualizar o interior do mesmo.
 
 \begin{figure}[ht]
 	\caption{Primeiro protótipo do CubeSat com três chapas de fechamento removidas}
 	\centering
-	\includegraphics[width=0.5\linewidth]{./figs/PrototypeOne}
+	\includegraphics[width=0.6\linewidth]{./figs/PrototypeOne}
 	
 	\begin{small}
 		FONTE: Arquivo dos autores
@@ -1194,18 +1344,18 @@ Com três chapas de fechamento removidas a seguir, na Figura \ref{fig:Protoone}.
 
 %\newpage
 
-Posteriormente, foram feitos ajustes nos desenhos em CAD e uma nova versão foi feita. As partes de chapas foram feitas em máquinas de corte laser e dobradas, caso necessário, por uma empresa especializada. As outras partes foram feitas em um centro de usinagem no laboratório de usinagem da Mauá. O modelo finalizado sem as chapas de fechamento é mostrado a seguir, na Figura .
+Posteriormente, foram feitos ajustes nos desenhos em CAD e uma nova versão foi feita. As partes de chapas foram feitas em máquinas de corte laser e dobradas, caso necessário, por uma empresa especializada. As outras partes foram feitas em um centro de usinagem no laboratório de usinagem da Mauá. O modelo finalizado sem as chapas de fechamento é mostrado a seguir, na Figura \ref{fig:ProtoTwo}.
 
-%\begin{figure}[th]
-%	\caption{Modelo em metal do suporte do motor}
-%	\centering
+\begin{figure}[th]
+	\caption{Versão final da estrutura do CubeSat}
+	\centering
 %	\includegraphics[width=0.7\linewidth]{./figs/}
-%	
-%	\begin{small}
-%		FONTE: Arquivo dos autores
-%	\end{small}
-%	\label{fig:ProtoTwo}
-%\end{figure}
+	
+	\begin{small}
+		FONTE: Arquivo dos autores
+	\end{small}
+	\label{fig:ProtoTwo}
+\end{figure}
 
 \section{Placas eletrônicas}
 
