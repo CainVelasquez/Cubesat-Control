@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.30)  25 AUG 2015 18:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.30)  23 OCT 2015 18:13
 entering extended mode
 **TCC_Sist_Controle_Atitude.tex
 (TCC_Sist_Controle_Atitude.tex
@@ -987,6 +987,20 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count185
@@ -1011,36 +1025,33 @@ LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 862.
 \ABCItoken=\toks34
 )
-Package color Info: Redefining color blue on input line 121.
-Package hyperref Info: Option `colorlinks' set `true' on input line 138.
+Package color Info: Redefining color blue on input line 122.
+Package hyperref Info: Option `colorlinks' set `true' on input line 139.
 \TCC_Sist_Controle_Atitude@idxfile=\write4
 
 Writing index file TCC_Sist_Controle_Atitude.idx 
-(TCC_Sist_Controle_Atitude.aux
+(TCC_Sist_Controle_Atitude.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 162.
 
-LaTeX Warning: Label `fig:ProtoTB' multiply defined.
-
-)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 161.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring ON on input line 161.
+Package hyperref Info: Link coloring ON on input line 162.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1052,18 +1063,18 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 161.
-LaTeX Info: Redefining \ref on input line 161.
-LaTeX Info: Redefining \pageref on input line 161.
-LaTeX Info: Redefining \nameref on input line 161.
-LaTeX Info: Redefining \degres on input line 161.
-LaTeX Info: Redefining \dots on input line 161.
-LaTeX Info: Redefining \up on input line 161.
+LaTeX Info: Redefining \nameref on input line 162.
+LaTeX Info: Redefining \ref on input line 162.
+LaTeX Info: Redefining \pageref on input line 162.
+LaTeX Info: Redefining \nameref on input line 162.
+LaTeX Info: Redefining \degres on input line 162.
+LaTeX Info: Redefining \dots on input line 162.
+LaTeX Info: Redefining \up on input line 162.
 \myptabbox=\box35
 \myptabboxwidth=\skip209
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 161.
+(lastpage)             ! on input line 162.
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count189
@@ -1078,7 +1089,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 \makeMPintoPDFobject=\count194
 \everyMPtoPDFconversion=\toks36
 )
-LaTeX Info: Redefining \microtypecontext on input line 161.
+LaTeX Info: Redefining \microtypecontext on input line 162.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1092,7 +1103,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 174.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 175.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
@@ -1107,80 +1118,80 @@ Package microtype Info: Loading generic settings for font family
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 183.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 184.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 183.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 184.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 183
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 184
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 183
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 184
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 183.
+(Font)              <12> on input line 184.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 183.
+(Font)              <8> on input line 184.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 183.
+(Font)              <6> on input line 184.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.183 
+l.184 
        [1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
 
  []
 
 
-Overfull \hbox (16.44858pt too wide) in paragraph at lines 211--214
+Overfull \hbox (16.44858pt too wide) in paragraph at lines 212--215
 []  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--214
+Underfull \hbox (badness 10000) in paragraph at lines 212--215
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--224
+Underfull \hbox (badness 10000) in paragraph at lines 218--225
 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 227.
+(Font)              <10> on input line 228.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 227.
+(Font)              <7> on input line 228.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 227.
+(Font)              <5> on input line 228.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.245 
+l.246 
        [2] [3
 
 ] [4
@@ -1206,13 +1217,13 @@ l.245
 ] [18
 
 ] (TCC_Sist_Controle_Atitude.toc
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 26.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 25.
  [19]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 63.
+(Font)              <14.4> on input line 62.
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 92.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 91.
 ) [20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1222,217 +1233,222 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 [22] [23] [24
 
-] [25] [26
-
-] <./figs/IMU-HMC6343.jpg, id=380, 144.54pt x 144.54pt>
-File: ./figs/IMU-HMC6343.jpg Graphic file (type jpg)
-
-<use ./figs/IMU-HMC6343.jpg>
-Package pdftex.def Info: ./figs/IMU-HMC6343.jpg used on input line 524.
-(pdftex.def)             Requested size: 227.5pt x 227.51273pt.
- [27 <./figs/IMU-HMC6343.jpg>]
-<./figs/dsPIC_master.png, id=392, 304.9794pt x 691.6239pt>
-File: ./figs/dsPIC_master.png Graphic file (type png)
-
-<use ./figs/dsPIC_master.png>
-Package pdftex.def Info: ./figs/dsPIC_master.png used on input line 549.
-(pdftex.def)             Requested size: 240.78217pt x 545.99861pt.
- [28]
-Overfull \hbox (19.25906pt too wide) in paragraph at lines 559--560
-[]\T1/lmr/m/n/12 (-20) O mi-cro-con-tro-la-dor uti-li-zado na placa de aci-o-na
--mento do mo-tor é o ds-PIC33EP32MC202
- []
-
-<./figs/dsPIC_motores.png, id=402, 1053.9375pt x 2625.81pt>
-File: ./figs/dsPIC_motores.png Graphic file (type png)
-
-<use ./figs/dsPIC_motores.png>
-Package pdftex.def Info: ./figs/dsPIC_motores.png used on input line 564.
-(pdftex.def)             Requested size: 219.14629pt x 545.99861pt.
- [29 <./figs/dsPIC_master.png>]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 574.
-
-Underfull \vbox (badness 4846) has occurred while \output is active []
-
- [30 <./figs/dsPIC_motores.png>]
-<./figs/DRV8313-fig.png, id=418, 660.96938pt x 318.43968pt>
-File: ./figs/DRV8313-fig.png Graphic file (type png)
-
-<use ./figs/DRV8313-fig.png>
-Package pdftex.def Info: ./figs/DRV8313-fig.png used on input line 581.
-(pdftex.def)             Requested size: 273.00278pt x 131.52805pt.
-
-<./figs/Barra_pino_master.png, id=422, 449.7603pt x 149.8398pt>
-File: ./figs/Barra_pino_master.png Graphic file (type png)
-
-<use ./figs/Barra_pino_master.png>
-Package pdftex.def Info: ./figs/Barra_pino_master.png used on input line 600.
-(pdftex.def)             Requested size: 364.00139pt x 121.27124pt.
- [31 <./figs/DRV8313-fig.png> <./figs/Barra_pino_master.png>]
-<./figs/Barra_pino_alimentacao_master.png, id=429, 253.9086pt x 177.3024pt>
-File: ./figs/Barra_pino_alimentacao_master.png Graphic file (type png)
-
-<use ./figs/Barra_pino_alimentacao_master.png>
-Package pdftex.def Info: ./figs/Barra_pino_alimentacao_master.png used on input
- line 613.
-(pdftex.def)             Requested size: 364.00139pt x 254.17894pt.
-
-<./figs/Barra_pino_motores.png, id=431, 296.5479pt x 83.5923pt>
-File: ./figs/Barra_pino_motores.png Graphic file (type png)
-
-<use ./figs/Barra_pino_motores.png>
-Package pdftex.def Info: ./figs/Barra_pino_motores.png used on input line 626.
-(pdftex.def)             Requested size: 364.00139pt x 102.61125pt.
- [32 <./figs/Barra_pino_alimentacao_master.png> <./figs/Barra_pino_motores.png>
-]
-<./figs/Medidor_corrente_motores.png, id=437, 297.5115pt x 164.7756pt>
-File: ./figs/Medidor_corrente_motores.png Graphic file (type png)
-
-<use ./figs/Medidor_corrente_motores.png>
-Package pdftex.def Info: ./figs/Medidor_corrente_motores.png used on input line
- 643.
-(pdftex.def)             Requested size: 455.0pt x 252.00775pt.
-
-<./figs/Halls_motores.png, id=439, 415.5525pt x 309.0747pt>
-File: ./figs/Halls_motores.png Graphic file (type png)
-
-<use ./figs/Halls_motores.png>
-Package pdftex.def Info: ./figs/Halls_motores.png used on input line 666.
-(pdftex.def)             Requested size: 341.25pt x 253.82018pt.
- [33 <./figs/Medidor_corrente_motores.png>]
-[34 <./figs/Halls_motores.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[35]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [36]
-<./figs/Mag_Field.png, id=464, 611.28375pt x 417.05812pt>
+] [25] <./figs/Mag_Field.png, id=365, 611.28375pt x 417.05812pt>
 File: ./figs/Mag_Field.png Graphic file (type png)
 
 <use ./figs/Mag_Field.png>
-Package pdftex.def Info: ./figs/Mag_Field.png used on input line 782.
-(pdftex.def)             Requested size: 318.49861pt x 217.29784pt.
- [37 <./figs/Mag_Field.png>]
-<./figs/Propulsion.jpg, id=474, 455.958pt x 283.824pt>
+Package pdftex.def Info: ./figs/Mag_Field.png used on input line 503.
+(pdftex.def)             Requested size: 273.00278pt x 186.2553pt.
+ [26]
+<./figs/Propulsion.jpg, id=378, 455.958pt x 283.824pt>
 File: ./figs/Propulsion.jpg Graphic file (type jpg)
 
 <use ./figs/Propulsion.jpg>
-Package pdftex.def Info: ./figs/Propulsion.jpg used on input line 799.
-(pdftex.def)             Requested size: 318.49861pt x 198.264pt.
-
-<./figs/Shelf_Reaction_Wheel.jpg, id=478, 478.9092pt x 264.99pt>
+Package pdftex.def Info: ./figs/Propulsion.jpg used on input line 520.
+(pdftex.def)             Requested size: 273.00278pt x 169.94492pt.
+ [27 <./figs/Mag_Field.png> <./figs/Propulsion.jpg>] <./figs/Shelf_Reaction_Whe
+el.jpg, id=389, 478.9092pt x 264.99pt>
 File: ./figs/Shelf_Reaction_Wheel.jpg Graphic file (type jpg)
 
 <use ./figs/Shelf_Reaction_Wheel.jpg>
-Package pdftex.def Info: ./figs/Shelf_Reaction_Wheel.jpg used on input line 814
+Package pdftex.def Info: ./figs/Shelf_Reaction_Wheel.jpg used on input line 535
 .
 (pdftex.def)             Requested size: 318.49861pt x 176.22826pt.
- [38 <./figs/Propulsion.jpg>]
-<./figs/Ericksson_Reaction_Wheel.png, id=489, 328.97906pt x 288.3272pt>
+
+<./figs/Ericksson_Reaction_Wheel.png, id=393, 328.97906pt x 288.3272pt>
 File: ./figs/Ericksson_Reaction_Wheel.png Graphic file (type png)
 
 <use ./figs/Ericksson_Reaction_Wheel.png>
 Package pdftex.def Info: ./figs/Ericksson_Reaction_Wheel.png used on input line
- 829.
-(pdftex.def)             Requested size: 318.49861pt x 279.14908pt.
- [39 <./figs/Shelf_Reaction_Wheel.jpg> <./figs/Ericksson_Reaction_Wheel.png>]
-<./figs/3RW.jpg, id=497, 501.875pt x 399.4925pt>
+ 550.
+(pdftex.def)             Requested size: 273.00278pt x 239.2719pt.
+ [28 <./figs/Shelf_Reaction_Wheel.jpg>] <./figs/3RW.jpg, id=402, 501.875pt x 39
+9.4925pt>
 File: ./figs/3RW.jpg Graphic file (type jpg)
  <use ./figs/3RW.jpg>
-Package pdftex.def Info: ./figs/3RW.jpg used on input line 844.
-(pdftex.def)             Requested size: 273.00278pt x 217.31982pt.
+Package pdftex.def Info: ./figs/3RW.jpg used on input line 565.
+(pdftex.def)             Requested size: 318.49861pt x 253.53471pt.
 
-<./figs/Motor_Set.png, id=500, 721.19438pt x 442.65375pt>
+[29 <./figs/Ericksson_Reaction_Wheel.png> <./figs/3RW.jpg>]
+<./figs/IMU-HMC6343.jpg, id=411, 144.54pt x 144.54pt>
+File: ./figs/IMU-HMC6343.jpg Graphic file (type jpg)
+
+<use ./figs/IMU-HMC6343.jpg>
+Package pdftex.def Info: ./figs/IMU-HMC6343.jpg used on input line 598.
+(pdftex.def)             Requested size: 193.37639pt x 193.38702pt.
+ [30
+
+ <./figs/IMU-HMC6343.jpg>]
+<./figs/dsPIC_master.png, id=422, 304.9794pt x 691.6239pt>
+File: ./figs/dsPIC_master.png Graphic file (type png)
+
+<use ./figs/dsPIC_master.png>
+Package pdftex.def Info: ./figs/dsPIC_master.png used on input line 625.
+(pdftex.def)             Requested size: 240.78217pt x 545.99861pt.
+ [31]
+Overfull \hbox (19.25906pt too wide) in paragraph at lines 635--636
+[]\T1/lmr/m/n/12 (-20) O mi-cro-con-tro-la-dor uti-li-zado na placa de aci-o-na
+-mento do mo-tor é o ds-PIC33EP32MC202
+ []
+
+<./figs/dsPIC_motores.png, id=431, 1053.9375pt x 2625.81pt>
+File: ./figs/dsPIC_motores.png Graphic file (type png)
+
+<use ./figs/dsPIC_motores.png>
+Package pdftex.def Info: ./figs/dsPIC_motores.png used on input line 640.
+(pdftex.def)             Requested size: 219.14629pt x 545.99861pt.
+ [32 <./figs/dsPIC_master.png>]
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 650.
+
+Underfull \vbox (badness 4846) has occurred while \output is active []
+
+ [33 <./figs/dsPIC_motores.png>]
+<./figs/DRV8313-fig.png, id=445, 660.96938pt x 318.43968pt>
+File: ./figs/DRV8313-fig.png Graphic file (type png)
+
+<use ./figs/DRV8313-fig.png>
+Package pdftex.def Info: ./figs/DRV8313-fig.png used on input line 657.
+(pdftex.def)             Requested size: 273.00278pt x 131.52805pt.
+ [34 <./figs/DRV8313-fig.png>]
+<./figs/Medidor_corrente_motores.png, id=453, 297.5115pt x 164.7756pt>
+File: ./figs/Medidor_corrente_motores.png Graphic file (type png)
+
+<use ./figs/Medidor_corrente_motores.png>
+Package pdftex.def Info: ./figs/Medidor_corrente_motores.png used on input line
+ 719.
+(pdftex.def)             Requested size: 455.0pt x 252.00775pt.
+
+<./figs/Halls_motores.png, id=455, 415.5525pt x 309.0747pt>
+File: ./figs/Halls_motores.png Graphic file (type png)
+
+<use ./figs/Halls_motores.png>
+Package pdftex.def Info: ./figs/Halls_motores.png used on input line 742.
+(pdftex.def)             Requested size: 341.25pt x 253.82018pt.
+ [35 <./figs/Medidor_corrente_motores.png>]
+[36 <./figs/Halls_motores.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[37] <./figs/Motor_Set.png, id=473, 721.19438pt x 442.65375pt>
 File: ./figs/Motor_Set.png Graphic file (type png)
 
 <use ./figs/Motor_Set.png>
-Package pdftex.def Info: ./figs/Motor_Set.png used on input line 859.
+Package pdftex.def Info: ./figs/Motor_Set.png used on input line 854.
 (pdftex.def)             Requested size: 318.49861pt x 195.48419pt.
- [40 <./figs/3RW.jpg> <./figs/Motor_Set.png>]
-<./figs/Maxon_351100.jpg, id=513, 3276.24pt x 2457.18pt>
+ [38] [39 <./figs/Motor_Set.png>]
+<./figs/Maxon_351100.jpg, id=490, 3276.24pt x 2457.18pt>
 File: ./figs/Maxon_351100.jpg Graphic file (type jpg)
 
 <use ./figs/Maxon_351100.jpg>
-Package pdftex.def Info: ./figs/Maxon_351100.jpg used on input line 918.
+Package pdftex.def Info: ./figs/Maxon_351100.jpg used on input line 913.
 (pdftex.def)             Requested size: 273.00278pt x 204.752pt.
- [41]
-<./figs/Reaction_Wheel.jpg, id=524, 340.27126pt x 236.38312pt>
+
+<./figs/Reaction_Wheel.jpg, id=494, 340.27126pt x 236.38312pt>
 File: ./figs/Reaction_Wheel.jpg Graphic file (type jpg)
 
 <use ./figs/Reaction_Wheel.jpg>
-Package pdftex.def Info: ./figs/Reaction_Wheel.jpg used on input line 946.
+Package pdftex.def Info: ./figs/Reaction_Wheel.jpg used on input line 941.
 (pdftex.def)             Requested size: 227.5pt x 158.04402pt.
- [42 <./figs/Maxon_351100.jpg>]
-<./figs/Motor_Sup.jpg, id=537, 315.42844pt x 371.13657pt>
+ [40 <./figs/Maxon_351100.jpg>]
+<./figs/Motor_Sup.jpg, id=508, 315.42844pt x 371.13657pt>
 File: ./figs/Motor_Sup.jpg Graphic file (type jpg)
 
 <use ./figs/Motor_Sup.jpg>
-Package pdftex.def Info: ./figs/Motor_Sup.jpg used on input line 972.
+Package pdftex.def Info: ./figs/Motor_Sup.jpg used on input line 967.
 (pdftex.def)             Requested size: 204.74861pt x 240.9131pt.
- [43 <./figs/Reaction_Wheel.jpg>]
-<./figs/Frame.jpg, id=548, 362.10281pt x 392.96812pt>
+ [41 <./figs/Reaction_Wheel.jpg>]
+<./figs/Frame.jpg, id=519, 362.10281pt x 392.96812pt>
 File: ./figs/Frame.jpg Graphic file (type jpg)
  <use ./figs/Frame.jpg>
-Package pdftex.def Info: ./figs/Frame.jpg used on input line 991.
+Package pdftex.def Info: ./figs/Frame.jpg used on input line 986.
 (pdftex.def)             Requested size: 227.5pt x 246.89365pt.
 
-[44 <./figs/Motor_Sup.jpg>]
-<./figs/Frame_Full.jpg, id=555, 350.05782pt x 387.69844pt>
+[42 <./figs/Motor_Sup.jpg>]
+<./figs/Frame_Full.jpg, id=526, 350.05782pt x 387.69844pt>
 File: ./figs/Frame_Full.jpg Graphic file (type jpg)
 
 <use ./figs/Frame_Full.jpg>
-Package pdftex.def Info: ./figs/Frame_Full.jpg used on input line 1006.
+Package pdftex.def Info: ./figs/Frame_Full.jpg used on input line 1001.
 (pdftex.def)             Requested size: 227.5pt x 251.9655pt.
- [45 <./figs/Frame.jpg> <./figs/Frame_Full.jpg>]
-<./figs/Test_Base.jpg, id=564, 514.92375pt x 444.15938pt>
+ [43 <./figs/Frame.jpg> <./figs/Frame_Full.jpg>]
+
+LaTeX Warning: Reference `an:MS' on page 44 undefined on input line 1011.
+
+[44] <./figs/Test_Base.jpg, id=538, 514.92375pt x 444.15938pt>
 File: ./figs/Test_Base.jpg Graphic file (type jpg)
 
 <use ./figs/Test_Base.jpg>
-Package pdftex.def Info: ./figs/Test_Base.jpg used on input line 1065.
+Package pdftex.def Info: ./figs/Test_Base.jpg used on input line 1066.
 (pdftex.def)             Requested size: 273.00278pt x 235.49144pt.
- [46]
-Underfull \vbox (badness 1509) has occurred while \output is active []
+ [45
 
- [47 <./figs/Test_Base.jpg>] [48] [49] [50] [51]
-<./figs/Proto_RW.jpg, id=636, 1284.8pt x 963.6pt>
+ <./figs/Test_Base.jpg>] [46]
+<./figs/Test_Base_Proto.jpg, id=560, 2144.01pt x 2127.95pt>
+File: ./figs/Test_Base_Proto.jpg Graphic file (type jpg)
+
+<use ./figs/Test_Base_Proto.jpg>
+Package pdftex.def Info: ./figs/Test_Base_Proto.jpg used on input line 1162.
+(pdftex.def)             Requested size: 273.00278pt x 270.92851pt.
+ [47] [48 <./figs/Test_Base_Proto.jpg>]
+[49pdfTeX warning (ext4): destination with the same identifier (name{equation.4
+.2.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1243 
+       ] <./figs/Motor_Subsystem.png, id=594, 439.6425pt x 104.39pt>
+File: ./figs/Motor_Subsystem.png Graphic file (type png)
+
+<use ./figs/Motor_Subsystem.png>
+Package pdftex.def Info: ./figs/Motor_Subsystem.png used on input line 1247.
+(pdftex.def)             Requested size: 318.49861pt x 75.62743pt.
+
+Underfull \vbox (badness 1132) has occurred while \output is active []
+
+ [50pdfTeX warning (ext4): destination with the same identifier (name{equation.
+4.2.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1283 \end{equation}
+                      <./figs/Motor_Subsystem.png>] [51] [52]
+<./figs/Proto_RW.jpg, id=628, 1284.8pt x 963.6pt>
 File: ./figs/Proto_RW.jpg Graphic file (type jpg)
  <use ./figs/Proto_RW.jpg>
-Package pdftex.def Info: ./figs/Proto_RW.jpg used on input line 1292.
+Package pdftex.def Info: ./figs/Proto_RW.jpg used on input line 1340.
 (pdftex.def)             Requested size: 318.49861pt x 238.87035pt.
 
-<./figs/Proto_3D.jpg, id=638, 1063.975pt x 1308.89pt>
+<./figs/Proto_3D.jpg, id=630, 1063.975pt x 1308.89pt>
 File: ./figs/Proto_3D.jpg Graphic file (type jpg)
 
 <use ./figs/Proto_3D.jpg>
-Package pdftex.def Info: ./figs/Proto_3D.jpg used on input line 1307.
+Package pdftex.def Info: ./figs/Proto_3D.jpg used on input line 1355.
 (pdftex.def)             Requested size: 227.5pt x 279.86801pt.
- [52
+ [53
 
  <./figs/Proto_RW.jpg>]
-<./figs/Proto_MS.jpg, id=644, 1549.79pt x 1461.46pt>
+<./figs/Proto_MS.jpg, id=637, 1549.79pt x 1461.46pt>
 File: ./figs/Proto_MS.jpg Graphic file (type jpg)
  <use ./figs/Proto_MS.jpg>
-Package pdftex.def Info: ./figs/Proto_MS.jpg used on input line 1322.
+Package pdftex.def Info: ./figs/Proto_MS.jpg used on input line 1370.
 (pdftex.def)             Requested size: 227.5pt x 214.52654pt.
 
 Underfull \vbox (badness 7326) has occurred while \output is active []
 
- [53 <./figs/Proto_3D.jpg> <./figs/Proto_MS.jpg>]
-<./figs/PrototypeOne.jpg, id=651, 1983.41pt x 2111.89pt>
+ [54 <./figs/Proto_3D.jpg> <./figs/Proto_MS.jpg>]
+<./figs/PrototypeOne.jpg, id=643, 1983.41pt x 2111.89pt>
 File: ./figs/PrototypeOne.jpg Graphic file (type jpg)
 
 <use ./figs/PrototypeOne.jpg>
-Package pdftex.def Info: ./figs/PrototypeOne.jpg used on input line 1337.
+Package pdftex.def Info: ./figs/PrototypeOne.jpg used on input line 1385.
 (pdftex.def)             Requested size: 273.00278pt x 290.66774pt.
- [54 <./figs/PrototypeOne.jpg>] [55
+ [55 <./figs/PrototypeOne.jpg>] [56
 
 ]
 (TCC_Sist_Controle_Atitude.bbl (TCC_Sist_Controle_Atitude.brf)
 \tf@brf=\write5
- [56
+ [57
 
 ]
 
@@ -1440,956 +1456,783 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 bibitemlist
-[57
+[58
 
-] [58]) [59] [60
-
-]
+] [59]) [60]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 1388.
+(hyperref)                removing `\uppercase' on input line 1436.
 
 [61
 
-] <./figs/Placa_master.png, id=797, 727.21687pt x 706.13812pt>
+
+] <./figs/Placa_master.png, id=788, 727.21687pt x 706.13812pt>
 File: ./figs/Placa_master.png Graphic file (type png)
 
 <use ./figs/Placa_master.png>
-Package pdftex.def Info: ./figs/Placa_master.png used on input line 1393.
+Package pdftex.def Info: ./figs/Placa_master.png used on input line 1441.
 (pdftex.def)             Requested size: 455.0pt x 441.82011pt.
  [62
 
  <./figs/Placa_master.png>]
-<./figs/Placa_motores.png, id=803, 716.6775pt x 700.11563pt>
+<./figs/Placa_motores.png, id=794, 716.6775pt x 700.11563pt>
 File: ./figs/Placa_motores.png Graphic file (type png)
 
 <use ./figs/Placa_motores.png>
-Package pdftex.def Info: ./figs/Placa_motores.png used on input line 1402.
+Package pdftex.def Info: ./figs/Placa_motores.png used on input line 1450.
 (pdftex.def)             Requested size: 455.0pt x 444.49371pt.
  [63
 
  <./figs/Placa_motores.png>]
-<./pdfs/Cubesat-Reaction-Wheel.pdf, id=809, 597.50829pt x 845.0471pt>
+<./pdfs/Cubesat-Reaction-Wheel.pdf, id=800, 597.50829pt x 845.0471pt>
 File: ./pdfs/Cubesat-Reaction-Wheel.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Reaction-Wheel.pdf>
 Package pdftex.def Info: ./pdfs/Cubesat-Reaction-Wheel.pdf used on input line 1
-409.
+457.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: ./pdfs/Cubesat-Reaction-Wheel.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Reaction-Wheel.pdf>
 Package pdftex.def Info: ./pdfs/Cubesat-Reaction-Wheel.pdf used on input line 1
-409.
+457.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
-<./pdfs/Cubesat-Reaction-Wheel.pdf, id=812, page=1, 597.50829pt x 845.0471pt>
+<./pdfs/Cubesat-Reaction-Wheel.pdf, id=803, page=1, 597.50829pt x 845.0471pt>
 File: ./pdfs/Cubesat-Reaction-Wheel.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Reaction-Wheel.pdf, page 1>
 Package pdftex.def Info: ./pdfs/Cubesat-Reaction-Wheel.pdf, page1 used on input
- line 1409.
+ line 1457.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: ./pdfs/Cubesat-Reaction-Wheel.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Reaction-Wheel.pdf, page 1>
 Package pdftex.def Info: ./pdfs/Cubesat-Reaction-Wheel.pdf, page1 used on input
- line 1409.
+ line 1457.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdfs/Cubesat-Reaction-Wheel.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Reaction-Wheel.pdf, page 1>
 Package pdftex.def Info: ./pdfs/Cubesat-Reaction-Wheel.pdf, page1 used on input
- line 1409.
+ line 1457.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdfs/Cubesat-Reaction-Wheel.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Reaction-Wheel.pdf, page 1>
 Package pdftex.def Info: ./pdfs/Cubesat-Reaction-Wheel.pdf, page1 used on input
- line 1409.
+ line 1457.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [64
 
 ]
-<./pdfs/Cubesat-Reaction-Wheel.pdf, id=817, page=2, 597.50829pt x 845.0471pt>
+<./pdfs/Cubesat-Reaction-Wheel.pdf, id=808, page=2, 597.50829pt x 845.0471pt>
 File: ./pdfs/Cubesat-Reaction-Wheel.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Reaction-Wheel.pdf, page 2>
 Package pdftex.def Info: ./pdfs/Cubesat-Reaction-Wheel.pdf, page2 used on input
- line 1409.
+ line 1457.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdfs/Cubesat-Reaction-Wheel.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Reaction-Wheel.pdf, page 2>
 Package pdftex.def Info: ./pdfs/Cubesat-Reaction-Wheel.pdf, page2 used on input
- line 1409.
+ line 1457.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdfs/Cubesat-Reaction-Wheel.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Reaction-Wheel.pdf, page 1>
 Package pdftex.def Info: ./pdfs/Cubesat-Reaction-Wheel.pdf, page1 used on input
- line 1409.
+ line 1457.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [65 <./pdfs/Cubesat-Reaction-Wheel.pdf>]
-<./pdfs/Cubesat-Reaction-Wheel.pdf, id=840, page=3, 597.50829pt x 845.0471pt>
+<./pdfs/Cubesat-Reaction-Wheel.pdf, id=831, page=3, 597.50829pt x 845.0471pt>
 File: ./pdfs/Cubesat-Reaction-Wheel.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Reaction-Wheel.pdf, page 3>
 Package pdftex.def Info: ./pdfs/Cubesat-Reaction-Wheel.pdf, page3 used on input
- line 1409.
+ line 1457.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdfs/Cubesat-Reaction-Wheel.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Reaction-Wheel.pdf, page 3>
 Package pdftex.def Info: ./pdfs/Cubesat-Reaction-Wheel.pdf, page3 used on input
- line 1409.
+ line 1457.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdfs/Cubesat-Reaction-Wheel.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Reaction-Wheel.pdf, page 2>
 Package pdftex.def Info: ./pdfs/Cubesat-Reaction-Wheel.pdf, page2 used on input
- line 1409.
+ line 1457.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [66 <./pdfs/Cubesat-Reaction-Wheel.pdf>]
 File: ./pdfs/Cubesat-Reaction-Wheel.pdf Graphic file (type pdf)
  <use ./pdfs/Cubesat-Reaction-Wheel.pdf, page 3>
 Package pdftex.def Info: ./pdfs/Cubesat-Reaction-Wheel.pdf, page3 used on input
- line 1409.
+ line 1457.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [67 <./pdfs/Cubesat-Reaction-Wheel.pdf>]
-<./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, id=849, 597.50829pt x 845.0471pt>
+<./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, id=840, 597.50829pt x 845.0471pt>
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf used on inp
-ut line 1415.
+ut line 1463.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf used on inp
-ut line 1415.
+ut line 1463.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
-<./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, id=852, page=1, 597.50829pt x 845.
+<./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, id=843, page=1, 597.50829pt x 845.
 0471pt>
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
  <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page 1>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page1 used
- on input line 1415.
+ on input line 1463.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page 1>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page1 used
- on input line 1415.
+ on input line 1463.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page 1>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page1 used
- on input line 1415.
+ on input line 1463.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page 1>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page1 used
- on input line 1415.
+ on input line 1463.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [68
 
 ]
-<./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, id=857, page=2, 597.50829pt x 845.
+<./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, id=848, page=2, 597.50829pt x 845.
 0471pt>
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
  <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page 2>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page2 used
- on input line 1415.
+ on input line 1463.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page 2>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page2 used
- on input line 1415.
+ on input line 1463.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page 1>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page1 used
- on input line 1415.
+ on input line 1463.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [69 <./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf>]
-<./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, id=879, page=3, 597.50829pt x 845.
+<./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, id=870, page=3, 597.50829pt x 845.
 0471pt>
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
  <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page 3>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page3 used
- on input line 1415.
+ on input line 1463.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page 3>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page3 used
- on input line 1415.
+ on input line 1463.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page 2>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page2 used
- on input line 1415.
+ on input line 1463.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [70 <./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf>]
-<./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, id=884, page=4, 597.50829pt x 845.
+<./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, id=875, page=4, 597.50829pt x 845.
 0471pt>
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
  <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page 4>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page4 used
- on input line 1415.
+ on input line 1463.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page 4>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page4 used
- on input line 1415.
+ on input line 1463.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page 3>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page3 used
- on input line 1415.
+ on input line 1463.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [71 <./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf>]
-<./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, id=890, page=5, 597.50829pt x 845.
+<./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, id=881, page=5, 597.50829pt x 845.
 0471pt>
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
  <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page 5>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page5 used
- on input line 1415.
+ on input line 1463.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page 5>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page5 used
- on input line 1415.
+ on input line 1463.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page 4>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page4 used
- on input line 1415.
+ on input line 1463.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [72 <./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf>]
-<./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, id=895, page=6, 597.50829pt x 845.
+<./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, id=886, page=6, 597.50829pt x 845.
 0471pt>
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
  <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page 6>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page6 used
- on input line 1415.
+ on input line 1463.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page 6>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page6 used
- on input line 1415.
+ on input line 1463.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page 5>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page5 used
- on input line 1415.
+ on input line 1463.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [73 <./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf>]
-<./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, id=900, page=7, 597.50829pt x 845.
+<./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, id=891, page=7, 597.50829pt x 845.
 0471pt>
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
  <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page 7>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page7 used
- on input line 1415.
+ on input line 1463.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page 7>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page7 used
- on input line 1415.
+ on input line 1463.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page 6>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page6 used
- on input line 1415.
+ on input line 1463.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [74 <./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf>]
 File: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf Graphic file (type pdf)
 
 <use ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page 7>
 Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf, page7 used
- on input line 1415.
+ on input line 1463.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [75 <./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf>] [76
+ [75 <./pdfs/Cubesat-Struct-Int-Motor-Suport.pdf>]
+<./pdfs/Testbase-Assembly.pdf, id=900, 597.50829pt x 845.0471pt>
+File: ./pdfs/Testbase-Assembly.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Assembly.pdf>
+Package pdftex.def Info: ./pdfs/Testbase-Assembly.pdf used on input line 1469.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./pdfs/Testbase-Assembly.pdf Graphic file (type pdf)
+ <use ./pdfs/Testbase-Assembly.pdf>
+Package pdftex.def Info: ./pdfs/Testbase-Assembly.pdf used on input line 1469.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+<./pdfs/Testbase-Assembly.pdf, id=903, page=1, 597.50829pt x 845.0471pt>
+File: ./pdfs/Testbase-Assembly.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Assembly.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Assembly.pdf, page1 used on input line
+ 1469.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./pdfs/Testbase-Assembly.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Assembly.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Assembly.pdf, page1 used on input line
+ 1469.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Assembly.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Assembly.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Assembly.pdf, page1 used on input line
+ 1469.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Assembly.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Assembly.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Assembly.pdf, page1 used on input line
+ 1469.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [76
 
 ]
+<./pdfs/Testbase-Assembly.pdf, id=908, page=2, 597.50829pt x 845.0471pt>
+File: ./pdfs/Testbase-Assembly.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Assembly.pdf, page 2>
+Package pdftex.def Info: ./pdfs/Testbase-Assembly.pdf, page2 used on input line
+ 1469.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Assembly.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Assembly.pdf, page 2>
+Package pdftex.def Info: ./pdfs/Testbase-Assembly.pdf, page2 used on input line
+ 1469.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Assembly.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Assembly.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Assembly.pdf, page1 used on input line
+ 1469.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [77 <./pdfs/Testbase-Assembly.pdf>]
+File: ./pdfs/Testbase-Assembly.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Assembly.pdf, page 2>
+Package pdftex.def Info: ./pdfs/Testbase-Assembly.pdf, page2 used on input line
+ 1469.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [78 <./pdfs/Testbase-Assembly.pdf>]
+<./pdfs/Testbase-Struct-Base-Low.pdf, id=935, 597.50829pt x 845.0471pt>
+File: ./pdfs/Testbase-Struct-Base-Low.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-Low.pdf>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Low.pdf used on input line
+ 1470.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./pdfs/Testbase-Struct-Base-Low.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-Low.pdf>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Low.pdf used on input line
+ 1470.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+<./pdfs/Testbase-Struct-Base-Low.pdf, id=938, page=1, 597.50829pt x 845.0471pt>
+File: ./pdfs/Testbase-Struct-Base-Low.pdf Graphic file (type pdf)
+<use ./pdfs/Testbase-Struct-Base-Low.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Low.pdf, page1 used on inp
+ut line 1470.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./pdfs/Testbase-Struct-Base-Low.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-Low.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Low.pdf, page1 used on inp
+ut line 1470.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Base-Low.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-Low.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Low.pdf, page1 used on inp
+ut line 1470.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Base-Low.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-Low.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Low.pdf, page1 used on inp
+ut line 1470.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+<./pdfs/Testbase-Struct-Base-Low.pdf, id=939, page=2, 597.50829pt x 845.0471pt>
+File: ./pdfs/Testbase-Struct-Base-Low.pdf Graphic file (type pdf)
+<use ./pdfs/Testbase-Struct-Base-Low.pdf, page 2>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Low.pdf, page2 used on inp
+ut line 1470.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Base-Low.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-Low.pdf, page 2>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Low.pdf, page2 used on inp
+ut line 1470.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Base-Low.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-Low.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Low.pdf, page1 used on inp
+ut line 1470.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [79 <./pdfs/Testbase-Struct-Base-Low.pdf>]
+<./pdfs/Testbase-Struct-Base-Low.pdf, id=961, page=3, 597.50829pt x 845.0471pt>
+File: ./pdfs/Testbase-Struct-Base-Low.pdf Graphic file (type pdf)
+<use ./pdfs/Testbase-Struct-Base-Low.pdf, page 3>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Low.pdf, page3 used on inp
+ut line 1470.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Base-Low.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-Low.pdf, page 3>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Low.pdf, page3 used on inp
+ut line 1470.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Base-Low.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-Low.pdf, page 2>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Low.pdf, page2 used on inp
+ut line 1470.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [80 <./pdfs/Testbase-Struct-Base-Low.pdf>]
+File: ./pdfs/Testbase-Struct-Base-Low.pdf Graphic file (type pdf)
+ <use ./pdfs/Testbase-Struct-Base-Low.pdf, page 3>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Low.pdf, page3 used on inp
+ut line 1470.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [81 <./pdfs/Testbase-Struct-Base-Low.pdf>]
+<./pdfs/Testbase-Struct-Base-Top.pdf, id=970, 597.50829pt x 845.0471pt>
+File: ./pdfs/Testbase-Struct-Base-Top.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-Top.pdf>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Top.pdf used on input line
+ 1471.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./pdfs/Testbase-Struct-Base-Top.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-Top.pdf>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Top.pdf used on input line
+ 1471.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+<./pdfs/Testbase-Struct-Base-Top.pdf, id=973, page=1, 597.50829pt x 845.0471pt>
+File: ./pdfs/Testbase-Struct-Base-Top.pdf Graphic file (type pdf)
+<use ./pdfs/Testbase-Struct-Base-Top.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Top.pdf, page1 used on inp
+ut line 1471.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./pdfs/Testbase-Struct-Base-Top.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-Top.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Top.pdf, page1 used on inp
+ut line 1471.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Base-Top.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-Top.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Top.pdf, page1 used on inp
+ut line 1471.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Base-Top.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-Top.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Top.pdf, page1 used on inp
+ut line 1471.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+<./pdfs/Testbase-Struct-Base-Top.pdf, id=974, page=2, 597.50829pt x 845.0471pt>
+File: ./pdfs/Testbase-Struct-Base-Top.pdf Graphic file (type pdf)
+<use ./pdfs/Testbase-Struct-Base-Top.pdf, page 2>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Top.pdf, page2 used on inp
+ut line 1471.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Base-Top.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-Top.pdf, page 2>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Top.pdf, page2 used on inp
+ut line 1471.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Base-Top.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-Top.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Top.pdf, page1 used on inp
+ut line 1471.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [82 <./pdfs/Testbase-Struct-Base-Top.pdf>]
+<./pdfs/Testbase-Struct-Base-Top.pdf, id=996, page=3, 597.50829pt x 845.0471pt>
+File: ./pdfs/Testbase-Struct-Base-Top.pdf Graphic file (type pdf)
+<use ./pdfs/Testbase-Struct-Base-Top.pdf, page 3>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Top.pdf, page3 used on inp
+ut line 1471.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Base-Top.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-Top.pdf, page 3>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Top.pdf, page3 used on inp
+ut line 1471.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Base-Top.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-Top.pdf, page 2>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Top.pdf, page2 used on inp
+ut line 1471.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [83 <./pdfs/Testbase-Struct-Base-Top.pdf>]
+<./pdfs/Testbase-Struct-Base-Top.pdf, id=1002, page=4, 597.50829pt x 845.0471pt
+>
+File: ./pdfs/Testbase-Struct-Base-Top.pdf Graphic file (type pdf)
+ <use ./pdfs/Testbase-Struct-Base-Top.pdf, page 4>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Top.pdf, page4 used on inp
+ut line 1471.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Base-Top.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-Top.pdf, page 4>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Top.pdf, page4 used on inp
+ut line 1471.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Base-Top.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-Top.pdf, page 3>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Top.pdf, page3 used on inp
+ut line 1471.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [84 <./pdfs/Testbase-Struct-Base-Top.pdf>]
+File: ./pdfs/Testbase-Struct-Base-Top.pdf Graphic file (type pdf)
+ <use ./pdfs/Testbase-Struct-Base-Top.pdf, page 4>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-Top.pdf, page4 used on inp
+ut line 1471.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [85 <./pdfs/Testbase-Struct-Base-Top.pdf>]
+<./pdfs/Testbase-Struct-Axis.pdf, id=1011, 597.50829pt x 845.0471pt>
+File: ./pdfs/Testbase-Struct-Axis.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Axis.pdf>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Axis.pdf used on input line 147
+2.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./pdfs/Testbase-Struct-Axis.pdf Graphic file (type pdf)
+ <use ./pdfs/Testbase-Struct-Axis.pdf>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Axis.pdf used on input line 147
+2.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+<./pdfs/Testbase-Struct-Axis.pdf, id=1014, page=1, 597.50829pt x 845.0471pt>
+File: ./pdfs/Testbase-Struct-Axis.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Axis.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Axis.pdf, page1 used on input l
+ine 1472.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./pdfs/Testbase-Struct-Axis.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Axis.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Axis.pdf, page1 used on input l
+ine 1472.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Axis.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Axis.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Axis.pdf, page1 used on input l
+ine 1472.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Axis.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Axis.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Axis.pdf, page1 used on input l
+ine 1472.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+<./pdfs/Testbase-Struct-Axis.pdf, id=1015, page=2, 597.50829pt x 845.0471pt>
+File: ./pdfs/Testbase-Struct-Axis.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Axis.pdf, page 2>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Axis.pdf, page2 used on input l
+ine 1472.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Axis.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Axis.pdf, page 2>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Axis.pdf, page2 used on input l
+ine 1472.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Axis.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Axis.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Axis.pdf, page1 used on input l
+ine 1472.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [86 <./pdfs/Testbase-Struct-Axis.pdf>]
+File: ./pdfs/Testbase-Struct-Axis.pdf Graphic file (type pdf)
+ <use ./pdfs/Testbase-Struct-Axis.pdf, page 2>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Axis.pdf, page2 used on input l
+ine 1472.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [87 <./pdfs/Testbase-Struct-Axis.pdf>]
+<./pdfs/Testbase-Struct-Base-CubeSat.pdf, id=1041, 597.50829pt x 845.0471pt>
+File: ./pdfs/Testbase-Struct-Base-CubeSat.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-CubeSat.pdf>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-CubeSat.pdf used on input 
+line 1473.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./pdfs/Testbase-Struct-Base-CubeSat.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-CubeSat.pdf>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-CubeSat.pdf used on input 
+line 1473.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+<./pdfs/Testbase-Struct-Base-CubeSat.pdf, id=1044, page=1, 597.50829pt x 845.04
+71pt>
+File: ./pdfs/Testbase-Struct-Base-CubeSat.pdf Graphic file (type pdf)
+ <use ./pdfs/Testbase-Struct-Base-CubeSat.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-CubeSat.pdf, page1 used on
+ input line 1473.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ./pdfs/Testbase-Struct-Base-CubeSat.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-CubeSat.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-CubeSat.pdf, page1 used on
+ input line 1473.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Base-CubeSat.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-CubeSat.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-CubeSat.pdf, page1 used on
+ input line 1473.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Base-CubeSat.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-CubeSat.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-CubeSat.pdf, page1 used on
+ input line 1473.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+<./pdfs/Testbase-Struct-Base-CubeSat.pdf, id=1045, page=2, 597.50829pt x 845.04
+71pt>
+File: ./pdfs/Testbase-Struct-Base-CubeSat.pdf Graphic file (type pdf)
+ <use ./pdfs/Testbase-Struct-Base-CubeSat.pdf, page 2>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-CubeSat.pdf, page2 used on
+ input line 1473.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Base-CubeSat.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-CubeSat.pdf, page 2>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-CubeSat.pdf, page2 used on
+ input line 1473.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Base-CubeSat.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-CubeSat.pdf, page 1>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-CubeSat.pdf, page1 used on
+ input line 1473.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [88 <./pdfs/Testbase-Struct-Base-CubeSat.pdf>]
+<./pdfs/Testbase-Struct-Base-CubeSat.pdf, id=1067, page=3, 597.50829pt x 845.04
+71pt>
+File: ./pdfs/Testbase-Struct-Base-CubeSat.pdf Graphic file (type pdf)
+ <use ./pdfs/Testbase-Struct-Base-CubeSat.pdf, page 3>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-CubeSat.pdf, page3 used on
+ input line 1473.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Base-CubeSat.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-CubeSat.pdf, page 3>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-CubeSat.pdf, page3 used on
+ input line 1473.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./pdfs/Testbase-Struct-Base-CubeSat.pdf Graphic file (type pdf)
+
+<use ./pdfs/Testbase-Struct-Base-CubeSat.pdf, page 2>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-CubeSat.pdf, page2 used on
+ input line 1473.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [89 <./pdfs/Testbase-Struct-Base-CubeSat.pdf>]
+File: ./pdfs/Testbase-Struct-Base-CubeSat.pdf Graphic file (type pdf)
+ <use ./pdfs/Testbase-Struct-Base-CubeSat.pdf, page 3>
+Package pdftex.def Info: ./pdfs/Testbase-Struct-Base-CubeSat.pdf, page3 used on
+ input line 1473.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[90 <./pdfs/Testbase-Struct-Base-CubeSat.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 1439.
+(hyperref)                removing `\uppercase' on input line 1488.
 
-[77
+[91
 
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <24.88> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 1439.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 1488.
 
- <./pdfs/351100.pdf, id=918, 625.95839pt x 845.04489pt>
+ <./pdfs/351100.pdf, id=1081, 625.95839pt x 845.04489pt>
 File: ./pdfs/351100.pdf Graphic file (type pdf)
 
 <use ./pdfs/351100.pdf>
-Package pdftex.def Info: ./pdfs/351100.pdf used on input line 1441.
+Package pdftex.def Info: ./pdfs/351100.pdf used on input line 1490.
 (pdftex.def)             Requested size: 625.95686pt x 845.04283pt.
 File: ./pdfs/351100.pdf Graphic file (type pdf)
  <use ./pdfs/351100.pdf>
-Package pdftex.def Info: ./pdfs/351100.pdf used on input line 1441.
+Package pdftex.def Info: ./pdfs/351100.pdf used on input line 1490.
 (pdftex.def)             Requested size: 625.95686pt x 845.04283pt.
 
-<./pdfs/351100.pdf, id=921, page=1, 625.95839pt x 845.04489pt>
+<./pdfs/351100.pdf, id=1084, page=1, 625.95839pt x 845.04489pt>
 File: ./pdfs/351100.pdf Graphic file (type pdf)
 
 <use ./pdfs/351100.pdf, page 1>
-Package pdftex.def Info: ./pdfs/351100.pdf, page1 used on input line 1441.
+Package pdftex.def Info: ./pdfs/351100.pdf, page1 used on input line 1490.
 (pdftex.def)             Requested size: 625.95686pt x 845.04283pt.
 File: ./pdfs/351100.pdf Graphic file (type pdf)
  <use ./pdfs/351100.pdf, page 1>
-Package pdftex.def Info: ./pdfs/351100.pdf, page1 used on input line 1441.
+Package pdftex.def Info: ./pdfs/351100.pdf, page1 used on input line 1490.
 (pdftex.def)             Requested size: 598.42033pt x 807.86847pt.
 File: ./pdfs/351100.pdf Graphic file (type pdf)
 
 <use ./pdfs/351100.pdf, page 1>
-Package pdftex.def Info: ./pdfs/351100.pdf, page1 used on input line 1441.
+Package pdftex.def Info: ./pdfs/351100.pdf, page1 used on input line 1490.
 (pdftex.def)             Requested size: 598.42033pt x 807.86847pt.
 File: ./pdfs/351100.pdf Graphic file (type pdf)
  <use ./pdfs/351100.pdf, page 1>
-Package pdftex.def Info: ./pdfs/351100.pdf, page1 used on input line 1441.
+Package pdftex.def Info: ./pdfs/351100.pdf, page1 used on input line 1490.
 (pdftex.def)             Requested size: 598.42033pt x 807.86847pt.
- [78
+ [92
 
 ]
 File: ./pdfs/351100.pdf Graphic file (type pdf)
 
 <use ./pdfs/351100.pdf, page 1>
-Package pdftex.def Info: ./pdfs/351100.pdf, page1 used on input line 1441.
+Package pdftex.def Info: ./pdfs/351100.pdf, page1 used on input line 1490.
 (pdftex.def)             Requested size: 598.42033pt x 807.86847pt.
- [79 <./pdfs/351100.pdf>]
-<./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, id=961, 597.50829pt x 845.0471pt>
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf Graphic file (type pdf)
-<use ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf used on in
-put line 1449.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf Graphic file (type pdf)
+ [93 <./pdfs/351100.pdf>]
 
-<use ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf used on in
-put line 1449.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-
-<./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, id=964, page=1, 597.50829pt x 845
-.0471pt>
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf Graphic file (type pdf)
- <use ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page1 use
-d on input line 1449.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page1 use
-d on input line 1449.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page1 use
-d on input line 1449.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page1 use
-d on input line 1449.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [80
-
-]
-<./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, id=969, page=2, 597.50829pt x 845
-.0471pt>
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf Graphic file (type pdf)
- <use ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page 2>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page2 use
-d on input line 1449.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page 2>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page2 use
-d on input line 1449.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page1 use
-d on input line 1449.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [81 <./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf>]
-<./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, id=999, page=3, 597.50829pt x 845
-.0471pt>
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf Graphic file (type pdf)
- <use ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page 3>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page3 use
-d on input line 1449.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page 3>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page3 use
-d on input line 1449.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page 2>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page2 use
-d on input line 1449.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [82 <./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf>]
-<./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, id=1004, page=4, 597.50829pt x 84
-5.0471pt>
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf Graphic file (type pdf)
- <use ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page 4>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page4 use
-d on input line 1449.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page 4>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page4 use
-d on input line 1449.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page 3>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page3 use
-d on input line 1449.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [83 <./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf>]
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page 4>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf, page4 use
-d on input line 1449.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [84 <./pdfs/Cubesat-Struct-Ext-Shell-Side-1U.pdf>]
-<./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, id=1014, 597.50829pt x 845.0471pt>
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf used on input 
-line 1450.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf used on input 
-line 1450.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-
-<./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, id=1017, page=1, 597.50829pt x 845.04
-71pt>
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf Graphic file (type pdf)
- <use ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page1 used on
- input line 1450.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page1 used on
- input line 1450.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page1 used on
- input line 1450.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page1 used on
- input line 1450.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-
-<./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, id=1018, page=2, 597.50829pt x 845.04
-71pt>
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf Graphic file (type pdf)
- <use ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page 2>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page2 used on
- input line 1450.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page 2>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page2 used on
- input line 1450.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page1 used on
- input line 1450.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [85 <./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf>]
-<./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, id=1048, page=3, 597.50829pt x 845.04
-71pt>
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf Graphic file (type pdf)
- <use ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page 3>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page3 used on
- input line 1450.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page 3>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page3 used on
- input line 1450.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page 2>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page2 used on
- input line 1450.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [86 <./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf>]
-<./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, id=1053, page=4, 597.50829pt x 845.04
-71pt>
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf Graphic file (type pdf)
- <use ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page 4>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page4 used on
- input line 1450.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page 4>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page4 used on
- input line 1450.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page 3>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page3 used on
- input line 1450.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [87 <./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf>]
-File: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf Graphic file (type pdf)
- <use ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page 4>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf, page4 used on
- input line 1450.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-
-[88 <./pdfs/Cubesat-Struct-Ext-Shell-Top.pdf>]
-<./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf, id=1062, 597.50829pt x 845.0471pt>
-File: ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf Graphic file (type pdf)
-<use ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf used on inp
-ut line 1451.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf used on inp
-ut line 1451.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-
-<./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf, id=1065, page=1, 597.50829pt x 845
-.0471pt>
-File: ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf Graphic file (type pdf)
- <use ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf, page1 used
- on input line 1451.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf, page1 used
- on input line 1451.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf, page1 used
- on input line 1451.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf, page1 used
- on input line 1451.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-
-<./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf, id=1066, page=2, 597.50829pt x 845
-.0471pt>
-File: ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf Graphic file (type pdf)
- <use ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf, page 2>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf, page2 used
- on input line 1451.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf, page 2>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf, page2 used
- on input line 1451.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf, page1 used
- on input line 1451.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [89 <./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf>]
-File: ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf, page 2>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf, page2 used
- on input line 1451.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [90 <./pdfs/Cubesat-Struct-Int-Frame-Side01.pdf>]
-<./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf, id=1101, 597.50829pt x 845.0471pt>
-File: ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf Graphic file (type pdf)
-<use ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf used on inp
-ut line 1452.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf used on inp
-ut line 1452.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-
-<./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf, id=1104, page=1, 597.50829pt x 845
-.0471pt>
-File: ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf Graphic file (type pdf)
- <use ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf, page1 used
- on input line 1452.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf, page1 used
- on input line 1452.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf, page1 used
- on input line 1452.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf, page1 used
- on input line 1452.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-
-<./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf, id=1105, page=2, 597.50829pt x 845
-.0471pt>
-File: ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf Graphic file (type pdf)
- <use ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf, page 2>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf, page2 used
- on input line 1452.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf, page 2>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf, page2 used
- on input line 1452.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf, page1 used
- on input line 1452.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [91 <./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf>]
-File: ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf, page 2>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf, page2 used
- on input line 1452.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [92 <./pdfs/Cubesat-Struct-Int-Frame-Side02.pdf>]
-<./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, id=1139, 597.50829pt x 845.0471pt>
-File: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf used on input 
-line 1453.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf used on input 
-line 1453.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-
-<./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, id=1142, page=1, 597.50829pt x 845.04
-71pt>
-File: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf Graphic file (type pdf)
- <use ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page1 used on
- input line 1453.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page1 used on
- input line 1453.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page1 used on
- input line 1453.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page1 used on
- input line 1453.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-
-<./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, id=1143, page=2, 597.50829pt x 845.04
-71pt>
-File: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf Graphic file (type pdf)
- <use ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page 2>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page2 used on
- input line 1453.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page 2>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page2 used on
- input line 1453.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page1 used on
- input line 1453.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [93 <./pdfs/Cubesat-Struct-Int-Frame-Top.pdf>]
-<./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, id=1173, page=3, 597.50829pt x 845.04
-71pt>
-File: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf Graphic file (type pdf)
- <use ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page 3>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page3 used on
- input line 1453.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page 3>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page3 used on
- input line 1453.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page 2>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page2 used on
- input line 1453.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [94 <./pdfs/Cubesat-Struct-Int-Frame-Top.pdf>]
-<./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, id=1178, page=4, 597.50829pt x 845.04
-71pt>
-File: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf Graphic file (type pdf)
- <use ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page 4>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page4 used on
- input line 1453.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page 4>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page4 used on
- input line 1453.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf Graphic file (type pdf)
-
-<use ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page 3>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page3 used on
- input line 1453.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [95 <./pdfs/Cubesat-Struct-Int-Frame-Top.pdf>]
-File: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf Graphic file (type pdf)
- <use ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page 4>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Frame-Top.pdf, page4 used on
- input line 1453.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-
-[96 <./pdfs/Cubesat-Struct-Int-Frame-Top.pdf>]
-<./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, id=1188, 597.50829pt x 845.
-0471pt>
-File: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf Graphic file (type pdf)
-
- <use ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf used
- on input line 1454.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf Graphic file (type pdf)
-
-
-<use ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf used
- on input line 1454.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-
-<./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, id=1191, page=1, 597.50829p
-t x 845.0471pt>
-File: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf Graphic file (type pdf)
-
-
-<use ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, pag
-e1 used on input line 1454.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf Graphic file (type pdf)
-
-
-<use ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, pag
-e1 used on input line 1454.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf Graphic file (type pdf)
-
-
-<use ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, pag
-e1 used on input line 1454.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf Graphic file (type pdf)
-
-
-<use ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, pag
-e1 used on input line 1454.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-
-<./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, id=1192, page=2, 597.50829p
-t x 845.0471pt>
-File: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf Graphic file (type pdf)
-
-
-<use ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, page 2>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, pag
-e2 used on input line 1454.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf Graphic file (type pdf)
-
-
-<use ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, page 2>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, pag
-e2 used on input line 1454.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf Graphic file (type pdf)
-
-
-<use ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, page 1>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, pag
-e1 used on input line 1454.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [97 <./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf>]
-<./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, id=1222, page=3, 597.50829p
-t x 845.0471pt>
-File: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf Graphic file (type pdf)
-
-
-<use ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, page 3>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, pag
-e3 used on input line 1454.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf Graphic file (type pdf)
-
-
-<use ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, page 3>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, pag
-e3 used on input line 1454.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf Graphic file (type pdf)
-
-
-<use ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, page 2>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, pag
-e2 used on input line 1454.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [98 <./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf>]
-<./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, id=1227, page=4, 597.50829p
-t x 845.0471pt>
-File: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf Graphic file (type pdf)
-
-
-<use ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, page 4>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, pag
-e4 used on input line 1454.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf Graphic file (type pdf)
-
-
-<use ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, page 4>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, pag
-e4 used on input line 1454.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf Graphic file (type pdf)
-
-
-<use ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, page 3>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, pag
-e3 used on input line 1454.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [99 <./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf>]
-File: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf Graphic file (type pdf)
-
-
-<use ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, page 4>
-Package pdftex.def Info: ./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf, pag
-e4 used on input line 1454.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [100 <./pdfs/Cubesat-Struct-Int-Plate-PCBStructHalf.pdf>] 
 AED: lastpage setting LastPage
+[94
+
+]
 \tf@lof=\write6
 \tf@lot=\write7
 \tf@toc=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1458.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1458.
-(TCC_Sist_Controle_Atitude.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1458.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1458.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1511.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1511.
+ (TCC_Sist_Controle_Atitude.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1511.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1511.
 
 Package rerunfilecheck Info: File `TCC_Sist_Controle_Atitude.brf' has not chang
 ed.
-(rerunfilecheck)             Checksum: 287D89283047F16B7D4115853B42D3A6;2551.
+(rerunfilecheck)             Checksum: E5E072AD65AB5D0FD6B72FB47857C695;2565.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1458.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1511.
  ) 
 Here is how much of TeX's memory you used:
- 15979 strings out of 493671
- 238894 string characters out of 3143856
- 500457 words of memory out of 3000000
- 18584 multiletter control sequences out of 15000+200000
- 101960 words of font info for 150 fonts, out of 3000000 for 9000
+ 16079 strings out of 493671
+ 239191 string characters out of 3143856
+ 501931 words of memory out of 3000000
+ 18691 multiletter control sequences out of 15000+200000
+ 99129 words of font info for 146 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 41i,18n,43p,940b,673s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,18n,46p,940b,671s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
-nc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex
-.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program 
+iKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm
+.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/lm/lmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C
@@ -2401,16 +2244,15 @@ es/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
 m/lmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/lm/lmssbo10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
-sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy
-8.pfb>
-Output written on TCC_Sist_Controle_Atitude.pdf (102 pages, 6525949 bytes).
+TeX 2.9/fonts/type1/public/lm/lmssbo10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
+lmsso12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso17.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/lm/lmsy8.pfb>
+Output written on TCC_Sist_Controle_Atitude.pdf (96 pages, 7061204 bytes).
 PDF statistics:
- 1573 PDF objects out of 1728 (max. 8388607)
- 288 named destinations out of 1000 (max. 500000)
- 36778 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 1447 PDF objects out of 1728 (max. 8388607)
+ 281 named destinations out of 1000 (max. 500000)
+ 36200 words of extra memory for PDF output out of 42996 (max. 10000000)
 

@@ -150,37 +150,6 @@ São José dos Campos, 2014. 308~p.}
   \url{http://www.ita.br/noticias/falhadeixacubesatnacionalinoperante}. Acesso
   em: 23 de março de 2015.}
 
-\bibitem{IMU}
-\abntrefinfo{Sparkfun}{SPARKFUN}{2015}
-{SPARKFUN. \emph{HMC6343}.
-[S.l.], 2015. Dispon{\'\i}vel em:
-  \url{https://www.sparkfun.com/products/12916}. Acesso em: 16 de maio de
-  2015.}
-
-\bibitem{STATEOFART}
-\abntrefinfo{National Aeronautics and Space Administration (NASA)}{NATIONAL
-  AERONAUTICS AND SPACE ADMINISTRATION (NASA)}{2014}
-{NATIONAL AERONAUTICS AND SPACE ADMINISTRATION (NASA). \emph{Small Spacecraft
-  Technology State of the Art}.
-[S.l.], 2014. Dispon{\'\i}vel em:
-  \url{https://www.nasa.gov/sites/default/files/files/Small\_Spacecraft\_Technology\_State\_of\_the\_Art\_2014.pdf}.
-  Acesso em: 25 de julho de 2015.}
-
-\bibitem{dsPIC33EP}
-\abntrefinfo{Microchip Technology}{MICROCHIP TECHNOLOGY}{2015}
-{MICROCHIP TECHNOLOGY. \emph{dsPIC33EPXXXGP50X, dsPIC33EPXXXMC20X/50X and
-  PIC24EPXXXGP/MC20X}.
-[S.l.], 2015. Dispon{\'\i}vel em:
-  \url{http://ww1.microchip.com/downloads/en/DeviceDoc/70000657H.pdf}. Acesso
-  em: 27 de julho de 2015.}
-
-\bibitem{DRV8313}
-\abntrefinfo{Texas Instruments}{TEXAS INSTRUMENTS}{2015}
-{TEXAS INSTRUMENTS. \emph{LDRV8313 Triple Half-H-Bridge Driver IC}.
-[S.l.], 2015. Dispon{\'\i}vel em:
-  \url{http://www.ti.com/lit/ds/symlink/drv8313.pdf}. Acesso em: 22 de julho de
-  2015.}
-
 \bibitem{Luka}
 \abntrefinfo{LUKASZYNSKI}{LUKASZYNSKI}{2013}
 {LUKASZYNSKI, P.~G. \emph{Attitude control hardware and sofware for
@@ -217,6 +186,37 @@ Lulea, 2012. 89~p.}
   \url{http://www.dpaonthenet.net/article/57375/Satellite-positioning-using-miniature-dc-motors.aspx}.
   Acesso em: 06 de julho de 2015.}
 
+\bibitem{IMU}
+\abntrefinfo{Sparkfun}{SPARKFUN}{2015}
+{SPARKFUN. \emph{HMC6343}.
+[S.l.], 2015. Dispon{\'\i}vel em:
+  \url{https://www.sparkfun.com/products/12916}. Acesso em: 16 de maio de
+  2015.}
+
+\bibitem{STATEOFART}
+\abntrefinfo{National Aeronautics and Space Administration (NASA)}{NATIONAL
+  AERONAUTICS AND SPACE ADMINISTRATION (NASA)}{2014}
+{NATIONAL AERONAUTICS AND SPACE ADMINISTRATION (NASA). \emph{Small Spacecraft
+  Technology State of the Art}.
+[S.l.], 2014. Dispon{\'\i}vel em:
+  \url{https://www.nasa.gov/sites/default/files/files/Small\_Spacecraft\_Technology\_State\_of\_the\_Art\_2014.pdf}.
+  Acesso em: 25 de julho de 2015.}
+
+\bibitem{dsPIC33EP}
+\abntrefinfo{Microchip Technology}{MICROCHIP TECHNOLOGY}{2015}
+{MICROCHIP TECHNOLOGY. \emph{dsPIC33EPXXXGP50X, dsPIC33EPXXXMC20X/50X and
+  PIC24EPXXXGP/MC20X}.
+[S.l.], 2015. Dispon{\'\i}vel em:
+  \url{http://ww1.microchip.com/downloads/en/DeviceDoc/70000657H.pdf}. Acesso
+  em: 27 de julho de 2015.}
+
+\bibitem{DRV8313}
+\abntrefinfo{Texas Instruments}{TEXAS INSTRUMENTS}{2015}
+{TEXAS INSTRUMENTS. \emph{LDRV8313 Triple Half-H-Bridge Driver IC}.
+[S.l.], 2015. Dispon{\'\i}vel em:
+  \url{http://www.ti.com/lit/ds/symlink/drv8313.pdf}. Acesso em: 22 de julho de
+  2015.}
+
 \bibitem{NASABLDC}
 \abntrefinfo{NASA}{NASA}{1999}
 {NASA. \emph{Lessons Learned: Selection of Electric Motors for Aerospace
@@ -229,5 +229,16 @@ Lulea, 2012. 89~p.}
 {MARTINS, F.~A. \emph{Projeto e desenvolvimento de um controlador de motores
   "brushless" (BLDC) para aplicação em volantes de inércia}.
 São José dos Campos, 2014. 143~p.}
+
+\bibitem{ProjMaq}
+\abntrefinfo{NORTON}{NORTON}{2004}
+{NORTON, R. \emph{Projeto de Máquinas; Uma Abordagem Integrada}.
+Porto Alegre, 2004. 931~p.}
+
+\bibitem{Carrara}
+\abntrefinfo{CARRARA V.;~MILANI}{CARRARA V.;~MILANI}{2007}
+{CARRARA V.;~MILANI, P.~G. \emph{Controle de uma mesa de mancal a ar de um
+  eixo}.
+São José dos Campos, 2007. 6~p.}
 
 \end{thebibliography}
