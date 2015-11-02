@@ -1,0 +1,9 @@
+PIC HMC6343 - Links
+
+http://www.microchip.com/forums/m621216.aspx
+https://github.com/sparkfun/HMC6343_Breakout
+http://electronics.stackexchange.com/questions/55545/starting-with-i2c-on-pic18s
+http://electronics.stackexchange.com/questions/65531/what-is-slew-rate-for-i2c
+https://www.sparkfun.com/products/retired/8951
+http://www.mikroe.com/forum/viewtopic.php?f=13&t=18027&start=0
+
