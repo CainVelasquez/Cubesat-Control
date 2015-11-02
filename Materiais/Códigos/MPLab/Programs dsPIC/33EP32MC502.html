@@ -1,0 +1,294 @@
+<BODY BGCOLOR="#FFFFE0" style="font-family: sans-serif">
+<p><b><font color="#003366">ICD Communication Channel Select bits</font></b>
+<table frame=box rules=cols cellpadding=3>
+<tr><td><tt>ICS = NONE</tt></td><td><font size="2">
+Reserved, do not use
+</font></td></tr>
+<tr><td><tt>ICS = PGD3</tt></td><td><font size="2">
+Communicate on PGEC3 and PGED3
+</font></td></tr>
+<tr><td><tt>ICS = PGD2</tt></td><td><font size="2">
+Communicate on PGEC2 and PGED2
+</font></td></tr>
+<tr><td><tt>ICS = PGD1</tt></td><td><font size="2">
+Communicate on PGEC1 and PGED1
+</font></td></tr>
+</table></p>
+<p><b><font color="#003366">JTAG Enable bit</font></b>
+<table frame=box rules=cols cellpadding=3>
+<tr><td><tt>JTAGEN = OFF</tt></td><td><font size="2">
+JTAG is disabled
+</font></td></tr>
+<tr><td><tt>JTAGEN = ON</tt></td><td><font size="2">
+JTAG is enabled
+</font></td></tr>
+</table></p>
+<p><b><font color="#003366">Alternate I2C1 pins</font></b>
+<table frame=box rules=cols cellpadding=3>
+<tr><td><tt>ALTI2C1 = ON</tt></td><td><font size="2">
+I2C1 mapped to ASDA1/ASCL1 pins
+</font></td></tr>
+<tr><td><tt>ALTI2C1 = OFF</tt></td><td><font size="2">
+I2C1 mapped to SDA1/SCL1 pins
+</font></td></tr>
+</table></p>
+<p><b><font color="#003366">Alternate I2C2 pins</font></b>
+<table frame=box rules=cols cellpadding=3>
+<tr><td><tt>ALTI2C2 = ON</tt></td><td><font size="2">
+I2C2 mapped to ASDA2/ASCL2 pins
+</font></td></tr>
+<tr><td><tt>ALTI2C2 = OFF</tt></td><td><font size="2">
+I2C2 mapped to SDA2/SCL2 pins
+</font></td></tr>
+</table></p>
+<p><b><font color="#003366">Watchdog Window Select bits</font></b>
+<table frame=box rules=cols cellpadding=3>
+<tr><td><tt>WDTWIN = WIN75</tt></td><td><font size="2">
+WDT Window is 75% of WDT period
+</font></td></tr>
+<tr><td><tt>WDTWIN = WIN50</tt></td><td><font size="2">
+WDT Window is 50% of WDT period
+</font></td></tr>
+<tr><td><tt>WDTWIN = WIN37</tt></td><td><font size="2">
+WDT Window is 37.5% of WDT period
+</font></td></tr>
+<tr><td><tt>WDTWIN = WIN25</tt></td><td><font size="2">
+WDT Window is 25% of WDT period
+</font></td></tr>
+</table></p>
+<p><b><font color="#003366">Watchdog Timer Postscaler bits</font></b>
+<table frame=box rules=cols cellpadding=3>
+<tr><td><tt>WDTPOST = PS1</tt></td><td><font size="2">
+1
+ : 
+1
+</font></td></tr>
+<tr><td><tt>WDTPOST = PS2</tt></td><td><font size="2">
+1
+ : 
+2
+</font></td></tr>
+<tr><td><tt>WDTPOST = PS4</tt></td><td><font size="2">
+1
+ : 
+4
+</font></td></tr>
+<tr><td><tt>WDTPOST = PS8</tt></td><td><font size="2">
+1
+ : 
+8
+</font></td></tr>
+<tr><td><tt>WDTPOST = PS16</tt></td><td><font size="2">
+1
+ : 
+16
+</font></td></tr>
+<tr><td><tt>WDTPOST = PS32</tt></td><td><font size="2">
+1
+ : 
+32
+</font></td></tr>
+<tr><td><tt>WDTPOST = PS64</tt></td><td><font size="2">
+1
+ : 
+64
+</font></td></tr>
+<tr><td><tt>WDTPOST = PS128</tt></td><td><font size="2">
+1
+ : 
+128
+</font></td></tr>
+<tr><td><tt>WDTPOST = PS256</tt></td><td><font size="2">
+1
+ : 
+256
+</font></td></tr>
+<tr><td><tt>WDTPOST = PS512</tt></td><td><font size="2">
+1
+ : 
+512
+</font></td></tr>
+<tr><td><tt>WDTPOST = PS1024</tt></td><td><font size="2">
+1
+ : 
+1,024
+</font></td></tr>
+<tr><td><tt>WDTPOST = PS2048</tt></td><td><font size="2">
+1
+ : 
+2,048
+</font></td></tr>
+<tr><td><tt>WDTPOST = PS4096</tt></td><td><font size="2">
+1
+ : 
+4,096
+</font></td></tr>
+<tr><td><tt>WDTPOST = PS8192</tt></td><td><font size="2">
+1
+ : 
+8,192
+</font></td></tr>
+<tr><td><tt>WDTPOST = PS16384</tt></td><td><font size="2">
+1
+ : 
+16,384
+</font></td></tr>
+<tr><td><tt>WDTPOST = PS32768</tt></td><td><font size="2">
+1
+ : 
+32,768
+</font></td></tr>
+</table></p>
+<p><b><font color="#003366">Watchdog Timer Prescaler bit</font></b>
+<table frame=box rules=cols cellpadding=3>
+<tr><td><tt>WDTPRE = PR32</tt></td><td><font size="2">
+1
+ : 
+32
+</font></td></tr>
+<tr><td><tt>WDTPRE = PR128</tt></td><td><font size="2">
+1
+ : 
+128
+</font></td></tr>
+</table></p>
+<p><b><font color="#003366">PLL Lock Enable bit</font></b>
+<table frame=box rules=cols cellpadding=3>
+<tr><td><tt>PLLKEN = OFF</tt></td><td><font size="2">
+Clock switch will not wait for the PLL lock signal.
+</font></td></tr>
+<tr><td><tt>PLLKEN = ON</tt></td><td><font size="2">
+Clock switch to PLL source will wait until the PLL lock signal is valid.
+</font></td></tr>
+</table></p>
+<p><b><font color="#003366">Watchdog Timer Window Enable bit</font></b>
+<table frame=box rules=cols cellpadding=3>
+<tr><td><tt>WINDIS = ON</tt></td><td><font size="2">
+Watchdog Timer in Window mode
+</font></td></tr>
+<tr><td><tt>WINDIS = OFF</tt></td><td><font size="2">
+Watchdog Timer in Non-Window mode
+</font></td></tr>
+</table></p>
+<p><b><font color="#003366">Watchdog Timer Enable bit</font></b>
+<table frame=box rules=cols cellpadding=3>
+<tr><td><tt>FWDTEN = OFF</tt></td><td><font size="2">
+Watchdog timer enabled/disabled by user software
+</font></td></tr>
+<tr><td><tt>FWDTEN = ON</tt></td><td><font size="2">
+Watchdog timer always enabled
+</font></td></tr>
+</table></p>
+<p><b><font color="#003366">Primary Oscillator Mode Select bits</font></b>
+<table frame=box rules=cols cellpadding=3>
+<tr><td><tt>POSCMD = EC</tt></td><td><font size="2">
+EC (External Clock) Mode
+</font></td></tr>
+<tr><td><tt>POSCMD = XT</tt></td><td><font size="2">
+XT Crystal Oscillator Mode
+</font></td></tr>
+<tr><td><tt>POSCMD = HS</tt></td><td><font size="2">
+HS Crystal Oscillator Mode
+</font></td></tr>
+<tr><td><tt>POSCMD = NONE</tt></td><td><font size="2">
+Primary Oscillator disabled
+</font></td></tr>
+</table></p>
+<p><b><font color="#003366">OSC2 Pin Function bit</font></b>
+<table frame=box rules=cols cellpadding=3>
+<tr><td><tt>OSCIOFNC = ON</tt></td><td><font size="2">
+OSC2 is general purpose digital I/O pin
+</font></td></tr>
+<tr><td><tt>OSCIOFNC = OFF</tt></td><td><font size="2">
+OSC2 is clock output
+</font></td></tr>
+</table></p>
+<p><b><font color="#003366">Peripheral pin select configuration</font></b>
+<table frame=box rules=cols cellpadding=3>
+<tr><td><tt>IOL1WAY = OFF</tt></td><td><font size="2">
+Allow multiple reconfigurations
+</font></td></tr>
+<tr><td><tt>IOL1WAY = ON</tt></td><td><font size="2">
+Allow only one reconfiguration
+</font></td></tr>
+</table></p>
+<p><b><font color="#003366">Clock Switching Mode bits</font></b>
+<table frame=box rules=cols cellpadding=3>
+<tr><td><tt>FCKSM = CSECME</tt></td><td><font size="2">
+Both Clock switching and Fail-safe Clock Monitor are enabled
+</font></td></tr>
+<tr><td><tt>FCKSM = CSECMD</tt></td><td><font size="2">
+Clock switching is enabled,Fail-safe Clock Monitor is disabled
+</font></td></tr>
+<tr><td><tt>FCKSM = CSDCMD</tt></td><td><font size="2">
+Both Clock switching and Fail-safe Clock Monitor are disabled
+</font></td></tr>
+</table></p>
+<p><b><font color="#003366">Oscillator Source Selection</font></b>
+<table frame=box rules=cols cellpadding=3>
+<tr><td><tt>FNOSC = FRC</tt></td><td><font size="2">
+Internal Fast RC (FRC)
+</font></td></tr>
+<tr><td><tt>FNOSC = FRCPLL</tt></td><td><font size="2">
+Fast RC Oscillator with divide-by-N with PLL module (FRCPLL)
+</font></td></tr>
+<tr><td><tt>FNOSC = PRI</tt></td><td><font size="2">
+Primary Oscillator (XT, HS, EC)
+</font></td></tr>
+<tr><td><tt>FNOSC = PRIPLL</tt></td><td><font size="2">
+Primary Oscillator with PLL module (XT + PLL, HS + PLL, EC + PLL)
+</font></td></tr>
+<tr><td><tt>FNOSC = LPRC</tt></td><td><font size="2">
+Low-Power RC Oscillator (LPRC)
+</font></td></tr>
+<tr><td><tt>FNOSC = FRCDIVN</tt></td><td><font size="2">
+Internal Fast RC (FRC) Oscillator with postscaler
+</font></td></tr>
+</table></p>
+<p><b><font color="#003366">PWM Lock Enable bit</font></b>
+<table frame=box rules=cols cellpadding=3>
+<tr><td><tt>PWMLOCK = OFF</tt></td><td><font size="2">
+PWM registers may be written without key sequence
+</font></td></tr>
+<tr><td><tt>PWMLOCK = ON</tt></td><td><font size="2">
+Certain PWM registers may only be written after key sequence
+</font></td></tr>
+</table></p>
+<p><b><font color="#003366">Two-speed Oscillator Start-up Enable bit</font></b>
+<table frame=box rules=cols cellpadding=3>
+<tr><td><tt>IESO = OFF</tt></td><td><font size="2">
+Start up with user-selected oscillator source
+</font></td></tr>
+<tr><td><tt>IESO = ON</tt></td><td><font size="2">
+Start up device with FRC, then switch to user-selected oscillator source
+</font></td></tr>
+</table></p>
+<p><b><font color="#003366">General Segment Write-Protect bit</font></b>
+<table frame=box rules=cols cellpadding=3>
+<tr><td><tt>GWRP = ON</tt></td><td><font size="2">
+General Segment is write protected
+</font></td></tr>
+<tr><td><tt>GWRP = OFF</tt></td><td><font size="2">
+General Segment may be written
+</font></td></tr>
+</table></p>
+<p><b><font color="#003366">General Segment Code-Protect bit</font></b>
+<table frame=box rules=cols cellpadding=3>
+<tr><td><tt>GCP = ON</tt></td><td><font size="2">
+General Segment Code protection Enabled
+</font></td></tr>
+<tr><td><tt>GCP = OFF</tt></td><td><font size="2">
+General Segment Code protect is Disabled
+</font></td></tr>
+</table></p>
+<p><b><font color="#003366"></font></b>
+<table frame=box rules=cols cellpadding=3>
+</table></p>
+<p><b><font color="#003366"></font></b>
+<table frame=box rules=cols cellpadding=3>
+</table></p>
+<p><b><font color="#003366"></font></b>
+<table frame=box rules=cols cellpadding=3>
+</table></p>
+<p><b><font color="#003366"></font></b>
+<table frame=box rules=cols cellpadding=3>
