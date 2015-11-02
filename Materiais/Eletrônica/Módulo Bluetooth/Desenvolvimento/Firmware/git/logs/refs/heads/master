@@ -1,0 +1,11 @@
+0000000000000000000000000000000000000000 0f1fea053f47995f1f8967e124239082dc44750a Rafael Corsi <corsiferrao@gmail.com> 1396012172 -0300	commit (initial): Versao inicial de debug com Arduino
+0f1fea053f47995f1f8967e124239082dc44750a e7e42830addf8b66e77c0a6033a406b06f35840e Rafael Corsi <corsiferrao@gmail.com> 1396147131 -0300	commit: alguns comandos comecando a funcionar
+e7e42830addf8b66e77c0a6033a406b06f35840e 67c7c324393f725bd22cb8094308067f8a87bb6a Rafael Corsi <corsiferrao@gmail.com> 1397399797 -0300	commit: Versao com bluetooth funcioinando, nome e envio de dados do modulo para o celular, Problema com a recepcao serial, por algum motivo nao estou conseguindo debugar
+67c7c324393f725bd22cb8094308067f8a87bb6a b402c5b796dc3679c70545b3808830d07ec54ec8 Rafael Corsi <corsiferrao@gmail.com> 1397791437 -0300	commit: Versao inicial de teste, Makefile ok
+b402c5b796dc3679c70545b3808830d07ec54ec8 5a6fa83d910b43acc11b6ca6f68de92f152802be Rafael Corsi <corsiferrao@gmail.com> 1397794471 -0300	commit: adcionando funcao que configura ios
+5a6fa83d910b43acc11b6ca6f68de92f152802be 06b13707ca6bfb53fc94b05c26d4d92187528de3 Rafael Corsi <corsiferrao@gmail.com> 1397795303 -0300	commit: Tx output, falta configurar serial
+06b13707ca6bfb53fc94b05c26d4d92187528de3 618acae48feb8ebb9baa84e097eb10f9fa2494da Rafael Corsi <corsiferrao@gmail.com> 1398120712 -0300	commit: Versão com UART, iniciliacao, escrita de buffer, leitura de char
+618acae48feb8ebb9baa84e097eb10f9fa2494da 5cf55ba56dd50888362382bdaef6605e03526961 Rafael Corsi <corsiferrao@gmail.com> 1398120760 -0300	commit: arquivos uart
+5cf55ba56dd50888362382bdaef6605e03526961 deddb8f8330ade9378b194480635fb8bc927cd52 Rafael Corsi <corsiferrao@gmail.com> 1398121649 -0300	commit: uart com get e put, precisamos criar as funcoes que vao lidar com o HM10, essas funcoes
+deddb8f8330ade9378b194480635fb8bc927cd52 5a050d6bf558a858e62f1979f69c37060e695e57 Rafael Corsi <corsiferrao@gmail.com> 1399758192 -0300	merge protoboard: Fast-forward
+5a050d6bf558a858e62f1979f69c37060e695e57 64136d097447d8ac24db5db49b9f1ee5f57b4db6 Rafael C <corsiferrao@gmail.com> 1416829669 -0200	merge prototipo1: Fast-forward

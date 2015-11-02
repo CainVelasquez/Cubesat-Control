@@ -1,0 +1,2 @@
+0000000000000000000000000000000000000000 6dd13b6f4d96255318b2efd24449ee2a59a1994b Rafael Corsi <corsiferrao@gmail.com> 1401456302 -0300	branch: Created from serial
+6dd13b6f4d96255318b2efd24449ee2a59a1994b 87b2f994a4d36d344d99d48551612a64c93e80c8 Rafael Corsi <corsiferrao@gmail.com> 1401728488 -0300	commit: versao com a nova serial mas não está funcionando, primeiro que a saída nao se altera e segunda que quando chamo o envio de bytes dentro da interrupcao o up trava

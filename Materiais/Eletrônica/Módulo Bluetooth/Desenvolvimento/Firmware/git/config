@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[giggle]
+	file-view-path = debug/panico_arduino/panico_arduino.ino
+[gitflow "branch"]
+	develop = master
+	master = 
+[gitflow "prefix"]
+	feature = feature/
+	release = 
+	hotfix = 
+	support = 
+	versiontag = 
+[remote "origin"]
+	url = https://github.com/corsiferrao/panico.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

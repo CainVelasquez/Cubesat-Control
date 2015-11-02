@@ -1,0 +1,29 @@
+Protel Layer and Gerber File Extension Key
+
+.txt - Drill file
+
+.gbl - botom layer
+.gbs - bottom solder mask
+.gbo - bottom overlay (silk screen)
+.gbp - bottom paste
+.gko - keep out
+.gm1 - mechanical 1  (board outline)
+.gm2 - mechanical 2
+.g1 - inner routing layer 1
+.g2 - inner routing layer 2
+.gp1 - inner plane 1                        Negative
+.gp2 - inner plane 2                        Negative
+.gpb - bottom pad master
+.gpt - top pad master
+.gtp - top paste
+.gtl - top layer
+.gts - top solder mask
+.gto - top overlay (silk screen)
+
+Other Miscellaneous Files:
+
+.rul - rule report file
+.ldp - layer report file.
+.apr - aperture report file
+.drl - unknown binary drill file
+.drr - drill report 

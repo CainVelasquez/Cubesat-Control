@@ -1,0 +1,69 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+ACKStatus	C:\Projects\MPD\Working\ANxxxx\i2c.h	43;"	p	line:43	signature:(void)
+ACKStatus	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	440;"	f	line:440	signature:(void)
+AckI2C	C:\Projects\MPD\Working\ANxxxx\i2c.h	45;"	p	line:45	signature:(void)
+AckI2C	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	477;"	f	line:477	signature:(void)
+ControlByte	C:\Projects\MPD\Working\ANxxxx\main.c	42;"	v	line:42
+Data	C:\Projects\MPD\Working\ANxxxx\main.c	45;"	v	line:45
+EEAckPolling	C:\Projects\MPD\Working\ANxxxx\i2c.h	46;"	p	line:46	signature:(unsigned char)
+EEAckPolling	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	547;"	f	line:547	signature:(unsigned char control)
+ErrorCode	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	185;"	l	line:185
+ErrorCode	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	252;"	l	line:252
+FWDTEN_OFF	C:\Projects\MPD\Working\ANxxxx\main.c	37;"	v	line:37
+GWRP_OFF	C:\Projects\MPD\Working\ANxxxx\main.c	34;"	v	line:34
+HDByteReadI2C	C:\Projects\MPD\Working\ANxxxx\i2c.h	56;"	p	line:56	signature:(unsigned char, unsigned char, unsigned char, unsigned char*, unsigned char)
+HDByteReadI2C	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	288;"	f	line:288	signature:(unsigned char ControlByte, unsigned char HighAdd, unsigned char LowAdd, unsigned char *Data, unsigned char Length)
+HDByteWriteI2C	C:\Projects\MPD\Working\ANxxxx\i2c.h	57;"	p	line:57	signature:(unsigned char, unsigned char, unsigned char, unsigned char)
+HDByteWriteI2C	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	250;"	f	line:250	signature:(unsigned char ControlByte, unsigned char HighAdd, unsigned char LowAdd, unsigned char data)
+HDPageWriteI2C	C:\Projects\MPD\Working\ANxxxx\i2c.h	58;"	p	line:58	signature:(unsigned char, unsigned char, unsigned char, unsigned char*)
+HDPageWriteI2C	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	350;"	f	line:350	signature:(unsigned char ControlByte, unsigned char HighAdd, unsigned char LowAdd, unsigned char *wrptr)
+HDSequentialReadI2C	C:\Projects\MPD\Working\ANxxxx\i2c.h	59;"	p	line:59	signature:(unsigned char, unsigned char, unsigned char, unsigned char*, unsigned char)
+HDSequentialReadI2C	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	409;"	f	line:409	signature:(unsigned char ControlByte, unsigned char HighAdd, unsigned char LowAdd, unsigned char *rdptr, unsigned char length)
+HighAdd	C:\Projects\MPD\Working\ANxxxx\main.c	43;"	v	line:43
+HighAdd	C:\Projects\MPD\Working\ANxxxx\main.c	44;"	v	line:44
+IdleI2C	C:\Projects\MPD\Working\ANxxxx\i2c.h	35;"	p	line:35	signature:(void)
+IdleI2C	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	166;"	f	line:166	signature:(void)
+InitI2C	C:\Projects\MPD\Working\ANxxxx\i2c.h	42;"	p	line:42	signature:(void)
+InitI2C	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	45;"	f	line:45	signature:(void)
+InitPorts	C:\Projects\MPD\Working\ANxxxx\main.c	107;"	f	line:107	signature:(void)
+InitPorts	C:\Projects\MPD\Working\ANxxxx\main.c	40;"	p	line:40	file:	signature:(void)
+LDByteReadI2C	C:\Projects\MPD\Working\ANxxxx\i2c.h	50;"	p	line:50	signature:(unsigned char, unsigned char, unsigned char*, unsigned char)
+LDByteReadI2C	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	219;"	f	line:219	signature:(unsigned char ControlByte, unsigned char Address, unsigned char *Data, unsigned char Length)
+LDByteWriteI2C	C:\Projects\MPD\Working\ANxxxx\i2c.h	51;"	p	line:51	signature:(unsigned char, unsigned char, unsigned char)
+LDByteWriteI2C	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	183;"	f	line:183	signature:(unsigned char ControlByte, unsigned char LowAdd, unsigned char data)
+LDPageWriteI2C	C:\Projects\MPD\Working\ANxxxx\i2c.h	52;"	p	line:52	signature:(unsigned char, unsigned char, unsigned char*)
+LDPageWriteI2C	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	323;"	f	line:323	signature:(unsigned char ControlByte, unsigned char LowAdd, unsigned char *wrptr)
+LDSequentialReadI2C	C:\Projects\MPD\Working\ANxxxx\i2c.h	53;"	p	line:53	signature:(unsigned char, unsigned char, unsigned char*, unsigned char)
+LDSequentialReadI2C	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	379;"	f	line:379	signature:(unsigned char ControlByte, unsigned char address, unsigned char *rdptr, unsigned char length)
+Length	C:\Projects\MPD\Working\ANxxxx\main.c	46;"	v	line:46
+LowAdd	C:\Projects\MPD\Working\ANxxxx\main.c	44;"	v	line:44
+NotAckI2C	C:\Projects\MPD\Working\ANxxxx\i2c.h	41;"	p	line:41	signature:(void)
+NotAckI2C	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	457;"	f	line:457	signature:(void)
+PAGESIZE::32	C:\Projects\MPD\Working\ANxxxx\i2c.h	32;"	d	line:32
+POSCMD_HS	C:\Projects\MPD\Working\ANxxxx\main.c	36;"	v	line:36
+PageString	C:\Projects\MPD\Working\ANxxxx\main.c	47;"	v	line:47
+RestartI2C	C:\Projects\MPD\Working\ANxxxx\i2c.h	39;"	p	line:39	signature:(void)
+RestartI2C	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	101;"	f	line:101	signature:(void)
+StartI2C	C:\Projects\MPD\Working\ANxxxx\i2c.h	36;"	p	line:36	signature:(void)
+StartI2C	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	79;"	f	line:79	signature:(void)
+StopI2C	C:\Projects\MPD\Working\ANxxxx\i2c.h	38;"	p	line:38	signature:(void)
+StopI2C	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	123;"	f	line:123	signature:(void)
+TEMP_OFF	C:\Projects\MPD\Working\ANxxxx\main.c	35;"	v	line:35
+WriteI2C	C:\Projects\MPD\Working\ANxxxx\i2c.h	37;"	p	line:37	signature:(unsigned char)
+WriteI2C	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	145;"	f	line:145	signature:(unsigned char byte)
+getI2C	C:\Projects\MPD\Working\ANxxxx\i2c.h	44;"	p	line:44	signature:(void)
+getI2C	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	527;"	f	line:527	signature:(void)
+getsI2C	C:\Projects\MPD\Working\ANxxxx\i2c.h	40;"	p	line:40	signature:(unsigned char*, unsigned char)
+getsI2C	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	496;"	f	line:496	signature:(unsigned char *rdptr, unsigned char Length)
+main	C:\Projects\MPD\Working\ANxxxx\main.c	61;"	f	line:61	signature:(void)
+n	C:\Projects\MPD\Working\ANxxxx\main.c	63;"	l	line:63
+putstringI2C	C:\Projects\MPD\Working\ANxxxx\i2c.h	47;"	p	line:47	signature:(unsigned char*)
+putstringI2C	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	606;"	f	line:606	signature:(unsigned char *wrptr)
+x	C:\Projects\MPD\Working\ANxxxx\i2c_Func.c	608;"	l	line:608

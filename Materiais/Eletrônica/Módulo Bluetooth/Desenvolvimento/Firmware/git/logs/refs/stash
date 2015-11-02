@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 e29d2194b95586d3eb4f81889703f1886c7550e5 Rafael Corsi <corsiferrao@gmail.com> 1398121136 -0300	WIP on master: 5cf55ba arquivos uart
+e29d2194b95586d3eb4f81889703f1886c7550e5 0b9980ada6e876296ec15e28aeb8b3a085d53d50 Rafael Corsi <corsiferrao@gmail.com> 1399853029 -0300	WIP on master: 5a050d6 versao funcionando com interrupcao em modo sleep
+0b9980ada6e876296ec15e28aeb8b3a085d53d50 9f6b718ee72e546a19e4dbebb46d261a3a2da90d Rafael Corsi <corsiferrao@gmail.com> 1401318175 -0300	WIP on (no branch): d14f5fd Testando proto, leds ok
+9f6b718ee72e546a19e4dbebb46d261a3a2da90d b5a4e34a25e7c7ac2bf481373af8359cc631a226 Rafael C <corsiferrao@gmail.com> 1401323594 -0300	WIP on serial: 54e9588 problema no hw, quando o hm10 estava ligado a gravacao nao funcionava

@@ -1,0 +1,64 @@
+Importer Log Report
+Project : botpanico v1.2.PrjPcb
+
+Section : Analyze Document - C:\Users\JUNIOR\Dropbox\Projetos Arnaldo-Corsi\Andre\Bluetooth\Desenvolvimento\Placa01 - revisado\botpanico v1.2.brd
+    Analyzing data of C:\Users\JUNIOR\Dropbox\Projetos Arnaldo-Corsi\Andre\Bluetooth\Desenvolvimento\Placa01 - revisado\botpanico v1.2.brd
+    Load settings
+    Load layers 125
+    Load Library "SparkFun-Electromechanical"
+    Load Packages 1
+    Load Library "junior"
+    Load Packages 9
+    Load Library "rcl"
+    Load Packages 1
+    Load Library "microbuilder"
+    Load Packages 1
+    Load Library "dp_devices"
+    Load Packages 1
+EndSection
+
+Section : Analyze Document - C:\Users\JUNIOR\Dropbox\Projetos Arnaldo-Corsi\Andre\Bluetooth\Desenvolvimento\Placa01 - revisado\botpanico v1.2.sch
+    Analyzing data of C:\Users\JUNIOR\Dropbox\Projetos Arnaldo-Corsi\Andre\Bluetooth\Desenvolvimento\Placa01 - revisado\botpanico v1.2.sch
+    Load settings
+    Load layers 125
+    Load schematic
+    ERROR: Unhandled typedescription
+    Load Libraries 8
+    Load Library "frames"
+    Load Packages 0
+    Load Symbols 2
+    Load DeviceSets 1
+    Load Library "supply1"
+    Load Packages 0
+    Load Symbols 1
+    Load DeviceSets 1
+    Load Library "SparkFun"
+    Load Packages 0
+    Load Symbols 2
+    Load DeviceSets 2
+    Load Library "SparkFun-Electromechanical"
+    Load Packages 10
+    Load Symbols 1
+    Load DeviceSets 1
+    Load Library "junior"
+    Load Packages 32
+    Load Symbols 9
+    Load DeviceSets 9
+    Load Library "rcl"
+    Load Packages 79
+    Load Symbols 1
+    Load DeviceSets 1
+    Load Library "microbuilder"
+    Load Packages 5
+    Load Symbols 1
+    Load DeviceSets 1
+    Load Library "dp_devices"
+    Load Packages 2
+    Load Symbols 1
+    Load DeviceSets 1
+    Load Attributes 0
+    Load Classes 2
+    Load Parts 48
+    Load Sheets 1
+    ERROR: Unhandled typeerrors
+EndSection

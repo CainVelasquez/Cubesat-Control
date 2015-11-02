@@ -1,0 +1,50 @@
+0000000000000000000000000000000000000000 0f1fea053f47995f1f8967e124239082dc44750a Rafael Corsi <corsiferrao@gmail.com> 1396012172 -0300	commit (initial): Versao inicial de debug com Arduino
+0f1fea053f47995f1f8967e124239082dc44750a 0f1fea053f47995f1f8967e124239082dc44750a Rafael Corsi <corsiferrao@gmail.com> 1396147102 -0300	checkout: moving from master to serial-sw
+0f1fea053f47995f1f8967e124239082dc44750a 0f1fea053f47995f1f8967e124239082dc44750a Rafael Corsi <corsiferrao@gmail.com> 1396147114 -0300	checkout: moving from serial-sw to master
+0f1fea053f47995f1f8967e124239082dc44750a e7e42830addf8b66e77c0a6033a406b06f35840e Rafael Corsi <corsiferrao@gmail.com> 1396147131 -0300	commit: alguns comandos comecando a funcionar
+e7e42830addf8b66e77c0a6033a406b06f35840e 0f1fea053f47995f1f8967e124239082dc44750a Rafael Corsi <corsiferrao@gmail.com> 1396147138 -0300	checkout: moving from master to serial-sw
+0f1fea053f47995f1f8967e124239082dc44750a e7e42830addf8b66e77c0a6033a406b06f35840e Rafael Corsi <corsiferrao@gmail.com> 1396148277 -0300	checkout: moving from serial-sw to master
+e7e42830addf8b66e77c0a6033a406b06f35840e 67c7c324393f725bd22cb8094308067f8a87bb6a Rafael Corsi <corsiferrao@gmail.com> 1397399797 -0300	commit: Versao com bluetooth funcioinando, nome e envio de dados do modulo para o celular, Problema com a recepcao serial, por algum motivo nao estou conseguindo debugar
+67c7c324393f725bd22cb8094308067f8a87bb6a b402c5b796dc3679c70545b3808830d07ec54ec8 Rafael Corsi <corsiferrao@gmail.com> 1397791437 -0300	commit: Versao inicial de teste, Makefile ok
+b402c5b796dc3679c70545b3808830d07ec54ec8 5a6fa83d910b43acc11b6ca6f68de92f152802be Rafael Corsi <corsiferrao@gmail.com> 1397794471 -0300	commit: adcionando funcao que configura ios
+5a6fa83d910b43acc11b6ca6f68de92f152802be 06b13707ca6bfb53fc94b05c26d4d92187528de3 Rafael Corsi <corsiferrao@gmail.com> 1397795303 -0300	commit: Tx output, falta configurar serial
+06b13707ca6bfb53fc94b05c26d4d92187528de3 618acae48feb8ebb9baa84e097eb10f9fa2494da Rafael Corsi <corsiferrao@gmail.com> 1398120712 -0300	commit: Versão com UART, iniciliacao, escrita de buffer, leitura de char
+618acae48feb8ebb9baa84e097eb10f9fa2494da 5cf55ba56dd50888362382bdaef6605e03526961 Rafael Corsi <corsiferrao@gmail.com> 1398120760 -0300	commit: arquivos uart
+5cf55ba56dd50888362382bdaef6605e03526961 deddb8f8330ade9378b194480635fb8bc927cd52 Rafael Corsi <corsiferrao@gmail.com> 1398121649 -0300	commit: uart com get e put, precisamos criar as funcoes que vao lidar com o HM10, essas funcoes
+deddb8f8330ade9378b194480635fb8bc927cd52 deddb8f8330ade9378b194480635fb8bc927cd52 Rafael Corsi <corsiferrao@gmail.com> 1398518675 -0300	checkout: moving from master to protoboard
+deddb8f8330ade9378b194480635fb8bc927cd52 ba92bd7766b5da032f0f2d6417c791d167645831 Rafael Corsi <corsiferrao@gmail.com> 1398552167 -0300	commit: trabalhando com interrupcao e sleep mode
+ba92bd7766b5da032f0f2d6417c791d167645831 d49117bcbe37feebeac3bcf915ca47b2853a2660 Rafael Corsi <corsiferrao@gmail.com> 1398557205 -0300	commit: interrupcao implementada
+d49117bcbe37feebeac3bcf915ca47b2853a2660 47b0de86d7aa2d7c74deb326a7c4e0a8c1f14549 Rafael Corsi <corsiferrao@gmail.com> 1398558482 -0300	commit: organizando arquivos
+47b0de86d7aa2d7c74deb326a7c4e0a8c1f14549 ba72fd3fc37be9f14db3d5a2c84b9712601bc0ba Rafael Corsi <corsiferrao@gmail.com> 1398949007 -0300	commit: comentarios e organizacao
+ba72fd3fc37be9f14db3d5a2c84b9712601bc0ba 46103642b23c6eb916ce65fdab95865146337c27 Rafael Corsi <corsiferrao@gmail.com> 1398957826 -0300	commit: correcoes de alertas e inicio de codificacao da leitura do hm10
+46103642b23c6eb916ce65fdab95865146337c27 2f1bcf17462e65c65d266eeb12c50f8bc98b7815 Rafael Corsi <corsiferrao@gmail.com> 1398959182 -0300	commit: adicionado led
+2f1bcf17462e65c65d266eeb12c50f8bc98b7815 fb213f2e1bf325fc576157ff5655fa43d552125a Rafael Corsi <corsiferrao@gmail.com> 1398961213 -0300	commit: sem alertas de copilação, trabalhando na interrupcao
+fb213f2e1bf325fc576157ff5655fa43d552125a d14f5fd1604354eb86be07e83638a9c5d4ef08d2 Rafael Corsi <corsiferrao@gmail.com> 1399638096 -0300	commit: Testando proto, leds ok
+d14f5fd1604354eb86be07e83638a9c5d4ef08d2 65b5f9af868089c8787d4286344297f47aa11bb2 Rafael Corsi <corsiferrao@gmail.com> 1399641980 -0300	commit: io init nao funciona, erro copilacao ?
+65b5f9af868089c8787d4286344297f47aa11bb2 6a72fec7db2ac9ab3019bb246ec355bcd84928bc Rafael Corsi <corsiferrao@gmail.com> 1399641993 -0300	commit: io init nao funciona, erro copilacao ?
+6a72fec7db2ac9ab3019bb246ec355bcd84928bc 3d43f0fcf3fabab7f1b7c596589e1e397efa5c46 Rafael Corsi <corsiferrao@gmail.com> 1399754501 -0300	commit: interrpcao no INT1 ok
+3d43f0fcf3fabab7f1b7c596589e1e397efa5c46 ffd25e5343be9d191d06cd696f0148fb53fb3a88 Rafael Corsi <corsiferrao@gmail.com> 1399754701 -0300	commit: interrpcao no INT1 ok
+ffd25e5343be9d191d06cd696f0148fb53fb3a88 5a050d6bf558a858e62f1979f69c37060e695e57 Rafael Corsi <corsiferrao@gmail.com> 1399757756 -0300	commit: versao funcionando com interrupcao em modo sleep
+5a050d6bf558a858e62f1979f69c37060e695e57 deddb8f8330ade9378b194480635fb8bc927cd52 Rafael Corsi <corsiferrao@gmail.com> 1399758183 -0300	checkout: moving from protoboard to master
+deddb8f8330ade9378b194480635fb8bc927cd52 5a050d6bf558a858e62f1979f69c37060e695e57 Rafael Corsi <corsiferrao@gmail.com> 1399758192 -0300	merge protoboard: Fast-forward
+5a050d6bf558a858e62f1979f69c37060e695e57 5a050d6bf558a858e62f1979f69c37060e695e57 Rafael Corsi <corsiferrao@gmail.com> 1399853048 -0300	checkout: moving from master to serial
+5a050d6bf558a858e62f1979f69c37060e695e57 54e95882466207145584246ebfd96d8434bb01bc Rafael C <corsiferrao@gmail.com> 1401317835 -0300	commit: problema no hw, quando o hm10 estava ligado a gravacao nao funcionava
+54e95882466207145584246ebfd96d8434bb01bc d14f5fd1604354eb86be07e83638a9c5d4ef08d2 Rafael C <corsiferrao@gmail.com> 1401317842 -0300	checkout: moving from serial to origin/protoboard
+d14f5fd1604354eb86be07e83638a9c5d4ef08d2 54e95882466207145584246ebfd96d8434bb01bc Rafael Corsi <corsiferrao@gmail.com> 1401318176 -0300	checkout: moving from d14f5fd1604354eb86be07e83638a9c5d4ef08d2 to serial
+54e95882466207145584246ebfd96d8434bb01bc edaa0ecc0753cce62a07c62381709074a3719296 Rafael C <corsiferrao@gmail.com> 1401323681 -0300	commit: corrigido incializacao io serial tx
+edaa0ecc0753cce62a07c62381709074a3719296 7fa0debf97bf9bf0e1a32801c1fa440583d05252 Rafael C <corsiferrao@gmail.com> 1401323981 -0300	commit: corrigido freq p/ 12Mhz
+6dd13b6f4d96255318b2efd24449ee2a59a1994b 87b2f994a4d36d344d99d48551612a64c93e80c8 Rafael Corsi <corsiferrao@gmail.com> 1401728488 -0300	commit: versao com a nova serial mas não está funcionando, primeiro que a saída nao se altera e segunda que quando chamo o envio de bytes dentro da interrupcao o up trava
+87b2f994a4d36d344d99d48551612a64c93e80c8 7fa0debf97bf9bf0e1a32801c1fa440583d05252 Rafael Corsi <corsiferrao@gmail.com> 1401728553 -0300	checkout: moving from serial-nova-api to serial
+7fa0debf97bf9bf0e1a32801c1fa440583d05252 7fc87e22d759fcef42d16af5aa0e01d25079aefd Rafael Corsi <corsiferrao@gmail.com> 1401736462 -0300	commit: Trabalhando com a serial, o baud rate está ok (confirmado com o osciloscopio) mas o envio dos dados não parece que está funcionando legal, a função hm10_cmd_write não parece enviar todo o vetor, parei aqui porque o gravador parou de gravar, tentei refazer as conexoes mas não funcionou, tentar com uma nova fonte de alimentação
+7fc87e22d759fcef42d16af5aa0e01d25079aefd a04c8af0f171439a50bd7e553fd76c91a65c0de3 Rafael Corsi <corsiferrao@gmail.com> 1402355684 -0300	commit: erro na chamada da função uart_put, s* p/ *s
+a04c8af0f171439a50bd7e553fd76c91a65c0de3 9a4b93ef6222041fe791007c81ec8fa3282b7170 Rafael Corsi <corsiferrao@gmail.com> 1402355828 -0300	commit: erro na chamada da função uart_put, s* p/ *s
+9a4b93ef6222041fe791007c81ec8fa3282b7170 79640276237e1ea9c597fd7e856e21ab43c3a8b5 Rafael Corsi <corsiferrao@gmail.com> 1402360733 -0300	commit: serial funcionando e debugado, problema que não tinha colocado os delays corretos
+79640276237e1ea9c597fd7e856e21ab43c3a8b5 3f18bb8089b7ad6b8dc83f812b6d3b6d8bfd11a8 Rafael Corsi <corsiferrao@gmail.com> 1402360744 -0300	commit: serial funcionando e debugado, problema que não tinha colocado os delays corretos
+3f18bb8089b7ad6b8dc83f812b6d3b6d8bfd11a8 6be2164cfe5a6a75e3ea2665604f267ebc405fed Rafael Corsi <corsiferrao@gmail.com> 1402361734 -0300	commit: ok mudulo entra em sleep mode e volta esta funcionando
+6be2164cfe5a6a75e3ea2665604f267ebc405fed 6be2164cfe5a6a75e3ea2665604f267ebc405fed Rafael C <corsiferrao@gmail.com> 1405549616 -0300	checkout: moving from serial to prototipo1
+6be2164cfe5a6a75e3ea2665604f267ebc405fed 64136d097447d8ac24db5db49b9f1ee5f57b4db6 Rafael C <corsiferrao@gmail.com> 1416829499 -0200	commit: entrega du
+64136d097447d8ac24db5db49b9f1ee5f57b4db6 5a050d6bf558a858e62f1979f69c37060e695e57 Rafael C <corsiferrao@gmail.com> 1416829532 -0200	checkout: moving from prototipo1 to master
+5a050d6bf558a858e62f1979f69c37060e695e57 64136d097447d8ac24db5db49b9f1ee5f57b4db6 Rafael C <corsiferrao@gmail.com> 1416829556 -0200	checkout: moving from master to prototipo1
+64136d097447d8ac24db5db49b9f1ee5f57b4db6 64136d097447d8ac24db5db49b9f1ee5f57b4db6 Rafael C <corsiferrao@gmail.com> 1416829637 -0200	checkout: moving from prototipo1 to prototipo1
+64136d097447d8ac24db5db49b9f1ee5f57b4db6 5a050d6bf558a858e62f1979f69c37060e695e57 Rafael C <corsiferrao@gmail.com> 1416829663 -0200	checkout: moving from prototipo1 to master
+5a050d6bf558a858e62f1979f69c37060e695e57 64136d097447d8ac24db5db49b9f1ee5f57b4db6 Rafael C <corsiferrao@gmail.com> 1416829669 -0200	merge prototipo1: Fast-forward

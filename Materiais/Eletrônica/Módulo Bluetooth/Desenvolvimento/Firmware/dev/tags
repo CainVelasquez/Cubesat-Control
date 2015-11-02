@@ -1,0 +1,96 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ASMFILES	Makefile	/^ASMFILES=$(filter %.S, $(PRJSRC))$/;"	m
+ASMFLAGS	Makefile	/^ASMFLAGS =-I. $(INC) -mmcu=$(MCU)        \\$/;"	m
+AVRDUDE	Makefile	/^AVRDUDE=avrdude$/;"	m
+AVRDUDE_PORT	Makefile	/^AVRDUDE_PORT=\/dev\/ttyUSB0$/;"	m
+AVRDUDE_PROGRAMMERID	Makefile	/^AVRDUDE_PROGRAMMERID=avrisp2$/;"	m
+AVR_FREQ	Makefile	/^AVR_FREQ=16000000L$/;"	m
+BAUD	main.c	67;"	d	file:
+BAUD	uart.c	9;"	d	file:
+BIGCFILES	Makefile	/^BIGCFILES=$(filter %.C, $(PRJSRC))$/;"	m
+CC	Makefile	/^CC=.\/gccfilter -c -a avr-gcc$/;"	m
+CCFILES	Makefile	/^CCFILES=$(filter %.cc, $(PRJSRC))$/;"	m
+CFILES	Makefile	/^CFILES=$(filter %.c, $(PRJSRC))$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-I. $(INC) -g -mmcu=$(MCU) -O$(OPTLEVEL) \\$/;"	m
+CPPFILES	Makefile	/^CPPFILES=$(filter %.cpp, $(PRJSRC))$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS=-fno-exceptions               \\$/;"	m
+DUMPTRG	Makefile	/^DUMPTRG=$(PROJECTNAME).s$/;"	m
+F_CPU	main.c	62;"	d	file:
+F_CPU	uart.c	6;"	d	file:
+GDBINITFILE	Makefile	/^GDBINITFILE=gdbinit-$(PROJECTNAME)$/;"	m
+GENASMFILES	Makefile	/^GENASMFILES=$(filter %.s, $(OBJDEPS:.o=.s)) $/;"	m
+HEXFORMAT	Makefile	/^HEXFORMAT=ihex$/;"	m
+HEXROMTRG	Makefile	/^HEXROMTRG=$(PROJECTNAME).hex $/;"	m
+HEXTRG	Makefile	/^HEXTRG=$(HEXROMTRG) $(PROJECTNAME).ee.hex$/;"	m
+INC	Makefile	/^INC=-I $/;"	m
+ISR	main.c	/^ISR(PCINT2_vect){$/;"	f
+LDFLAGS	Makefile	/^LDFLAGS=-Wl,-Map,$(TRG).map -mmcu=$(MCU) \\$/;"	m
+LIBS	Makefile	/^LIBS=$/;"	m
+LST	Makefile	/^LST=$(filter %.lst, $(OBJDEPS:.o=.lst))$/;"	m
+MCU	Makefile	/^MCU=atmega328p$/;"	m
+OBJCOPY	Makefile	/^OBJCOPY=avr-objcopy$/;"	m
+OBJDEPS	Makefile	/^OBJDEPS=$(CFILES:.c=.o)    \\$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP=avr-objdump$/;"	m
+OPTLEVEL	Makefile	/^OPTLEVEL=1$/;"	m
+PIN_Botao	iob.h	16;"	d
+PIN_HM10_RST	iob.h	14;"	d
+PIN_HM10_STA	iob.h	15;"	d
+PIN_LEDB	iob.h	11;"	d
+PIN_LEDG	iob.h	10;"	d
+PIN_LEDR	iob.h	9;"	d
+PIN_RX	iob.h	13;"	d
+PIN_TX	iob.h	12;"	d
+PRJSRC	Makefile	/^PRJSRC= iob.c led.c uart.c hm10.c main.c$/;"	m
+PROGRAMMER_MCU	Makefile	/^PROGRAMMER_MCU=atmega328p$/;"	m
+PROJECTNAME	Makefile	/^PROJECTNAME=Panico$/;"	m
+REMOVE	Makefile	/^REMOVE=rm -f$/;"	m
+SIZE	Makefile	/^SIZE=avr-size$/;"	m
+TRG	Makefile	/^TRG=$(PROJECTNAME).out$/;"	m
+__avr_atmega328p__	main.c	63;"	d	file:
+build_with	gccfilter	/^sub build_with {$/;"	s
+col	gccfilter	/^sub col {$/;"	s
+col_k	gccfilter	/^sub col_k {$/;"	s
+col_m	gccfilter	/^sub col_m {$/;"	s
+colorize	gccfilter	/^sub colorize {$/;"	s
+expand_templates	gccfilter	/^sub expand_templates {$/;"	s
+hm10_check_connection	hm10.c	/^int hm10_check_connection(void){$/;"	f
+hm10_check_emparelhamento	hm10.c	/^int hm10_check_emparelhamento(void){$/;"	f
+hm10_cmd_check	hm10.c	/^int hm10_cmd_check(char *msg, char n){$/;"	f
+hm10_cmd_write	hm10.c	/^void hm10_cmd_write(char *s){$/;"	f
+hm10_init	hm10.c	/^int hm10_init(void){$/;"	f
+hm10_off	hm10.c	/^void hm10_off(void){$/;"	f
+hm10_on	hm10.c	/^void hm10_on(void){$/;"	f
+hm10_start	hm10.c	/^int hm10_start(void){$/;"	f
+int_disable	main.c	/^void int_disable(void){$/;"	f
+int_enable	main.c	/^void int_enable(void){$/;"	f
+io_init	iob.c	/^inline void io_init(void)$/;"	f
+led_battery_low	led.c	/^void led_battery_low(void){$/;"	f
+led_battery_ok	led.c	/^void led_battery_ok(void){$/;"	f
+led_blink	led.c	/^void led_blink(void)$/;"	f
+led_conexao_erro	led.c	/^void led_conexao_erro(void){$/;"	f
+led_conexao_ok	led.c	/^void led_conexao_ok(void){$/;"	f
+led_disable	led.c	/^void led_disable(void){$/;"	f
+led_enable	led.c	/^void led_enable(void){$/;"	f
+led_erro	led.c	/^void led_erro(void){$/;"	f
+main	main.c	/^int main(void){$/;"	f
+output_high	iob.h	20;"	d
+output_low	iob.h	19;"	d
+parse_with_clause	gccfilter	/^sub parse_with_clause {$/;"	s
+pwr_init	main.c	/^void pwr_init(void){$/;"	f
+remove_instanciated	gccfilter	/^sub remove_instanciated {$/;"	s
+remove_namespace	gccfilter	/^sub remove_namespace {$/;"	s
+remove_path	gccfilter	/^sub remove_path {$/;"	s
+remove_template_arg	gccfilter	/^sub remove_template_arg {$/;"	s
+set_input	iob.h	21;"	d
+set_output	iob.h	22;"	d
+uart_get	uart.c	/^void uart_get(char *s, char n){$/;"	f
+uart_getchar	uart.c	/^char uart_getchar(char *stream) {$/;"	f
+uart_init	uart.c	/^void uart_init(void) {$/;"	f
+uart_put	uart.c	/^void uart_put(char *s){$/;"	f
+uart_putchar	uart.c	/^void uart_putchar(char c) {$/;"	f
+var_init	main.c	/^void var_init(void){$/;"	f
